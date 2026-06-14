@@ -42,7 +42,7 @@ def main():
     # get data
     start_time = time.time()
     states: List[State]
-    states, _ = env.generate_states(args.num_states, (0, args.back_max))
+    states, _ = env.generate_states(args.num_states, (0, args.back_max)) # back_max instead of 0 to focus on one length
 
     elapsed_time = time.time() - start_time
     states_per_sec = len(states)/elapsed_time

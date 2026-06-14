@@ -15,7 +15,7 @@ class LOState(State):
 
     def __hash__(self):
         if self.hash is None:
-            self.hash = hash(self.tiles.tostring())
+            self.hash = hash(self.tiles.tobytes())
 
         return self.hash
 

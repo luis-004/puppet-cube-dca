@@ -1,3 +1,4 @@
+#include <cstdint>
 #include "environments.h"
 #include <map>
 

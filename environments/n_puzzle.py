@@ -16,7 +16,7 @@ class NPuzzleState(State):
 
     def __hash__(self):
         if self.hash is None:
-            self.hash = hash(self.tiles.tostring())
+            self.hash = hash(self.tiles.tobytes())
 
         return self.hash
 
@@ -35,7 +35,7 @@ class NPuzzle(Environment):
         if self.dim <= 15:
             self.dtype = np.uint8
         else:
-            self.dtype = np.int
+            self.dtype = int
 
         # Solved state
         self.goal_tiles: np.ndarray = np.concatenate((np.arange(1, self.dim * self.dim), [0])).astype(self.dtype)
@@ -178,7 +178,7 @@ class NPuzzle(Environment):
                 for j in range(n):
                     z_idx = np.ravel_multi_index((i, j), (n, n))
 
-                    state = np.ones((n, n), dtype=np.int)
+                    state = np.ones((n, n), dtype=int)
                     state[i, j] = 0
 
                     is_eligible: bool = False

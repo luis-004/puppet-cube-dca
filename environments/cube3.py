@@ -16,7 +16,7 @@ class Cube3State(State):
 
     def __hash__(self):
         if self.hash is None:
-            self.hash = hash(self.colors.tostring())
+            self.hash = hash(self.colors.tobytes())
 
         return self.hash
 
