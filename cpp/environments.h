@@ -122,6 +122,47 @@ class Cube3: public Environment {
     virtual int getNumActions() const;
 };
 
+class Puppet: public Environment {
+	private:
+		static const int numActions = 9;
+		static constexpr int rotateIdxs_old[9][50] = 
+		/*
+		state: 
+		(from upper to lower layers, starting UFR, going left, back, down; 0 : constant(always the same piece/ not reachable / trivially redundant))
+		(maybe, other cubies are redundant too)
+		{
+		c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,		
+		c, c, c, c, c,  c, c, e, c, c,  c, e, 0, e, c,  c, c, e, c, c,  c, c, c, c, c,
+		c, c, c, c, c,  c, e, 0, e, c,  c, 0, 0, 0, c,  c, e, 0, 0, c,  c, c, c, c, c,
+		c, c, c, c, c,  c, c, e, c, c,  c, e, 0, 0, c,  c, c, 0, 0, 0,  c, c, c, 0, 0,
+		c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, 0, 0,  c, c, c, 0, 0,
+		}
+		c: corner cubie [1,7]; e: edge piece [8,16], + 9 if flipped; 0: empty
+		--> solved state:
+		{
+		7, 7, 6, 6, 0,  7, 7, 6, 6, 0,      3, 3, 2, 2, 0,        3, 3, 2, 2, 0,          0, 0, 0, 0, 0,
+		7, 7, 6, 6, 0,  7, 7, 9, 6, 0,	    3, 8, 255, 12, 0	  3, 3, 14, 2, 0,         0, 0, 0, 0, 0,
+		5, 5, 4, 4, 0,  5, 10, 255, 15, 0,  1, 255, 255, 255, 0,  1, 11, 255, 255, 0,     0, 0, 0, 0, 0,
+		5, 5, 4, 4, 0,  5, 5, 13, 4, 0,     1, 16, 255, 255, 0,   1, 1, 255, 255, 0,      0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0,  0, 0, 0, 0, 0,      0, 0, 0, 0, 0,        0, 0, 0, 0, 0,          0, 0, 0, 0, 0,
+		}
+		*/
+		std::vector<uint8_t> state;
+	public:
+		Puppet(std::vector<uint8_t> state);
+		~Puppet();
+
+		
+    virtual Puppet *getNextState(int action) const;
+
+    virtual std::vector<Environment*> getNextStates() const;
+
+    virtual std::vector<uint8_t> getState() const;
+
+    virtual bool isSolved() const;
+
+    virtual int getNumActions() const;
+}
 
 class Cube4: public Environment {
 	private:
