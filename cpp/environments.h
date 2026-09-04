@@ -122,11 +122,11 @@ class Cube3: public Environment {
     virtual int getNumActions() const;
 };
 
-class Puppet: public Environment {
+/*class Puppet: public Environment {
 	private:
 		static const int numActions = 9;
 		static constexpr int rotateIdxs_old[9][50] = 
-		/*
+
 		state: 
 		(from upper to lower layers, starting UFR, going left, back, down; 0 : constant(always the same piece/ not reachable / trivially redundant))
 		(maybe, other cubies are redundant too)
@@ -146,7 +146,7 @@ class Puppet: public Environment {
 		5, 5, 4, 4, 0,  5, 5, 13, 4, 0,     1, 16, 255, 255, 0,   1, 1, 255, 255, 0,      0, 0, 0, 0, 0,
 		0, 0, 0, 0, 0,  0, 0, 0, 0, 0,      0, 0, 0, 0, 0,        0, 0, 0, 0, 0,          0, 0, 0, 0, 0,
 		}
-		*/
+		
 		std::vector<uint8_t> state;
 	public:
 		Puppet(std::vector<uint8_t> state);
@@ -162,7 +162,7 @@ class Puppet: public Environment {
     virtual bool isSolved() const;
 
     virtual int getNumActions() const;
-}
+};*/
 
 class Cube4: public Environment {
 	private:

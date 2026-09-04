@@ -25,110 +25,47 @@ class PuppetState(State):
 
 
 class Puppet(Environment):
-    moves: List[Tuple[str, np.uint8]] = [(f, n) for f in ['R', 'U', 'F'] for n in [1,-1,2]]
-    moves_rev: List[Tuple[str, np.uint8]] = [(f, n) for f in ['R', 'U', 'F'] for n in [-1,1,2]]
+    moves: List[str] = ["%s%i" % (f, n) for f in ['R', 'U', 'F'] for n in [1,-1,2]]
+    moves_rev: List[str] = ["%s%i" % (f, n) for f in ['R', 'U', 'F'] for n in [-1,1,2]]
 
     def __init__(self):
         super().__init__()
         self.dtype = np.uint8
 
-        """
-		state: 
-		(from upper to lower layers, starting UFR, going left, back, down; 0 : constant(always the same piece/ not reachable / trivially redundant))
-		(maybe, other cubies are redundant too)
-		{
-		c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,		
-		c, c, c, c, c,  c, C, e, C, c,  c, e, 0, e, c,  c, C, e, C, c,  c, c, c, c, c,
-		c, c, c, c, c,  c, e, 0, e, c,  c, 0, 0, 0, c,  c, e, 0, 0, c,  c, c, c, c, c,
-		c, c, c, c, c,  c, C, e, C, c,  c, e, 0, 0, c,  c, C, 0, C, 0,  c, c, c, 0, 0,
-		c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, 0, 0,  c, c, c, 0, 0,
-		}
-		c: corner cubie [1,7]; e: edge piece [1,9], + 10 if flipped; 0: empty
-        {
-            0,   1,   2,   3,   4,    5,   6,   7,   8,   9,    10,  11,  12,  13,  14,   15,  16,  17,  18,  19,   20,  21,  22,  23,  24,
-            25,  26,  27,  28,  29,   30,  31,  32,  33,  34,   35,  36,  37,  38,  39,   40,  41,  42,  43,  44,   45,  46,  47,  48,  49,
-            50,  51,  52,  53,  54,   55,  56,  57,  58,  59,   60,  61,  62,  63,  64,   65,  66,  67,  68,  69,   70,  71,  72,  73,  74,
-            75,  76,  77,  78,  79,   80,  81,  82,  83,  84,   85,  86,  87,  88,  89,   90,  91,  92,  93,  94,   95,  96,  97,  98,  99,
-            100, 101, 102, 103, 104,  105, 106, 107, 108, 109,  110, 111, 112, 113, 114,  115, 116, 117, 118, 119,  120, 121, 122, 123, 124
+        self.goal_pieces = np.array([0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 7, 8], dtype=self.dtype)
+
+        self.rotate_corners: Dict[str, np.ndarray] = {
+            "R1": np.array([17, 14, 8, 9, 4, 5, 6, 3, 0, 15, 16, 11, 12, 13, 10, 7, 1, 2, 18, 19, 20], dtype=self.dtype),
+            "U1": np.array([12, 1, 2, 0, 10, 11, 6, 19, 8, 9, 7, 17, 18, 13, 5, 15, 16, 14, 3, 4, 20], dtype=self.dtype),
+            "F1": np.array([1, 13, 2, 3, 4, 7, 12, 8, 20, 9, 10, 11, 14, 19, 15, 6, 16, 17, 18, 0, 5], dtype=self.dtype),
+            "R-1": np.array([8, 16, 17, 7, 4, 5, 6, 15, 2, 3, 14, 11, 12, 13, 1, 9, 10, 0, 18, 19, 20], dtype=self.dtype),
+            "U-1": np.array([3, 1, 2, 18, 19, 14, 6, 10, 8, 9, 4, 5, 0, 13, 17, 15, 16, 11, 12, 7, 20], dtype=self.dtype),
+            "F-1": np.array([19, 0, 2, 3, 4, 20, 15, 5, 7, 9, 10, 11, 6, 1, 12, 14, 16, 17, 18, 13, 8], dtype=self.dtype),
+            "R2": np.array([2, 10, 0, 15, 4, 5, 6, 9, 17, 7, 1, 11, 12, 13, 16, 3, 14, 8, 18, 19, 20], dtype=self.dtype),
+            "U2": np.array([18, 1, 2, 12, 7, 17, 6, 4, 8, 9, 19, 14, 3, 13, 11, 15, 16, 5, 0, 10, 20], dtype=self.dtype),
+            "F2": np.array([13, 19, 2, 3, 4, 8, 14, 20, 5, 9, 10, 11, 15, 0, 6, 12, 16, 17, 18, 1, 7], dtype=self.dtype),
         }
-		"""
-        # solved state
-        '''self.goal_pieces: np.ndarray = np.array([
-            7, 7, 6, 6, 0,  7, 7, 6, 6, 0,      3, 3, 2, 2, 0,        3, 3, 2, 2, 0,          0, 0, 0, 0, 0,
-            7, 7, 6, 6, 0,  7, 7, 9, 6, 0,	    3, 8, 255, 12, 0,	  3, 3, 14, 2, 0,         0, 0, 0, 0, 0,
-            5, 5, 4, 4, 0,  5, 10, 255, 15, 0,  1, 255, 255, 255, 0,  1, 11, 255, 255, 0,     0, 0, 0, 0, 0,
-            5, 5, 4, 4, 0,  5, 5, 13, 4, 0,     1, 16, 255, 255, 0,   1, 1, 255, 255, 0,      0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0,  0, 0, 0, 0, 0,      0, 0, 0, 0, 0,        0, 0, 0, 0, 0,          0, 0, 0, 0, 0
-        ], dtype=self.dtype)
-        7 7 6 6 0
-        7 7 6 6 0
-        3 3 2 2 0
-        3 3 2 2 0
-        0 0 0 0 0
 
-        7 7 6 6 0
-        7 7 2 6 0
-        3 1 0 5 0
-        3 3 7 2 0
-        0 0 0 0 0
-
-        5 5 4 4 0
-        5 3 0 8 0
-        1 0 0 0 0
-        1 4 0 0 0
-        0 0 0 0 0
-
-        5 5 4 4 0
-        5 5 6 4 0
-        1 9 0 0 0
-        1 1 0 0 0
-        0 0 0 0 0
-
-        0 0 0 0 0
-        0 0 0 0 0
-        0 0 0 0 0
-        0 0 0 0 0
-        0 0 0 0 0
-
-        '''
-
-        self.goal_pieces: np.ndarray = np.array([
-            7, 7, 6, 6, 0,      7, 7, 6, 6, 0,      3, 3, 2, 2, 0,      3, 3, 2, 2, 0,      0, 0, 0, 0, 0,
-            7, 7, 6, 6, 0,      7, 7, 2, 6, 0,	    3, 1, 0, 5, 0,      3, 3, 7, 2, 0,      0, 0, 0, 0, 0,
-            5, 5, 4, 4, 0,      5, 3, 0, 8, 0,      1, 0, 0, 0, 0,      1, 4, 0, 0, 0,      0, 0, 0, 0, 0,
-            5, 5, 4, 4, 0,      5, 5, 6, 4, 0,      1, 9, 0, 0, 0,      1, 1, 0, 0, 0,      0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0,      0, 0, 0, 0, 0,      0, 0, 0, 0, 0,      0, 0, 0, 0, 0,      0, 0, 0, 0, 0
-        ], dtype=self.dtype)
-
-        self.rotate_idxs: Dict[str, np.ndarray] = {
-            "R": np.array([
-                [31, 41, 91, 81],    [56, 36, 66, 86],
-                [30, 40, 90, 80],    [35, 65, 85, 55],   
-                [0, 20, 120, 100],   [5, 45, 115, 75],   [10, 70, 110, 50],  [15, 95, 105, 25],
-                [1, 21, 121, 101],   [6, 46, 116, 76],   [11, 71, 111, 51],  [16, 96, 106, 26],
-                [2, 22, 122, 102],   [7, 47, 117, 77],   [12, 72, 112, 52],  [17, 97, 107, 27]
-            ], dtype=self.dtype),
-            "U": np.array([
-                [31, 33, 43, 41],   [32, 38, 42, 36],
-                [6,  8,  18, 16],   [7,  13, 17, 11],   
-                [0,  4,  24, 20],   [1,  9,  23, 15],   [2,  14, 22, 10],  [3,  19, 21,  5],
-                [25, 29, 49, 45],   [26, 34, 48, 40],   [27, 39, 47, 35],  [28, 44, 46, 30],
-                [50, 54, 74, 70],   [51, 59, 73, 65],   [52, 64, 72, 60],  [53, 69, 71, 55]
-            ], dtype=self.dtype),
-            "F": np.array([
-                [31, 81, 83, 33],    [58, 32,  56,  82],
-                [26, 76,  78,  28],  [51, 77,  53,  27],
-                [0,  100, 104, 4],   [25, 101, 79,  3],   [50, 102, 54,  2],  [75, 103, 29,  1],
-                [5,  105, 109, 9],   [30, 106, 84,  8],   [55, 107, 59,  7],  [80, 108, 34,  6],
-                [10, 110, 114, 14],  [35, 111, 89,  13],  [60, 112, 64,  12], [85, 113, 39,  11]
-            ], dtype=self.dtype),
+        self.rotate_edges: Dict[str, np.ndarray] = {
+            "R1": np.array([0, 11, 7, 3, 4, 5, 1, 15, 8, 9, 2, 16, 12, 13, 14, 10, 6, 17], dtype=self.dtype),
+            "U1": np.array([3, 1, 9, 17, 4, 5, 6, 7, 2, 12, 10, 0, 8, 13, 14, 15, 16, 11], dtype=self.dtype),
+            "F1": np.array([10, 5, 2, 3, 0, 13, 6, 7, 8, 1, 14, 11, 12, 9, 4, 15, 16, 17], dtype=self.dtype),
+            "R-1": np.array([0, 6, 10, 3, 4, 5, 16, 2, 8, 9, 15, 1, 12, 13, 14, 7, 11, 17], dtype=self.dtype),
+            "U-1": np.array([11, 1, 8, 0, 4, 5, 6, 7, 12, 2, 10, 17, 9, 13, 14, 15, 16, 3], dtype=self.dtype),
+            "F-1": np.array([4, 9, 2, 3, 14, 1, 6, 7, 8, 13, 0, 11, 12, 5, 10, 15, 16, 17], dtype=self.dtype),
+            "R2": np.array([0, 16, 15, 3, 4, 5, 11, 10, 8, 9, 7, 6, 12, 13, 14, 2, 1, 17], dtype=self.dtype),
+            "U2": np.array([17, 1, 12, 11, 4, 5, 6, 7, 9, 8, 10, 3, 2, 13, 14, 15, 16, 0], dtype=self.dtype),
+            "F2": np.array([14, 13, 2, 3, 10, 9, 6, 7, 8, 5, 4, 11, 12, 1, 0, 15, 16, 17], dtype=self.dtype),
         }
-        self.blocking_idx= 8
-        self.corner_idx = 0
-        self.edge_idx = 1
-        #self.edge_summand = 7
-        self.max_entry = 19
-        self.flip_summand = 10
+
+        self.position = np.array([0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6], dtype=self.dtype)
+        self.orientation = np.array([0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2], dtype=self.dtype)
+        self.pow3 = np.array([0, 1, 3, 9, 27, 81, 243], dtype=self.dtype)
+        self.possible_shapes = np.fromfile('Shape_DCA', dtype=np.uint8)
+        self.shift = np.array([0, 0, 1, 0, 0, 2, 0, 0, 3], dtype=self.dtype)
+        self.max_entry = 20
+        self.num_corners = 7
+        self.from7choose3 = self._compute_from7choose3()
         self.state_len = len(self.goal_pieces)
 
     def next_state(self, states: List[PuppetState], action: int) -> Tuple[List[PuppetState], List[float]]:
@@ -171,7 +108,7 @@ class Puppet(Environment):
         return len(self.moves)
 
     def get_nnet_model(self) -> nn.Module:
-        nnet = ResnetModel(self.state_len, self.max_entry, 5000, 1000, 4, 1, True)
+        nnet = ResnetModel(self.state_len, self.max_entry + 1, 5000, 1000, 4, 1, True)
 
         return nnet
 
@@ -186,7 +123,6 @@ class Puppet(Environment):
 
         # Get goal states
         states_np: np.ndarray = self.generate_goal_states(num_states, np_format=True)
-
         # Scrambles
         scramble_nums: np.array = np.random.choice(scrambs, num_states)
 
@@ -194,6 +130,8 @@ class Puppet(Environment):
 
         # Go backward from goal state
         moves_lt = num_back_moves < scramble_nums
+
+        self._move_np(states_np, 7)
 
         while np.any(moves_lt):
             idxs: np.ndarray = np.where(moves_lt)[0]
@@ -205,6 +143,7 @@ class Puppet(Environment):
             states_np[idxs], tc_move = self._move_np(states_np[idxs], move)
 
             legal_mask = np.array(tc_move) == 1.0
+
             num_back_moves[idxs[legal_mask]] += 1
 
             moves_lt[idxs] = num_back_moves[idxs] < scramble_nums[idxs]
@@ -229,7 +168,7 @@ class Puppet(Environment):
 
         # for each move, get next states, transition costs, and if solved
         move_idx: int
-        move: int
+
         for move_idx in range(num_env_moves):
             # next state
             states_next_np: np.ndarray
@@ -247,51 +186,45 @@ class Puppet(Environment):
 
         return states_exp, tc_l
     
-
-    @staticmethod
-    def _in_moving_corners(pieces, moving_corners):
-        return np.any(pieces[..., None] == moving_corners[:, None, None, :],axis=-1)
-    
     def _move_np(self, states_np: np.ndarray, action: int):
-        face, rotation = self.moves[action]
-        idxs: np.ndarray = self.rotate_idxs[face]
+        action_str: str = self.moves[action]
 
-        #turning pieces which never block each other
         states_next_np: np.ndarray = states_np.copy()
-        states_next_np[:, idxs[:self.blocking_idx]] = states_np[:, np.roll(idxs[:self.blocking_idx], rotation, axis=1)]
 
-        # flipping edges on F move
-        if face == 'F' and rotation != 2:
-            states_next_np[:, idxs[self.edge_idx].flatten()] += (np.sign(self.flip_summand - states_next_np[:, idxs[self.edge_idx].flatten()].astype(int))).astype(self.dtype) * (self.flip_summand)
+        states_next_np[:, :self.num_corners] = self.rotate_corners[action_str][states_np[:, :self.num_corners]]
+        states_next_np[:, self.num_corners:] = self.rotate_edges[action_str][states_np[:, self.num_corners:]]
 
-        # rotating critical pieces while looking for blockades
-        piece_idxs = idxs[self.blocking_idx:]
-        pieces = states_np[:, piece_idxs]
-        new_pieces = states_np[:, np.roll(piece_idxs, rotation, axis=1)]
-        moving_corners = states_np[:, idxs[self.corner_idx]]
-        is_moving = self._in_moving_corners(new_pieces, moving_corners)
-        target_is_free = self._in_moving_corners(pieces, moving_corners) | (pieces == 0)
-        pieces = states_next_np[:, piece_idxs]
-        pieces[target_is_free] = 0
-        pieces[is_moving] = new_pieces[is_moving]
-        states_next_np[:, piece_idxs] = pieces
-        any_illegal = np.any(is_moving & ~target_is_free, axis=(1, 2))
-        
-        # handling double moves 
-        if rotation == 2:
-            any_illegal |= self._move_helper(states_np, face, 1) & self._move_helper(states_np, face, -1)
+        shape_hashes = self._compute_shape_hashes(states_next_np[:, :self.num_corners])
 
-        transition_costs = np.where(any_illegal, 255.0, 1.0).tolist()
-        states_next_np[any_illegal] = states_np[any_illegal]
+        legal = ((self.possible_shapes[shape_hashes] >> self.shift[action]) & 1).astype(bool)
+
+        states_next_np[~legal] = states_np[~legal]
+
+        transition_costs = np.where(legal, 1.0, np.inf).tolist()
 
         return states_next_np, transition_costs  
     
-    def _move_helper(self, states_np: np.ndarray, face, rotation):
-        idxs: np.ndarray = self.rotate_idxs[face]
-        piece_idxs = idxs[self.blocking_idx:]
-        pieces = states_np[:, piece_idxs]
-        new_pieces = states_np[:, np.roll(piece_idxs, rotation, axis=1)]
-        moving_corners = states_np[:, idxs[self.corner_idx]]
-        is_moving = self._in_moving_corners(new_pieces, moving_corners)
-        target_is_free = self._in_moving_corners(pieces, moving_corners) | (pieces == 0)
-        return np.any(is_moving & ~target_is_free, axis=(1, 2))
+    def _compute_shape_hashes(self, corners: np.ndarray):
+        pos = self.position[corners]
+
+        i = np.arange(self.num_corners, dtype=np.uint8)
+        permutation = np.bitwise_or.reduce((i & 1) << pos, axis=1)
+
+        orientation_hash = np.sum(self.orientation[corners].astype(np.uint16) * self.pow3[pos].astype(np.uint16), axis=1, dtype=np.uint16)
+
+        return (np.uint32(orientation_hash) * np.uint32(140)
+            + np.uint32(self.from7choose3[self.position[corners[:, 0]], permutation]))
+
+    def _compute_from7choose3(self):
+        table = np.full((self.num_corners, 128), 255, dtype=np.uint8)
+        idx = 0
+        for i in range(self.num_corners):
+            for j in range(i + 1, self.num_corners):
+                for k in range(j + 1, self.num_corners):
+                    permutation = (1 << i) | (1 << j) | (1 << k)
+                    for zeroCor in range(self.num_corners):
+                        if zeroCor != i and zeroCor != j and zeroCor != k:
+                            table[zeroCor, permutation] = idx
+                            idx += 1
+        return table
+
