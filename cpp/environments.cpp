@@ -260,6 +260,72 @@ int Cube3::getNumActions() const {
 	return(this->numActions);
 }
 
+//Puppet Cube
+constexpr int Puppet::rotate_corners[numActions][numCornerVals];
+constexpr int Puppet::rotate_edges[numActions][numEdgeVals];
+
+Puppet::Puppet(std::vector<uint8_t> state) {
+	this->state = state;
+}
+
+Puppet::~Puppet() {}
+
+Puppet *Puppet::getNextState(const int action) const {
+	std::vector<uint8_t> newState(this->state);
+
+	// get shape hash
+	int permutation = 0;
+    int orientationHash = 0;
+    for(int i = 0; i < numCorners; i++){
+        auto corner = newState[i];
+        auto pos = position[corner];
+        permutation |= (i & 1u) << pos;
+        orientationHash +=  orientation[corner] * pow3[pos];
+    }
+    int hash = orientationHash * 140u + from7choose3[position[newState[0]]][permutation];	
+
+	
+
+    for (int i = 0; i < numCorners; i++) {
+        newState[i] = rotate_corners[static_cast<uint8_t>(action)][this->state[i]];
+    }
+    for (int i = 0; i < numEdges; i++) {
+        newState[numCorners + i] = rotate_edges[static_cast<uint8_t>(action)][this->state[numCorners + i]];
+    }
+
+    Puppet *nextState = new Puppet(newState);
+    return nextState;
+}
+
+std::vector<Environment*> Puppet::getNextStates() const {
+	std::vector<Environment*> nextStates;
+	for (int i=0; i<numActions; i++) {
+		nextStates.push_back(this->getNextState(i));
+	}
+
+	return(nextStates);
+}
+
+std::vector<uint8_t> Puppet::getState() const {
+	return(this->state);
+}
+
+bool Puppet::isSolved() const {
+	bool isSolved = true;
+	for (int i=0; i<numCorners; i++) {
+		isSolved = isSolved & (this->state[i] == i);
+	}
+	for (int i=0; i<numEdges; i++) {
+		isSolved = isSolved & (this->state[i+numCorners] == i);
+	}
+
+	return(isSolved);
+}
+
+int Puppet::getNumActions() const {
+	return(this->numActions);
+}
+
 /*** Cube4 ***/
 std::vector<int> U0_n1 = {3, 7, 11, 15, 15, 14, 13, 12, 12, 8, 4, 0, 0, 1, 2, 3, 6, 10, 10, 9, 9, 5, 5, 6, 67, 71, 75, 79, 35, 39, 43, 47, 83, 87, 91, 95, 51, 55, 59, 63};
 std::vector<int> U0_1 = {12, 8, 4, 0, 0, 1, 2, 3, 3, 7, 11, 15, 15, 14, 13, 12, 9, 5, 5, 6, 6, 10, 10, 9, 83, 87, 91, 95, 51, 55, 59, 63, 67, 71, 75, 79, 35, 39, 43, 47};

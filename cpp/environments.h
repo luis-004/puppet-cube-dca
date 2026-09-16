@@ -1,6 +1,7 @@
 #include <cstdint>
 #include <vector>
 #include <fstream>
+#include <array>
 
 /*** Abstract Environment Class ***/
 class Environment {
@@ -122,32 +123,71 @@ class Cube3: public Environment {
     virtual int getNumActions() const;
 };
 
-/*class Puppet: public Environment {
+class Puppet: public Environment {
 	private:
 		static const int numActions = 9;
-		static constexpr int rotateIdxs_old[9][50] = 
 
-		state: 
-		(from upper to lower layers, starting UFR, going left, back, down; 0 : constant(always the same piece/ not reachable / trivially redundant))
-		(maybe, other cubies are redundant too)
-		{
-		c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,		
-		c, c, c, c, c,  c, c, e, c, c,  c, e, 0, e, c,  c, c, e, c, c,  c, c, c, c, c,
-		c, c, c, c, c,  c, e, 0, e, c,  c, 0, 0, 0, c,  c, e, 0, 0, c,  c, c, c, c, c,
-		c, c, c, c, c,  c, c, e, c, c,  c, e, 0, 0, c,  c, c, 0, 0, 0,  c, c, c, 0, 0,
-		c, c, c, c, c,  c, c, c, c, c,  c, c, c, c, c,  c, c, c, 0, 0,  c, c, c, 0, 0,
-		}
-		c: corner cubie [1,7]; e: edge piece [8,16], + 9 if flipped; 0: empty
-		--> solved state:
-		{
-		7, 7, 6, 6, 0,  7, 7, 6, 6, 0,      3, 3, 2, 2, 0,        3, 3, 2, 2, 0,          0, 0, 0, 0, 0,
-		7, 7, 6, 6, 0,  7, 7, 9, 6, 0,	    3, 8, 255, 12, 0	  3, 3, 14, 2, 0,         0, 0, 0, 0, 0,
-		5, 5, 4, 4, 0,  5, 10, 255, 15, 0,  1, 255, 255, 255, 0,  1, 11, 255, 255, 0,     0, 0, 0, 0, 0,
-		5, 5, 4, 4, 0,  5, 5, 13, 4, 0,     1, 16, 255, 255, 0,   1, 1, 255, 255, 0,      0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0,  0, 0, 0, 0, 0,      0, 0, 0, 0, 0,        0, 0, 0, 0, 0,          0, 0, 0, 0, 0,
-		}
+		static constexpr uint8_t numCorners = 7;
+    	static constexpr uint8_t numEdges = 9;
+		static constexpr uint8_t numCornerVals = 21;
+		static constexpr uint8_t numEdgeVals = 18;
+
+        static constexpr int rotate_corners[numActions][numCornerVals] = {
+			{17, 14, 8, 9, 4, 5, 6, 3, 0, 15, 16, 11, 12, 13, 10, 7, 1, 2, 18, 19, 20}, // R
+			{12, 1, 2, 0, 10, 11, 6, 19, 8, 9, 7, 17, 18, 13, 5, 15, 16, 14, 3, 4, 20}, // U
+			{1, 13, 2, 3, 4, 7, 12, 8, 20, 9, 10, 11, 14, 19, 15, 6, 16, 17, 18, 0, 5}, // F
+			{8, 16, 17, 7, 4, 5, 6, 15, 2, 3, 14, 11, 12, 13, 1, 9, 10, 0, 18, 19, 20}, // R'
+			{3, 1, 2, 18, 19, 14, 6, 10, 8, 9, 4, 5, 0, 13, 17, 15, 16, 11, 12, 7, 20}, // U'
+			{19, 0, 2, 3, 4, 20, 15, 5, 7, 9, 10, 11, 6, 1, 12, 14, 16, 17, 18, 13, 8}, // F'
+			{2, 10, 0, 15, 4, 5, 6, 9, 17, 7, 1, 11, 12, 13, 16, 3, 14, 8, 18, 19, 20}, // R2
+			{18, 1, 2, 12, 7, 17, 6, 4, 8, 9, 19, 14, 3, 13, 11, 15, 16, 5, 0, 10, 20}, // U2
+			{13, 19, 2, 3, 4, 8, 14, 20, 5, 9, 10, 11, 15, 0, 6, 12, 16, 17, 18, 1, 7}  // F2
+		};
+
+        static constexpr int rotate_edges[numActions][numEdgeVals] = {
+            {0, 11, 7, 3, 4, 5, 1, 15, 8, 9, 2, 16, 12, 13, 14, 10, 6, 17},
+            {3, 1, 9, 17, 4, 5, 6, 7, 2, 12, 10, 0, 8, 13, 14, 15, 16, 11},
+            {10, 5, 2, 3, 0, 13, 6, 7, 8, 1, 14, 11, 12, 9, 4, 15, 16, 17},
+            {0, 6, 10, 3, 4, 5, 16, 2, 8, 9, 15, 1, 12, 13, 14, 7, 11, 17},
+            {11, 1, 8, 0, 4, 5, 6, 7, 12, 2, 10, 17, 9, 13, 14, 15, 16, 3},
+            {4, 9, 2, 3, 14, 1, 6, 7, 8, 13, 0, 11, 12, 5, 10, 15, 16, 17},
+            {0, 16, 15, 3, 4, 5, 11, 10, 8, 9, 7, 6, 12, 13, 14, 2, 1, 17},
+            {17, 1, 12, 11, 4, 5, 6, 7, 9, 8, 10, 3, 2, 13, 14, 15, 16, 0},
+            {14, 13, 2, 3, 10, 9, 6, 7, 8, 5, 4, 11, 12, 1, 0, 15, 16, 17},
+        };
 		
 		std::vector<uint8_t> state;
+
+		static constexpr std::array<uint8_t, numCornerVals> position =
+		{0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6};
+    	static constexpr std::array<uint8_t, numCornerVals> orientation =
+		{0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2};
+		static constexpr std::array<uint16_t, 7> pow3 = {0, 1, 3, 9, 27, 81, 243};
+
+		inline static const auto from7choose3 = [] {
+			std::array<std::array<uint8_t, 128>, 7> table{};
+			for (auto& row : table) {
+				row.fill(255);
+			}
+			uint8_t idx = 0;
+			for(int i = 0; i < numCorners; i++){
+				for(int j = 0; j < numCorners; j++){
+					for(int k = 0; k < numCorners; k++){
+						for(int zeroCor = 0; zeroCor < numCorners; zeroCor++){
+							if(zeroCor != i && zeroCor != j && zeroCor != k && i < j && j < k){
+								uint8_t permutation = 0;
+								permutation |= (1u << i);
+								permutation |= (1u << j);
+								permutation |= (1u << k);
+								table[zeroCor][permutation] = idx++;
+							}
+						}
+					}
+				}
+			}
+			return table;
+		}();
+
 	public:
 		Puppet(std::vector<uint8_t> state);
 		~Puppet();
@@ -162,7 +202,7 @@ class Cube3: public Environment {
     virtual bool isSolved() const;
 
     virtual int getNumActions() const;
-};*/
+};
 
 class Cube4: public Environment {
 	private:

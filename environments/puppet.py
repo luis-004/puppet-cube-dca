@@ -131,8 +131,6 @@ class Puppet(Environment):
         # Go backward from goal state
         moves_lt = num_back_moves < scramble_nums
 
-        self._move_np(states_np, 7)
-
         while np.any(moves_lt):
             idxs: np.ndarray = np.where(moves_lt)[0]
             subset_size: int = int(max(len(idxs) / num_env_moves, 1))
