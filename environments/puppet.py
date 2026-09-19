@@ -100,7 +100,7 @@ class Puppet(Environment):
     def state_to_nnet_input(self, states: List[PuppetState]) -> List[np.ndarray]:
         states_np = np.stack([state.pieces for state in states], axis=0)
 
-        representation_np: np.ndarray = (states_np / self.max_entry).astype(np.float32)
+        representation_np: np.ndarray = states_np.astype(self.dtype)
 
         return [representation_np]
 
