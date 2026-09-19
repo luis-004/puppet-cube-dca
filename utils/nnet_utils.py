@@ -31,7 +31,7 @@ def make_batches(states_nnet: List[np.ndarray],  outputs: np.ndarray,
                  batch_size: int) -> List[Tuple[List[np.ndarray], np.ndarray]]:
     num_examples = outputs.shape[0]
     rand_idxs = np.random.choice(num_examples, num_examples, replace=False)
-    outputs = outputs.astype(float32)
+    outputs = outputs.astype(np.float32)
 
     start_idx = 0
     batches = []
@@ -77,7 +77,7 @@ def train_nnet(nnet: nn.Module, states_nnet: List[np.ndarray], outputs: np.ndarr
 
         # get data
         inputs_batch, targets_batch_np = batches[batch_idx]
-        targets_batch_np = targets_batch_np.astype(float32)
+        targets_batch_np = targets_batch_np.astype(np.float32)
 
         # send data to device
         states_batch: List[Tensor] = states_nnet_to_pytorch_input(inputs_batch, device)
@@ -89,11 +89,24 @@ def train_nnet(nnet: nn.Module, states_nnet: List[np.ndarray], outputs: np.ndarr
         # cost
         nnet_cost_to_go = nnet_outputs_batch[:, 0]
         target_cost_to_go = targets_batch[:, 0]
-
+        
         loss = criterion(nnet_cost_to_go, target_cost_to_go)
+
+        if not torch.isfinite(loss):
+            raise RuntimeError("Non-finite loss")
 
         # backwards
         loss.backward()
+        
+        for name, param in nnet.named_parameters():
+            if param.grad is not None:
+                if not torch.isfinite(param.grad).all():
+                    print("BAD GRADIENT:", name)
+                    print("grad min:", param.grad.min().item())
+                    print("grad max:", param.grad.max().item())
+                    print("grad mean:", param.grad.mean().item())
+                    print("grad absmax:", param.grad.abs().max().item())
+                    raise RuntimeError("Non-finite gradient")
 
         # step
         optimizer.step()

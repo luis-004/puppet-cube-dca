@@ -185,8 +185,9 @@ def main():
     # parse arguments
     parser: ArgumentParser = ArgumentParser()
     parser.add_argument('--model_dir', type=str, required=True, help="Directory of nnet model")
-    parser.add_argument('--data_dir', type=str, required=True, help="Directory of data")
-
+    #parser.add_argument('--data_dir', type=str, required=True, help="Directory of data")
+    parser.add_argument('--num_states', type=int, required=True, help="Number of states to generate")
+    parser.add_argument('--back_max', type=int, required=True, help="max back steps to generate states")
     parser.add_argument('--env', type=str, required=True, help="Environment: cube3, 15-puzzle, 24-puzzle")
     parser.add_argument('--max_steps', type=int, default=None, help="Maximum number ofsteps to take when solving "
                                                                     "with GBFS. If none is given, then this "
@@ -208,7 +209,7 @@ def main():
     heuristic_fn = nnet_utils.load_heuristic_fn(args.model_dir, device, on_gpu, env.get_nnet_model(),
                                                 env, clip_zero=False)
 
-    gbfs_test(args.data_dir, env, heuristic_fn, max_solve_steps=args.max_steps)
+    gbfs_test(args.num_states, args.back_max, env, heuristic_fn, max_solve_steps=args.max_steps)
 
 
 if __name__ == "__main__":

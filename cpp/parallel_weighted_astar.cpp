@@ -387,6 +387,8 @@ int main(int argc, const char *argv[]) {
 		env = new Cube4(init);
 	} else if (envName == "lightsout7") {
 		env = new LightsOut(init,7);
+	} else if (envName == "puppet") {
+		env = new Puppet(init);
 	}
 	parallelWeightedAStar(env, depthPenalty, numParallel, socketName);
 

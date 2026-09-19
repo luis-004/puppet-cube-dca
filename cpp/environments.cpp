@@ -1,6 +1,7 @@
 #include <cstdint>
 #include "environments.h"
 #include <map>
+//#include <stdio>
 
 uint8_t **getSwapZeroIdxs(int dim) {
   uint8_t **swapZeroIdxs = new uint8_t*[dim*dim];
@@ -274,7 +275,7 @@ Puppet *Puppet::getNextState(const int action) const {
 	std::vector<uint8_t> newState(this->state);
 
 	// get shape hash
-	int permutation = 0;
+	/*int permutation = 0;
     int orientationHash = 0;
     for(int i = 0; i < numCorners; i++){
         auto corner = newState[i];
@@ -283,7 +284,7 @@ Puppet *Puppet::getNextState(const int action) const {
         orientationHash +=  orientation[corner] * pow3[pos];
     }
     int hash = orientationHash * 140u + from7choose3[position[newState[0]]][permutation];	
-
+	*/
 	
 
     for (int i = 0; i < numCorners; i++) {
@@ -314,11 +315,13 @@ bool Puppet::isSolved() const {
 	bool isSolved = true;
 	for (int i=0; i<numCorners; i++) {
 		isSolved = isSolved & (this->state[i] == i);
+		//std::cout << int(this->state[i] ;
 	}
 	for (int i=0; i<numEdges; i++) {
 		isSolved = isSolved & (this->state[i+numCorners] == i);
+		//std::cout << int(this->state[i+numCorners]);
 	}
-
+	//std::cout << std::endl;
 	return(isSolved);
 }
 
