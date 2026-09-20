@@ -16,7 +16,7 @@ def scrambles_to_states(env: Environment,  datapath: str, scramblepath: str):
         num_states = scrambles.shape[0]
         start_time = time.time()
         print("Generating data for %s" % datapath)
-        states = env.generate_goal_states(num_states,np_format=True)
+        states = env.generate_goal_states(num_states, np_format=False)
         num_back_steps = np.sum(scrambles != 255 ,axis=1).tolist()
         for i in range(50):
             moves = scrambles[:, i]
@@ -25,7 +25,7 @@ def scrambles_to_states(env: Environment,  datapath: str, scramblepath: str):
                 break
             for move in np.unique(moves[active]):
                 mask = moves == move
-                states[mask], _ = env.move_np(
+                states[mask], _ = env._move_np(
                     states[mask],
                     int(move)
                 )
@@ -49,15 +49,13 @@ def scrambles_to_states(env: Environment,  datapath: str, scramblepath: str):
 def main():
     parser: ArgumentParser = ArgumentParser()
     parser.add_argument('--env', type=str, required=True, help="Environment")
-    parser.add_argument('--data_file', type=str, required=True, help="Directory to save files")
-    parser.add_argument('--scramble_file', type=str, required=True, help="Directory of scramble file to read from")
+    parser.add_argument('--data_file', type=str, required=True, help="File to save files")
+    parser.add_argument('--scramble_file', type=str, required=True, help="File of scramble file to read from")
 
     args = parser.parse_args()
 
     env: Environment = env_utils.get_environment(args.env)
 
-    if not os.path.exists(args.data_file):
-        os.makedirs(args.data_file)
     if not os.path.exists(args.scramble_file):
         print("Scramble file not found")
         return
