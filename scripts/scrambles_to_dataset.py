@@ -16,19 +16,17 @@ def scrambles_to_states(env: Environment,  datapath: str, scramblepath: str):
         num_states = scrambles.shape[0]
         start_time = time.time()
         print("Generating data for %s" % datapath)
-        states = env.generate_goal_states(num_states, np_format=False)
-        num_back_steps = np.sum(scrambles != 255 ,axis=1).tolist()
-        for i in range(50):
-            moves = scrambles[:, i]
-            active = moves != 255
-            if not np.any(active):
-                break
-            for move in np.unique(moves[active]):
-                mask = moves == move
-                states[mask], _ = env._move_np(
-                    states[mask],
-                    int(move)
-                )
+        states = env.generate_goal_states(num_states, np_format=True)
+        num_back_steps = np.sum(scrambles != 255, axis=1).tolist()
+        for move_idx in range(50):
+            for action in np.unique(scrambles[:, move_idx]):
+                if action == 255: continue
+                indices = np.where(scrambles[:, move_idx] == action)[0]
+                if len(indices) == 0: continue
+                selected_states = [states[i] for i in indices]
+                next_states, _ = env.next_state(selected_states, int(action))
+                for i, next_state in zip(indices, next_states):
+                    states[i] = next_state
 
         data_gen_time = time.time() - start_time
 
