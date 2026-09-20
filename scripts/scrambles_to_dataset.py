@@ -16,7 +16,7 @@ def scrambles_to_states(env: Environment,  datapath: str, scramblepath: str):
         num_states = scrambles.shape[0]
         start_time = time.time()
         print("Generating data for %s" % datapath)
-        states = env.generate_goal_states(num_states, np_format=True)
+        states = env.generate_goal_states(num_states)
         num_back_steps = np.sum(scrambles != 255, axis=1).tolist()
         for move_idx in range(50):
             for action in np.unique(scrambles[:, move_idx]):

@@ -7,6 +7,7 @@ from utils import misc_utils
 def is_valid_soln(state: State, soln: List[int], env: Environment) -> bool:
     soln_state: State = state
     move: int
+    #print(state.pieces)
     for move in soln:
         soln_state = env.next_state([soln_state], move)[0][0]
         #print(move)
