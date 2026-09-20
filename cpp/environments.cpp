@@ -264,6 +264,9 @@ int Cube3::getNumActions() const {
 //Puppet Cube
 constexpr int Puppet::rotate_corners[numActions][numCornerVals];
 constexpr int Puppet::rotate_edges[numActions][numEdgeVals];
+constexpr std::array<uint8_t, Puppet::numCornerVals> Puppet::position;
+constexpr std::array<uint8_t, Puppet::numCornerVals> Puppet::orientation;
+constexpr std::array<uint16_t, 7> Puppet::pow3;
 
 Puppet::Puppet(std::vector<uint8_t> state) {
 	this->state = state;
@@ -290,13 +293,13 @@ std::vector<Environment*> Puppet::getNextStates() const {
 
 	// get shape hash
 	int permutation = 0;
-    int orientationHash = 0;
-    for(int i = 0; i < numCorners; i++){
-        auto corner =curState[i];
-        auto pos = position[corner];
-        permutation |= (i & 1u) << pos;
-        orientationHash +=  orientation[corner] * pow3[pos];
-    }
+    	int orientationHash = 0;
+    	for(int i = 0; i < numCorners; i++){
+        	auto corner =curState[i];
+        	auto pos = position[corner];
+        	permutation |= (i & 1u) << pos;
+        	orientationHash +=  orientation[corner] * pow3[pos];
+    	}
 	uint16_t info = shape_info[orientationHash * 140u + from7choose3[position[curState[0]]][permutation]];
 
 	std::vector<Environment*> nextStates;
@@ -304,7 +307,7 @@ std::vector<Environment*> Puppet::getNextStates() const {
 	for (int i=0; i<numActions; i++) {
 		if(info & (1u << i)){
 			nextStates.push_back(this->getNextState(i));
-		}else{ // Move is blocked
+		}else{
 			Puppet *nextState = new Puppet(curState);
 			nextStates.push_back(nextState);
 		}
