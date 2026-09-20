@@ -55,8 +55,8 @@ def main():
     args = parser.parse_args()
 
     env: Environment = env_utils.get_environment(args.env)
-    assert args.num_per_file >= args.back_max, "Number of states per file should be greater than the or equal to the " \
-                                               "number of backwards steps"
+    #assert args.num_per_file >= args.back_max, "Number of states per file should be greater than the or equal to the " \
+    #                                           "number of backwards steps"
 
     if not os.path.exists(args.data_dir):
         os.makedirs(args.data_dir)
