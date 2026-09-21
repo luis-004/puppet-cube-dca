@@ -122,6 +122,7 @@ void writeFile(int sockfd, std::vector<Node*> &children) {
 	// Get states
 	std::vector<uint8_t> states;
 	for (unsigned int i=0; i<children.size(); i++) {
+		if(children[i] == NULL){continue;}
 		std::vector<uint8_t> state = children[i]->env->getState();
 		for (unsigned int j=0; j<state.size(); j++) {
 			states.push_back(state[j]);
@@ -212,47 +213,55 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		//printf("EXPANDING\n");
 		t1 = std::chrono::high_resolution_clock::now();
 		std::vector<int> depths(popped.size());
+		
 		std::vector<Node*> children(popped.size()*env->getNumActions());
-
-		#pragma omp parallel for
+		//std::vector<Node*> children;
+		fprintf(stderr,"check0");
+		//#pragma omp parallel for
 		for (unsigned int i=0; i<popped.size(); i++) {
 			std::vector<Environment*> children_env = popped[i]->env->getNextStates();
 			int depth = popped[i]->depth + 1;
 			depths[i] = depth;
-
 			for (unsigned int j=0; j<children_env.size(); j++) {
 			    float heuristic_lb = std::max(popped[i]->heuristic - 1, (float) 0.0);  //TODO replace with transition cost
 			    float cost = heuristic_lb*(!children_env[j]->isSolved()) + depthPenalty*((float) depth);
 				Node *node = new Node{children_env[j],depth,(int) j,cost,heuristic_lb,popped[i]};
-
 				children[i*env->getNumActions() + j] = node;
+				//children.push_back(node);
 			}
 		}
+		fprintf(stderr,"check1");
 		minDepth = *std::min_element(depths.begin(),depths.end());
 		maxDepth = *std::max_element(depths.begin(),depths.end());
 		expandingTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
-
+		fprintf(stderr,"check1.1");
 		// Write children to file
 		t1 = std::chrono::high_resolution_clock::now();
 		writeFile(sockfd,children);
-
+		fprintf(stderr,"check1.2");
 		//std::thread writeThread (writeFile,sockfd,children);
 		//writeThread.join();
 		dataWriteTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
-
+		fprintf(stderr,"check1.3");
 		//Check if in closed
 		t1 = std::chrono::high_resolution_clock::now();
 		std::vector<Node*> nodesToAdd;
 		std::vector<int> nodesToAdd_idx;
+		fprintf(stderr,"check1.5");
 		for (unsigned int i=0; i<children.size(); i++) {
 			Node *node = children[i];
+			if(node == NULL){
+				//fprintf(stderr,"continued because node is null");
+				continue;
+			}
+			//fprintf(stderr,"depth=%u\n", node->depth);
 			std::unordered_set<Node*,Hash,NodePointerEq>::const_iterator found = closed.find(node);
 
-            if (found == closed.end()) {
+            if (found == closed.end()) { // new node
                 closed.insert(node);
                 nodesToAdd.push_back(node);
                 nodesToAdd_idx.push_back(i);
-            } else if ((*found)->depth > node->depth) {
+            } else if ((*found)->depth > node->depth) { //closed node; but depth is smaller -> replace
                 (*found)->depth = node->depth;
                 (*found)->parentMove = node->parentMove;
                 (*found)->parent = node->parent;
@@ -262,10 +271,11 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
             } else {
                 delete node;
             }
+			numNodesGenerated ++;
 		}
-		numNodesGenerated += children.size();
+		//numNodesGenerated += children.size();
 		checkClosedTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
-
+		fprintf(stderr,"check2\n");
 		//Get value
 		//printf("GETTING HEURISTIC\n");
 		t1 = std::chrono::high_resolution_clock::now();
@@ -273,10 +283,14 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		std::vector<float> values_temp;
 
         float f;
+		fprintf(stderr,"length: %d", children.size());
         for (unsigned int i=0; i<children.size(); i++) {
+			if(children[i] == NULL){continue;}
+			fprintf(stderr,"children not null: %d", i);
             read(sockfd,reinterpret_cast<char*>(&f),4);
             values_temp.push_back(f);
         }
+		fprintf(stderr,"check2.5\n");
         for (unsigned int i=0; i<nodesToAdd_idx.size(); i++) {
             values[i] = values_temp[nodesToAdd_idx[i]];
         }
@@ -287,12 +301,12 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		}
 
 		heuristicTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
-
+		fprintf(stderr,"check3");
 		//Compute cost
 		t1 = std::chrono::high_resolution_clock::now();
 		std::vector<float> costs(nodesToAdd.size());
 
-		#pragma omp parallel for
+		//#pragma omp parallel for
 		for (unsigned int i=0; i<nodesToAdd.size(); i++) {
 			//float heuristic = std::max(nodesToAdd[i]->heuristic, values[i]);
 			float cost = values[i]*(!nodesToAdd[i]->env->isSolved()) + depthPenalty*((float) nodesToAdd[i]->depth);
@@ -305,7 +319,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		}
 		costTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
 
-
+		fprintf(stderr,"check4");
 		//Add to open
 		t1 = std::chrono::high_resolution_clock::now();
 		//printf("ADDING TO OPEN\n");
@@ -317,7 +331,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 
 			open.push(nodeToAdd);
 		}
-
+		fprintf(stderr,"check5");
 		addToQueueTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
 
 		printf("Times - remOpen: %f, exp: %f, write: %f, check: %f, heur: %f, cost: %f, add: %f, goal_p: %i\n",remOpenTime,expandingTime,dataWriteTime,checkClosedTime,heuristicTime,costTime,addToQueueTime,goal_node_found_prev);

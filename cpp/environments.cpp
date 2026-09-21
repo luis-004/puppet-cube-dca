@@ -307,10 +307,10 @@ std::vector<Environment*> Puppet::getNextStates() const {
 	for (int i=0; i<numActions; i++) {
 		if(info & (1u << i)){
 			nextStates.push_back(this->getNextState(i));
-		}else{
+		}/*else{
 			Puppet *nextState = new Puppet(curState);
 			nextStates.push_back(nextState);
-		}
+		}*/
 	}
 
 	return(nextStates);

@@ -521,17 +521,28 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
             raise ValueError("Unknown c++ environment: %s" % args.env)
         
         popen = Popen(['./cpp/parallel_weighted_astar', state_str, str(args.weight), str(args.batch_size),
-                       socket_name, args.env, "0"], stdout=PIPE, stderr=PIPE, bufsize=1, universal_newlines=True)
-        lines = []
+                       socket_name, args.env, "0"], stdout=None, stderr=None, bufsize=1, universal_newlines=True)
+
+        stdout, stderr = popen.communicate()
+
+        print("RETURN CODE:", popen.returncode)
+        print("STDOUT:")
+        print(stdout)
+        print("STDERR:")
+        print(stderr)
+
+        lines = stdout.splitlines()
+
+        """lines = []
         for stdout_line in iter(popen.stdout.readline, ""):
             stdout_line = stdout_line.strip('\n')
             lines.append(stdout_line)
             if args.verbose:
                 sys.stdout.write("%s\n" % stdout_line)
                 sys.stdout.flush()
-
+        """
         popen.wait()
-
+        print(lines)
         moves = [int(x) for x in lines[-5].split(" ")[:-1]]
         soln = [x for x in moves][::-1]
         num_nodes_gen_idx = int(lines[-3])
@@ -573,6 +584,18 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
 
     return solns, paths, times, num_nodes_gen
 
+def recv_exactly(connection, n):
+    data = bytearray()
+
+    while len(data) < n:
+        chunk = connection.recv(n - len(data))
+
+        if not chunk:
+            raise ConnectionError("Connection closed while receiving data")
+
+        data.extend(chunk)
+
+    return bytes(data)
 
 def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur_fn_o_qs):
     sock.listen(1)
@@ -583,23 +606,44 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
     #                                             env, clip_zero=True, batch_size=args.nnet_batch_size)
 
     max_bytes: int = 4096
+    print("receive bytes")
     while True:
-        data_rec = connection.recv(8)
+        '''data_rec = connection.recv(8)
+        #print("check1")
         while not data_rec:
             connection, client_address = sock.accept()
             data_rec = connection.recv(8)
-
+        #print("check2")
         num_bytes_recv = np.frombuffer(data_rec, dtype=np.int64)[0]
-
+        #print("check3")
         num_bytes_seen = 0
         data_rec = b""
         while num_bytes_seen < num_bytes_recv:
             con_rec = connection.recv(max_bytes)
             data_rec = data_rec + con_rec
             num_bytes_seen = num_bytes_seen + len(con_rec)
-
+        #print("check4")
         states_np = np.frombuffer(data_rec, dtype=env.dtype)
         states_np = states_np.reshape(int(len(states_np)/state_dim), state_dim)
+        #print("check5")'''
+
+        # Exactly 8 bytes
+        data_rec = recv_exactly(connection, 8)
+
+        num_bytes_recv = int.from_bytes(data_rec,byteorder="little",signed=False)
+
+       # print(f"Python: expecting {num_bytes_recv} bytes", flush=True)
+
+        # Receive exactly num_bytes_recv bytes
+        data_rec = recv_exactly(connection, num_bytes_recv)
+
+        #print(f"Python: received {len(data_rec)} bytes", flush=True)
+
+        states_np = np.frombuffer(data_rec,dtype=env.dtype)
+
+        states_np = states_np.reshape(int(len(states_np) / state_dim),state_dim)
+
+        #print(f"Python: received {states_np.shape[0]} states",flush=True)
 
         # Get nnet representation of state
         if args.env.upper() == "CUBE3":
@@ -621,8 +665,11 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
         # get heuristic
         results = heuristic_fn_par(states_nnet, heur_fn_i_q, heur_fn_o_qs)
 
+        #print(f"Python: sending {len(results)} results",flush=True)
+
         # send results
         connection.sendall(results.astype(np.float32))
+
 
 
 def heuristic_fn_par(states_nnet: List[np.ndarray], heur_fn_i_q, heur_fn_o_qs):
