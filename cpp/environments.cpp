@@ -300,13 +300,13 @@ std::vector<Environment*> Puppet::getNextStates() const {
         	permutation |= (i & 1u) << pos;
         	orientationHash +=  orientation[corner] * pow3[pos];
     	}
-	uint16_t info = shape_info[orientationHash * 140u + from7choose3[position[curState[0]]][permutation]];
+	uint8_t valid_actions = shape_info[orientationHash * 140u + from7choose3[position[curState[0]]][permutation]];
 
 	std::vector<Environment*> nextStates;
 
-	for (int i=0; i<numActions; i++) {
-		if(info & (1u << i)){
-			nextStates.push_back(this->getNextState(i));
+	for (int a=0; a<numActions; a++) {
+		if(valid_actions & (1u << a)){
+			nextStates.push_back(this->getNextState(a));
 		}/*else{
 			Puppet *nextState = new Puppet(curState);
 			nextStates.push_back(nextState);

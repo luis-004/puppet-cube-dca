@@ -126,7 +126,7 @@ class Cube3: public Environment {
 
 class Puppet: public Environment {
 	private:
-		static const int numActions = 9;
+		static const int numActions = 6;
 
 		static constexpr uint8_t numCorners = 7;
     	static constexpr uint8_t numEdges = 9;
@@ -136,25 +136,19 @@ class Puppet: public Environment {
 		static constexpr int rotate_corners[numActions][numCornerVals] = {
 			{17, 14, 8, 9, 4, 5, 6, 3, 0, 15, 16, 11, 12, 13, 10, 7, 1, 2, 18, 19, 20}, // R
 			{8, 16, 17, 7, 4, 5, 6, 15, 2, 3, 14, 11, 12, 13, 1, 9, 10, 0, 18, 19, 20}, // R'
-			{2, 10, 0, 15, 4, 5, 6, 9, 17, 7, 1, 11, 12, 13, 16, 3, 14, 8, 18, 19, 20}, // R2
 			{12, 1, 2, 0, 10, 11, 6, 19, 8, 9, 7, 17, 18, 13, 5, 15, 16, 14, 3, 4, 20}, // U
 			{3, 1, 2, 18, 19, 14, 6, 10, 8, 9, 4, 5, 0, 13, 17, 15, 16, 11, 12, 7, 20}, // U'
-			{18, 1, 2, 12, 7, 17, 6, 4, 8, 9, 19, 14, 3, 13, 11, 15, 16, 5, 0, 10, 20}, // U2
 			{1, 13, 2, 3, 4, 7, 12, 8, 20, 9, 10, 11, 14, 19, 15, 6, 16, 17, 18, 0, 5}, // F
 			{19, 0, 2, 3, 4, 20, 15, 5, 7, 9, 10, 11, 6, 1, 12, 14, 16, 17, 18, 13, 8}, // F'
-			{13, 19, 2, 3, 4, 8, 14, 20, 5, 9, 10, 11, 15, 0, 6, 12, 16, 17, 18, 1, 7}  // F2
 		};
 
 		static constexpr int rotate_edges[numActions][numEdgeVals] = {
 			{0, 11, 7, 3, 4, 5, 1, 15, 8, 9, 2, 16, 12, 13, 14, 10, 6, 17}, // R
 			{0, 6, 10, 3, 4, 5, 16, 2, 8, 9, 15, 1, 12, 13, 14, 7, 11, 17}, // R'
-		    {0, 16, 15, 3, 4, 5, 11, 10, 8, 9, 7, 6, 12, 13, 14, 2, 1, 17}, // R2
 		    {3, 1, 9, 17, 4, 5, 6, 7, 2, 12, 10, 0, 8, 13, 14, 15, 16, 11}, // U
 			{11, 1, 8, 0, 4, 5, 6, 7, 12, 2, 10, 17, 9, 13, 14, 15, 16, 3}, // U'
-		    {17, 1, 12, 11, 4, 5, 6, 7, 9, 8, 10, 3, 2, 13, 14, 15, 16, 0}, // U2
 		    {10, 5, 2, 3, 0, 13, 6, 7, 8, 1, 14, 11, 12, 9, 4, 15, 16, 17}, // F
 		    {4, 9, 2, 3, 14, 1, 6, 7, 8, 13, 0, 11, 12, 5, 10, 15, 16, 17}, // F'
-		    {14, 13, 2, 3, 10, 9, 6, 7, 8, 5, 4, 11, 12, 1, 0, 15, 16, 17}  // F2
 		};
 
 		std::vector<uint8_t> state;
@@ -166,12 +160,12 @@ class Puppet: public Environment {
 		static constexpr std::array<uint16_t, 7> pow3 = {0, 1, 3, 9, 27, 81, 243};
 
 		inline static const auto shape_info = [] {
-			std::ifstream cor("Shape_info", std::ios::binary | std::ios::ate);
-			if (!cor){ std::cout << "Shape_info not found" << std::endl; return std::vector<uint16_t>{};}
+			std::ifstream cor("lookup/Shape_info", std::ios::binary | std::ios::ate);
+			if (!cor){ std::cout << "Shape_info not found" << std::endl; return std::vector<uint8_t>{};}
 			std::streamsize fileSize = cor.tellg();
 			cor.seekg(0, std::ios::beg);
-			size_t numEntries = fileSize / sizeof(uint16_t);
-			std::vector<uint16_t> table;
+			size_t numEntries = fileSize / sizeof(uint8_t);
+			std::vector<uint8_t> table;
 			table.resize(numEntries);
 			cor.read(reinterpret_cast<char*>(table.data()), fileSize);
 			return table;

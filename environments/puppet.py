@@ -25,8 +25,8 @@ class PuppetState(State):
 
 
 class Puppet(Environment):
-    moves: List[str] = ["%s%i" % (f, n) for f in ['R', 'U', 'F'] for n in [1,-1,2]]
-    moves_rev: List[str] = ["%s%i" % (f, n) for f in ['R', 'U', 'F'] for n in [-1,1,2]]
+    moves: List[str] = ["%s%i" % (f, n) for f in ['R', 'U', 'F'] for n in [1,-1]]
+    moves_rev: List[str] = ["%s%i" % (f, n) for f in ['R', 'U', 'F'] for n in [-1,1]]
 
     def __init__(self):
         super().__init__()
@@ -36,33 +36,26 @@ class Puppet(Environment):
 
         self.rotate_corners: Dict[str, np.ndarray] = {
             "R1": np.array([17, 14, 8, 9, 4, 5, 6, 3, 0, 15, 16, 11, 12, 13, 10, 7, 1, 2, 18, 19, 20], dtype=self.dtype),
-            "U1": np.array([12, 1, 2, 0, 10, 11, 6, 19, 8, 9, 7, 17, 18, 13, 5, 15, 16, 14, 3, 4, 20], dtype=self.dtype),
-            "F1": np.array([1, 13, 2, 3, 4, 7, 12, 8, 20, 9, 10, 11, 14, 19, 15, 6, 16, 17, 18, 0, 5], dtype=self.dtype),
             "R-1": np.array([8, 16, 17, 7, 4, 5, 6, 15, 2, 3, 14, 11, 12, 13, 1, 9, 10, 0, 18, 19, 20], dtype=self.dtype),
-            "U-1": np.array([3, 1, 2, 18, 19, 14, 6, 10, 8, 9, 4, 5, 0, 13, 17, 15, 16, 11, 12, 7, 20], dtype=self.dtype),
+            "U1": np.array([12, 1, 2, 0, 10, 11, 6, 19, 8, 9, 7, 17, 18, 13, 5, 15, 16, 14, 3, 4, 20], dtype=self.dtype),
+            "U-1": np.array([3, 1, 2, 18, 19, 14, 6, 10, 8, 9, 4, 5, 0, 13, 17, 15, 16, 11, 12, 7, 20], dtype=self.dtype),            
+            "F1": np.array([1, 13, 2, 3, 4, 7, 12, 8, 20, 9, 10, 11, 14, 19, 15, 6, 16, 17, 18, 0, 5], dtype=self.dtype),
             "F-1": np.array([19, 0, 2, 3, 4, 20, 15, 5, 7, 9, 10, 11, 6, 1, 12, 14, 16, 17, 18, 13, 8], dtype=self.dtype),
-            "R2": np.array([2, 10, 0, 15, 4, 5, 6, 9, 17, 7, 1, 11, 12, 13, 16, 3, 14, 8, 18, 19, 20], dtype=self.dtype),
-            "U2": np.array([18, 1, 2, 12, 7, 17, 6, 4, 8, 9, 19, 14, 3, 13, 11, 15, 16, 5, 0, 10, 20], dtype=self.dtype),
-            "F2": np.array([13, 19, 2, 3, 4, 8, 14, 20, 5, 9, 10, 11, 15, 0, 6, 12, 16, 17, 18, 1, 7], dtype=self.dtype),
         }
 
         self.rotate_edges: Dict[str, np.ndarray] = {
             "R1": np.array([0, 11, 7, 3, 4, 5, 1, 15, 8, 9, 2, 16, 12, 13, 14, 10, 6, 17], dtype=self.dtype),
+            "R-1": np.array([0, 6, 10, 3, 4, 5, 16, 2, 8, 9, 15, 1, 12, 13, 14, 7, 11, 17], dtype=self.dtype),            
             "U1": np.array([3, 1, 9, 17, 4, 5, 6, 7, 2, 12, 10, 0, 8, 13, 14, 15, 16, 11], dtype=self.dtype),
+            "U-1": np.array([11, 1, 8, 0, 4, 5, 6, 7, 12, 2, 10, 17, 9, 13, 14, 15, 16, 3], dtype=self.dtype),            
             "F1": np.array([10, 5, 2, 3, 0, 13, 6, 7, 8, 1, 14, 11, 12, 9, 4, 15, 16, 17], dtype=self.dtype),
-            "R-1": np.array([0, 6, 10, 3, 4, 5, 16, 2, 8, 9, 15, 1, 12, 13, 14, 7, 11, 17], dtype=self.dtype),
-            "U-1": np.array([11, 1, 8, 0, 4, 5, 6, 7, 12, 2, 10, 17, 9, 13, 14, 15, 16, 3], dtype=self.dtype),
             "F-1": np.array([4, 9, 2, 3, 14, 1, 6, 7, 8, 13, 0, 11, 12, 5, 10, 15, 16, 17], dtype=self.dtype),
-            "R2": np.array([0, 16, 15, 3, 4, 5, 11, 10, 8, 9, 7, 6, 12, 13, 14, 2, 1, 17], dtype=self.dtype),
-            "U2": np.array([17, 1, 12, 11, 4, 5, 6, 7, 9, 8, 10, 3, 2, 13, 14, 15, 16, 0], dtype=self.dtype),
-            "F2": np.array([14, 13, 2, 3, 10, 9, 6, 7, 8, 5, 4, 11, 12, 1, 0, 15, 16, 17], dtype=self.dtype),
         }
 
         self.position = np.array([0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6], dtype=self.dtype)
         self.orientation = np.array([0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2], dtype=self.dtype)
         self.pow3 = np.array([0, 1, 3, 9, 27, 81, 243], dtype=self.dtype)
-        self.possible_shapes = np.fromfile('Shape_DCA', dtype=np.uint8)
-        self.shift = np.array([0, 0, 1, 0, 0, 2, 0, 0, 3], dtype=self.dtype)
+        self.possible_shapes = np.fromfile('lookup/Shape_DCA', dtype=np.uint64) # no error handling!!
         self.max_entry = 20
         self.num_corners = 7
         self.from7choose3 = self._compute_from7choose3()
@@ -194,7 +187,7 @@ class Puppet(Environment):
 
         shape_hashes = self._compute_shape_hashes(states_next_np[:, :self.num_corners])
 
-        legal = ((self.possible_shapes[shape_hashes] >> self.shift[action]) & 1).astype(bool)
+        legal = ((self.possible_shapes[shape_hashes >> 6] >> (shape_hashes & 63)) & 1).astype(bool)
 
         states_next_np[~legal] = states_np[~legal]
 
