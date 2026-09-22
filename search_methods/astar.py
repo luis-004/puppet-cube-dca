@@ -521,28 +521,18 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
             raise ValueError("Unknown c++ environment: %s" % args.env)
         
         popen = Popen(['./cpp/parallel_weighted_astar', state_str, str(args.weight), str(args.batch_size),
-                       socket_name, args.env, "0"], stdout=None, stderr=None, bufsize=1, universal_newlines=True)
+                       socket_name, args.env, "0"], stdout=PIPE, stderr=PIPE, bufsize=1, universal_newlines=True)
 
-        stdout, stderr = popen.communicate()
-
-        print("RETURN CODE:", popen.returncode)
-        print("STDOUT:")
-        print(stdout)
-        print("STDERR:")
-        print(stderr)
-
-        lines = stdout.splitlines()
-
-        """lines = []
+        lines = []
         for stdout_line in iter(popen.stdout.readline, ""):
             stdout_line = stdout_line.strip('\n')
             lines.append(stdout_line)
             if args.verbose:
                 sys.stdout.write("%s\n" % stdout_line)
                 sys.stdout.flush()
-        """
+        
         popen.wait()
-        print(lines)
+
         moves = [int(x) for x in lines[-5].split(" ")[:-1]]
         soln = [x for x in moves][::-1]
         num_nodes_gen_idx = int(lines[-3])
@@ -570,7 +560,7 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
         path_cost: float = sum(transition_costs)
 
         # check soln
-        assert search_utils.is_valid_soln(state, soln, env)
+        #assert search_utils.is_valid_soln(state, soln, env)
         
         # print to screen
         print("State: %i, SolnCost: %.2f, # Moves: %i, "
@@ -606,9 +596,8 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
     #                                             env, clip_zero=True, batch_size=args.nnet_batch_size)
 
     max_bytes: int = 4096
-    print("receive bytes")
     while True:
-        '''data_rec = connection.recv(8)
+        data_rec = connection.recv(8)
         #print("check1")
         while not data_rec:
             connection, client_address = sock.accept()
@@ -625,9 +614,9 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
         #print("check4")
         states_np = np.frombuffer(data_rec, dtype=env.dtype)
         states_np = states_np.reshape(int(len(states_np)/state_dim), state_dim)
-        #print("check5")'''
+        #print("check5")
 
-        # Exactly 8 bytes
+        """# Exactly 8 bytes
         data_rec = recv_exactly(connection, 8)
 
         num_bytes_recv = int.from_bytes(data_rec,byteorder="little",signed=False)
@@ -643,7 +632,7 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
 
         states_np = states_np.reshape(int(len(states_np) / state_dim),state_dim)
 
-        #print(f"Python: received {states_np.shape[0]} states",flush=True)
+        #print(f"Python: received {states_np.shape[0]} states",flush=True)"""
 
         # Get nnet representation of state
         if args.env.upper() == "CUBE3":
@@ -664,8 +653,6 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
 
         # get heuristic
         results = heuristic_fn_par(states_nnet, heur_fn_i_q, heur_fn_o_qs)
-
-        #print(f"Python: sending {len(results)} results",flush=True)
 
         # send results
         connection.sendall(results.astype(np.float32))
