@@ -222,22 +222,19 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 			std::vector<Environment*> children_env = popped[i]->env->getNextStates();
 			int depth = popped[i]->depth + 1;
 			depths[i] = depth;
-			for (unsigned int j=0; j<children_env.size(); j++) {
-				/*if(children_env[j] == NULL || (popped[i]->parentMove / 3 == j / 3)){
-					continue;
-				}*/
-				if(children_env[j] == NULL){
+			for (int j=0; j<children_env.size(); j++) {
+				if(children_env[j] == NULL || ((popped[i]->parentMove > -1) && (popped[i]->parentMove / 3 == j / 3))){
 					continue;
 				}
 			    float heuristic_lb = std::max(popped[i]->heuristic - 1, (float) 0.0);  //TODO replace with transition cost
 			    float cost = heuristic_lb*(!children_env[j]->isSolved()) + depthPenalty*((float) depth);
-				Node *node = new Node{children_env[j],depth,(int) j,cost,heuristic_lb,popped[i]};
+				Node *node = new Node{children_env[j],depth,j,cost,heuristic_lb,popped[i]};
 				children[i*env->getNumActions() + j] = node;
-				//children.push_back(node);
 			}
 		}
 
 		children.erase(std::remove(children.begin(), children.end(), nullptr), children.end());
+		if(children.size() == 0){continue;}
 
 		minDepth = *std::min_element(depths.begin(),depths.end());
 		maxDepth = *std::max_element(depths.begin(),depths.end());
