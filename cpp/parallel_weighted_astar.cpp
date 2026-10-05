@@ -137,7 +137,7 @@ void writeFile(int sockfd, std::vector<Node*> &children) {
 
 void parallelWeightedAStar(const Environment *env, float depthPenalty, int numParallel, std::string socketName) {
 	/* Initialize Heuristics */
-	printf("INITIALIZING QUEUES\n");
+	//printf("INITIALIZING QUEUES\n");
 	std::priority_queue<Node*,std::vector<Node*>,compareNodeCost> open;
 	std::unordered_set<Node*,Hash,NodePointerEq> closed;
 
@@ -158,13 +158,14 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 	std::chrono::high_resolution_clock::time_point searchStartTime = std::chrono::high_resolution_clock::now();
 
 	open.push(new Node{env,0,-1,0,0,NULL}); //Push root node to open
-	printf("GET START\n");
+	//printf("GET START\n");
 	closed.insert(new Node{env,0,-1,0,0,NULL}); //Add root node to seen
 	
 
 	int searchItr = 1;
 	long numNodesGenerated = 1;
 	bool isSolved = false;
+	double fullHeuristicTime = 0.0;
 	Node *solvedNode = NULL;
 	while (isSolved == false) {
 		std::chrono::high_resolution_clock::time_point startTime, t1;
@@ -222,6 +223,12 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 			int depth = popped[i]->depth + 1;
 			depths[i] = depth;
 			for (unsigned int j=0; j<children_env.size(); j++) {
+				/*if(children_env[j] == NULL || (popped[i]->parentMove / 3 == j / 3)){
+					continue;
+				}*/
+				if(children_env[j] == NULL){
+					continue;
+				}
 			    float heuristic_lb = std::max(popped[i]->heuristic - 1, (float) 0.0);  //TODO replace with transition cost
 			    float cost = heuristic_lb*(!children_env[j]->isSolved()) + depthPenalty*((float) depth);
 				Node *node = new Node{children_env[j],depth,(int) j,cost,heuristic_lb,popped[i]};
@@ -230,55 +237,57 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 			}
 		}
 
+		children.erase(std::remove(children.begin(), children.end(), nullptr), children.end());
+
 		minDepth = *std::min_element(depths.begin(),depths.end());
 		maxDepth = *std::max_element(depths.begin(),depths.end());
 		expandingTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
+
+		// Write children to file
+		t1 = std::chrono::high_resolution_clock::now();
+		writeFile(sockfd,children);
 
 		dataWriteTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
 
 		//Check if in closed
 		t1 = std::chrono::high_resolution_clock::now();
 		std::vector<Node*> nodesToAdd;
-		fprintf(stderr,"check1.5");
+		std::vector<int> nodesToAdd_idx;
 		for (unsigned int i=0; i<children.size(); i++) {
 			Node *node = children[i];
-			if(node == NULL){
-				//fprintf(stderr,"continued because node is null");
-				continue;
-			}
-			//fprintf(stderr,"depth=%u\n", node->depth);
 			std::unordered_set<Node*,Hash,NodePointerEq>::const_iterator found = closed.find(node);
 
-            if (found == closed.end()) { // new node
+            if (found == closed.end()) {
                 closed.insert(node);
                 nodesToAdd.push_back(node);
-            } else if ((*found)->depth > node->depth) { //closed node; but depth is smaller -> replace
+                nodesToAdd_idx.push_back(i);
+            } else if ((*found)->depth > node->depth) {
                 (*found)->depth = node->depth;
                 (*found)->parentMove = node->parentMove;
                 (*found)->parent = node->parent;
 
                 nodesToAdd.push_back(node);
+                nodesToAdd_idx.push_back(i);
             } else {
                 delete node;
             }
-			numNodesGenerated ++;
 		}
+		numNodesGenerated += children.size();
 		checkClosedTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
-
-		// Write children to file
-		t1 = std::chrono::high_resolution_clock::now();
-		writeFile(sockfd,nodesToAdd);
 
 		//Get value
 		//printf("GETTING HEURISTIC\n");
 		t1 = std::chrono::high_resolution_clock::now();
-		std::vector<float> values;
+		std::vector<float> values(nodesToAdd_idx.size());
+		std::vector<float> values_temp;
 
         float f;
-		fprintf(stderr,"length: %d", nodesToAdd.size());
-        for (unsigned int i=0; i<nodesToAdd.size(); i++) {
+        for (unsigned int i=0; i<children.size(); i++) {
             read(sockfd,reinterpret_cast<char*>(&f),4);
-            values.push_back(f);
+            values_temp.push_back(f);
+        }
+        for (unsigned int i=0; i<nodesToAdd_idx.size(); i++) {
+            values[i] = values_temp[nodesToAdd_idx[i]];
         }
 
 		if (nodesToAdd.size() > 0) {
@@ -319,18 +328,19 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 
 		addToQueueTime = getTimeElapsed(t1,std::chrono::high_resolution_clock::now());
 
-		printf("Times - remOpen: %f, exp: %f, write: %f, check: %f, heur: %f, cost: %f, add: %f, goal_p: %i\n",remOpenTime,expandingTime,dataWriteTime,checkClosedTime,heuristicTime,costTime,addToQueueTime,goal_node_found_prev);
+		//printf("Times - remOpen: %f, exp: %f, write: %f, check: %f, heur: %f, cost: %f, add: %f, goal_p: %i\n",remOpenTime,expandingTime,dataWriteTime,checkClosedTime,heuristicTime,costTime,addToQueueTime,goal_node_found_prev);
 
 		itrTime = getTimeElapsed(startTime,std::chrono::high_resolution_clock::now());
 
-		printf("Iteration: %i, Min/Max - Depth: %i/%i, Heur: %.2f/%.2f, Cost: %.2f/%.2f, OpenSize: %li, ClosedSize: %li, Time: %f, Num Added: %li\n\n",searchItr,minDepth,maxDepth,minValue,maxValue,minCost,maxCost,open.size(),closed.size(),itrTime,nodesToAdd.size());
-
+		//printf("Iteration: %i, Min/Max - Depth: %i/%i, Heur: %.2f/%.2f, Cost: %.2f/%.2f, OpenSize: %li, ClosedSize: %li, Time: %f, Num Added: %li\n\n",searchItr,minDepth,maxDepth,minValue,maxValue,minCost,maxCost,open.size(),closed.size(),itrTime,nodesToAdd.size());
+		fullHeuristicTime += heuristicTime;
 		searchItr++;
 	}
-
-	printf("SOLVED!\n");
-
-	printf("Move nums:\n");
+	double totalTime = getTimeElapsed(searchStartTime,std::chrono::high_resolution_clock::now());
+	//printf("SOLVED!\n");
+	printf("Iterations: %i", searchItr - 1);
+	printf(" Heuristic time overall and percentage: %f %f", fullHeuristicTime, fullHeuristicTime/totalTime);
+	printf(" Move nums:\n");
 
 	Node *currNode = solvedNode;
 	while (currNode->depth > 0) {
@@ -340,7 +350,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 	printf("\n");
 	printf("Nodes Generated:\n%li\n",numNodesGenerated);
 
-	double totalTime = getTimeElapsed(searchStartTime,std::chrono::high_resolution_clock::now());
+
 	printf("Total time:\n%f\n",totalTime);
 }
 
@@ -367,9 +377,9 @@ int main(int argc, const char *argv[]) {
 	}
 
 	/* Search */
-	printf("State:\n");
+	/*printf("State:\n");
 	printArr(init);
-	printf("\n");
+	printf("\n");*/
 
 	Environment *env = NULL;
 	if (envName == "puzzle15") {

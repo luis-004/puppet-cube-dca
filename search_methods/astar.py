@@ -560,13 +560,13 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
         path_cost: float = sum(transition_costs)
 
         # check soln
-        #assert search_utils.is_valid_soln(state, soln, env)
+        assert search_utils.is_valid_soln(state, soln, env)
         
         # print to screen
         print("State: %i, SolnCost: %.2f, # Moves: %i, "
-              "# Nodes Gen: %s, Time: %.2f" % (state_idx, path_cost, len(soln),
+              "# Nodes Gen: %s, Time: %.2f, Nodes per second: %.2f" % (state_idx, path_cost, len(soln),
                                                format(num_nodes_gen_idx, ","),
-                                               solve_time))
+                                               solve_time, float(num_nodes_gen_idx)/solve_time))
 
     os.unlink(socket_name)
 
