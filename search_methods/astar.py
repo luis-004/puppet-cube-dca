@@ -456,6 +456,8 @@ def bwas_python(args, env: Environment, states: List[State]):
 
 def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
     assert (args.env.upper() in ['CUBE3', 'CUBE4', 'PUZZLE15', 'PUZZLE24', 'PUZZLE35', 'PUZZLE48', 'LIGHTSOUT7', 'PUPPET'])
+    print("Iterations,Moves,Index,HeuWaitTime,HeuristicTime,Time,Nodes,")
+    print("\n")
 
     # Make c++ socket
     socket_name: str = "%s_cpp_socket" % results_file.split(".")[0]
@@ -533,10 +535,15 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
         
         popen.wait()
 
-        moves = [int(x) for x in lines[-5].split(" ")[:-1]]
-        soln = [x for x in moves][::-1]
-        num_nodes_gen_idx = int(lines[-3])
-        solve_time = float(lines[-1])
+        moves = [int(x) for x in lines[-2].split(" ")[:-1]]
+        soln = moves[::-1]
+
+        stats = lines[-1].strip().rstrip(",").split(",")
+        num_search_itrs = int(stats[0])
+        wait_heuristic_time = float(stats[1])
+        full_heuristic_time = float(stats[2])
+        solve_time = float(stats[3])
+        num_nodes_gen_idx = int(stats[4])
 
         # record solution information
         path: List[State] = [state]
@@ -563,10 +570,11 @@ def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
         assert search_utils.is_valid_soln(state, soln, env)
         
         # print to screen
-        print("State: %i, SolnCost: %.2f, # Moves: %i, "
-              "# Nodes Gen: %s, Time: %.2f, Nodes per second: %.2f" % (state_idx, path_cost, len(soln),
-                                               format(num_nodes_gen_idx, ","),
-                                               solve_time, float(num_nodes_gen_idx)/solve_time))
+        # print("State: %i, SolnCost: %.2f, # Moves: %i, "
+        #       "# Nodes Gen: %s, Time: %.2f, Nodes per second: %.2f" % (state_idx, path_cost, len(soln),
+        #                                        format(num_nodes_gen_idx, ","),
+        #                                        solve_time, float(num_nodes_gen_idx)/solve_time))
+        print("%i,%i,%i,%.6f,%.6f,%.6f,%i" % (state_idx, len(soln), num_search_itrs, wait_heuristic_time, full_heuristic_time, solve_time, num_nodes_gen_idx))
 
     os.unlink(socket_name)
 

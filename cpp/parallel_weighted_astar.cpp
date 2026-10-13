@@ -166,6 +166,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 	long numNodesGenerated = 1;
 	bool isSolved = false;
 	double fullHeuristicTime = 0.0;
+	double waitForHeuristicTime = 0.0;
 	Node *solvedNode = NULL;
 	while (isSolved == false) {
 		std::chrono::high_resolution_clock::time_point startTime, t1;
@@ -330,14 +331,19 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		itrTime = getTimeElapsed(startTime,std::chrono::high_resolution_clock::now());
 
 		//printf("Iteration: %i, Min/Max - Depth: %i/%i, Heur: %.2f/%.2f, Cost: %.2f/%.2f, OpenSize: %li, ClosedSize: %li, Time: %f, Num Added: %li\n\n",searchItr,minDepth,maxDepth,minValue,maxValue,minCost,maxCost,open.size(),closed.size(),itrTime,nodesToAdd.size());
-		fullHeuristicTime += heuristicTime;
+		fullHeuristicTime += dataWriteTime + checkClosedTime + heuristicTime;
+		waitForHeuristicTime += heuristicTime;
 		searchItr++;
 	}
 	double totalTime = getTimeElapsed(searchStartTime,std::chrono::high_resolution_clock::now());
 	//printf("SOLVED!\n");
-	printf("Iterations: %i", searchItr - 1);
-	printf(" Heuristic time overall and percentage: %f %f", fullHeuristicTime, fullHeuristicTime/totalTime);
-	printf(" Move nums:\n");
+	//printf("Iterations: %i", searchItr - 1);
+	//printf("%d\n", int(searchItr - 1));
+	//printf(",");
+	//printf(" Heuristic time overall and percentage: %f %f", fullHeuristicTime, fullHeuristicTime/totalTime);
+	//printf("%f\n", double(fullHeuristicTime));
+	//printf(",");
+	//printf(" Move nums:\n");
 
 	Node *currNode = solvedNode;
 	while (currNode->depth > 0) {
@@ -345,14 +351,18 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		currNode = currNode->parent;
 	}
 	printf("\n");
-	printf("Nodes Generated:\n%li\n",numNodesGenerated);
-
-
-	printf("Total time:\n%f\n",totalTime);
+	std::cout << int(searchItr - 1) << "," << float(waitForHeuristicTime) << "," << float(fullHeuristicTime) << "," << float(totalTime) << "," << long(numNodesGenerated) << ",";
+	//printf("\n");
+	//printf("Nodes Generated:\n%li\n",numNodesGenerated);
+	//printf(numNodesGenerated);
+	//printf(",");
+	//printf("Total time:\n%f\n",totalTime);
+	//printf("%f\n", double(totalTime));
+	//printf(",");
 }
 
 int main(int argc, const char *argv[]) {
-	printf("The argument supplied is %s\n", argv[1]);
+	//printf("The argument supplied is %s\n", argv[1]);
 	
 	/* Get input from file*/
 	std::string input = argv[1];
