@@ -456,7 +456,7 @@ def bwas_python(args, env: Environment, states: List[State]):
 
 def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
     assert (args.env.upper() in ['CUBE3', 'CUBE4', 'PUZZLE15', 'PUZZLE24', 'PUZZLE35', 'PUZZLE48', 'LIGHTSOUT7', 'PUPPET'])
-    print("Iterations,Moves,Index,HeuWaitTime,HeuristicTime,Time,Nodes,")
+    print("Index,Moves,Iterarions,HeuWaitTime,HeuristicTime,Time,Nodes,")
     print("\n")
 
     # Make c++ socket
@@ -606,41 +606,23 @@ def cpp_listener(sock, args, env: Environment, state_dim: int, heur_fn_i_q, heur
     max_bytes: int = 4096
     while True:
         data_rec = connection.recv(8)
-        #print("check1")
+
         while not data_rec:
             connection, client_address = sock.accept()
             data_rec = connection.recv(8)
-        #print("check2")
+
         num_bytes_recv = np.frombuffer(data_rec, dtype=np.int64)[0]
-        #print("check3")
+
         num_bytes_seen = 0
         data_rec = b""
         while num_bytes_seen < num_bytes_recv:
             con_rec = connection.recv(max_bytes)
             data_rec = data_rec + con_rec
             num_bytes_seen = num_bytes_seen + len(con_rec)
-        #print("check4")
+
         states_np = np.frombuffer(data_rec, dtype=env.dtype)
+
         states_np = states_np.reshape(int(len(states_np)/state_dim), state_dim)
-        #print("check5")
-
-        """# Exactly 8 bytes
-        data_rec = recv_exactly(connection, 8)
-
-        num_bytes_recv = int.from_bytes(data_rec,byteorder="little",signed=False)
-
-       # print(f"Python: expecting {num_bytes_recv} bytes", flush=True)
-
-        # Receive exactly num_bytes_recv bytes
-        data_rec = recv_exactly(connection, num_bytes_recv)
-
-        #print(f"Python: received {len(data_rec)} bytes", flush=True)
-
-        states_np = np.frombuffer(data_rec,dtype=env.dtype)
-
-        states_np = states_np.reshape(int(len(states_np) / state_dim),state_dim)
-
-        #print(f"Python: received {states_np.shape[0]} states",flush=True)"""
 
         # Get nnet representation of state
         if args.env.upper() == "CUBE3":
