@@ -61,12 +61,13 @@ class Puppet(Environment):
         self.position = np.array([0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6], dtype=self.dtype)
         self.orientation = np.array([0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2], dtype=self.dtype)
         self.pow3 = np.array([0, 1, 3, 9, 27, 81, 243], dtype=self.dtype)
-        self.possible_shapes = np.fromfile('Shape_DCA', dtype=np.uint8)
+        self.possible_shapes = np.fromfile('shape_valid', dtype=np.uint8)
         self.shift = np.array([0, 0, 1, 0, 0, 2, 0, 0, 3], dtype=self.dtype)
         self.max_entry = 20
         self.num_corners = 7
         self.from6choose3 = self._compute_from6choose3()
         self.state_len = len(self.goal_pieces)
+        self.moves_rev_ints = np.array([1, 0, 2, 4, 3, 5, 7, 6, 8], dtype=self.dtype)
 
     def next_state(self, states: List[PuppetState], action: int) -> Tuple[List[PuppetState], List[float]]:
         states_np = np.stack([x.pieces for x in states], axis=0)
@@ -117,37 +118,72 @@ class Puppet(Environment):
         assert (backwards_range[0] >= 0)
         assert self.fixed_actions, "Environments without fixed actions must implement their own method"
 
-        # Initialize
-        scrambs: List[int] = list(range(backwards_range[0], backwards_range[1] + 1))
         num_env_moves: int = self.get_num_moves()
 
-        # Get goal states
+        moves_face = np.arange(num_env_moves) // 3
+
+        # Initialize
+        scrambs: List[int] = list(range(backwards_range[0], backwards_range[1] + 1))
         states_np: np.ndarray = self.generate_goal_states(num_states, np_format=True)
-        # Scrambles
-        scramble_nums: np.array = np.random.choice(scrambs, num_states)
+        scramble_nums: np.ndarray = np.random.choice(scrambs, num_states)
 
-        num_back_moves: np.array = np.zeros(num_states)
+        max_len: int = max(int(scramble_nums.max()), 1)
+        history = np.full((num_states, max_len), -1, dtype=np.int64)
+        blocked = np.zeros((num_states, max_len, num_env_moves), dtype=bool)
+        depth = np.zeros(num_states, dtype=np.int64)
 
-        # Go backward from goal state
-        moves_lt = num_back_moves < scramble_nums
+        active = depth < scramble_nums
+        while np.any(active):
+            idxs = np.where(active)[0]
+            d = depth[idxs]
 
-        while np.any(moves_lt):
-            idxs: np.ndarray = np.where(moves_lt)[0]
-            subset_size: int = int(max(len(idxs) / num_env_moves, 1))
-            idxs: np.ndarray = np.random.choice(idxs, subset_size)
+            last_move = history[idxs, np.maximum(d - 1, 0)]
+            last_face = np.where(d > 0, moves_face[last_move], -1)
 
-            move: int = randrange(num_env_moves)
+            valid = ~blocked[idxs, d]                                   # (n, num_moves)
+            valid &= moves_face[None, :] != last_face[:, None]
+            has_valid = valid.any(axis=1)
 
-            states_np[idxs], tc_move = self._move_np(states_np[idxs], move)
+            # dead end
+            bt = idxs[~has_valid]
+            if len(bt) > 0:
+                assert np.all(depth[bt] > 0), "Keine legalen Züge schon im Zielzustand"
+                m_prev = history[bt, depth[bt] - 1]
+                for m in np.unique(m_prev):
+                    sel = bt[m_prev == m]
+                    states_np[sel], _ = self._move_np(states_np[sel], int(self.moves_rev_ints[m]))
+                blocked[bt, depth[bt]] = False
+                depth[bt] -= 1
+                blocked[bt, depth[bt], m_prev] = True     # block the move for layers below
+                history[bt, depth[bt]] = -1
 
-            legal_mask = np.array(tc_move) == 1.0
+            # choose a random move
+            fw = idxs[has_valid]
+            if len(fw) > 0:
+                valid_fw = valid[has_valid]
+                scores = np.random.rand(*valid_fw.shape)
+                scores[~valid_fw] = -1.0
+                chosen = scores.argmax(axis=1)
 
-            num_back_moves[idxs[legal_mask]] += 1
+                legal = np.zeros(len(fw), dtype=bool)
+                for m in np.unique(chosen):
+                    sel = chosen == m
+                    sub = fw[sel]
+                    old = states_np[sub].copy()
+                    new, tc = self._move_np(old.copy(), int(m))
+                    ok = np.array(tc) == 1.0
+                    new[~ok] = old[~ok]
+                    states_np[sub] = new
+                    legal[sel] = ok
 
-            moves_lt[idxs] = num_back_moves[idxs] < scramble_nums[idxs]
+                good, bad = fw[legal], fw[~legal]
+                blocked[bad, depth[bad], chosen[~legal]] = True
+                history[good, depth[good]] = chosen[legal]
+                depth[good] += 1
+
+            active = depth < scramble_nums
 
         states: List[PuppetState] = [PuppetState(x) for x in list(states_np)]
-
         return states, scramble_nums.tolist()
 
     def expand(self, states: List[State]) -> Tuple[List[List[State]], List[np.ndarray]]:
@@ -225,4 +261,3 @@ class Puppet(Environment):
                             table[zeroCor, permutation] = idx
                             idx += 1
         return table
-

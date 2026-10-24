@@ -300,7 +300,8 @@ std::vector<Environment*> Puppet::getNextStates() const {
         	permutation |= (i & 1u) << pos;
         	orientationHash +=  orientation[corner] * pow3[pos];
     	}
-	uint16_t info = shape_info[orientationHash * 140u + from7choose3[position[curState[0]]][permutation]];
+		
+	uint16_t info = shape_moves[orientationHash * 140u + from7choose3[position[curState[0]]][permutation]];
 
 	std::vector<Environment*> nextStates;
 

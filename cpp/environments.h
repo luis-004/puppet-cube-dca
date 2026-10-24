@@ -165,9 +165,9 @@ class Puppet: public Environment {
 		{0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2};
 		static constexpr std::array<uint16_t, 7> pow3 = {0, 1, 3, 9, 27, 81, 243};
 
-		inline static const auto shape_info = [] {
-			std::ifstream cor("Shape_info", std::ios::binary | std::ios::ate);
-			if (!cor){ std::cout << "Shape_info not found" << std::endl; return std::vector<uint16_t>{};}
+		inline static const auto shape_moves = [] {
+			std::ifstream cor("shape_moves", std::ios::binary | std::ios::ate);
+			if (!cor){ std::cout << "shape_moves not found" << std::endl; return std::vector<uint16_t>{};}
 			std::streamsize fileSize = cor.tellg();
 			cor.seekg(0, std::ios::beg);
 			size_t numEntries = fileSize / sizeof(uint16_t);
