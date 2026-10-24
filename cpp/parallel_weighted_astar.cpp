@@ -227,7 +227,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 				if(children_env[j] == NULL || ((popped[i]->parentMove > -1) && (popped[i]->parentMove / 3 == j / 3))){
 					continue;
 				}
-			    float heuristic_lb = std::max(popped[i]->heuristic - 1, (float) 0.0);  //TODO replace with transition cost
+			    float heuristic_lb = std::max(popped[i]->heuristic - 1, (float) 0.0);
 			    float cost = heuristic_lb*(!children_env[j]->isSolved()) + depthPenalty*((float) depth);
 				Node *node = new Node{children_env[j],depth,j,cost,heuristic_lb,popped[i]};
 				children[i*env->getNumActions() + j] = node;

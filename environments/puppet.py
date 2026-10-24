@@ -61,11 +61,11 @@ class Puppet(Environment):
         self.position = np.array([0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6], dtype=self.dtype)
         self.orientation = np.array([0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2], dtype=self.dtype)
         self.pow3 = np.array([0, 1, 3, 9, 27, 81, 243], dtype=self.dtype)
-        self.possible_shapes = np.fromfile('Shape_DCA', dtype=np.uint8)
+        self.possible_shapes = np.fromfile('shape_valid', dtype=np.uint8)
         self.shift = np.array([0, 0, 1, 0, 0, 2, 0, 0, 3], dtype=self.dtype)
         self.max_entry = 20
         self.num_corners = 7
-        self.from7choose3 = self._compute_from7choose3()
+        self.from6choose3 = self._compute_from6choose3()
         self.state_len = len(self.goal_pieces)
         self.moves_rev_ints = np.array([1, 0, 2, 4, 3, 5, 7, 6, 8], dtype=self.dtype)
 
@@ -128,25 +128,23 @@ class Puppet(Environment):
         scramble_nums: np.ndarray = np.random.choice(scrambs, num_states)
 
         max_len: int = max(int(scramble_nums.max()), 1)
-        history = np.full((num_states, max_len), -1, dtype=np.int64)           # Zugstack pro Zustand
-        blocked = np.zeros((num_states, max_len, num_env_moves), dtype=bool)   # gesperrte Züge pro Tiefe
-        depth = np.zeros(num_states, dtype=np.int64)                           # aktuelle Tiefe pro Zustand
+        history = np.full((num_states, max_len), -1, dtype=np.int64)
+        blocked = np.zeros((num_states, max_len, num_env_moves), dtype=bool)
+        depth = np.zeros(num_states, dtype=np.int64)
 
         active = depth < scramble_nums
         while np.any(active):
             idxs = np.where(active)[0]
             d = depth[idxs]
 
-            # Letzte Face (-1 am Anfang)
             last_move = history[idxs, np.maximum(d - 1, 0)]
             last_face = np.where(d > 0, moves_face[last_move], -1)
 
-            # Gültige Kandidaten: nicht gesperrt und nicht dieselbe Face wie zuvor
             valid = ~blocked[idxs, d]                                   # (n, num_moves)
             valid &= moves_face[None, :] != last_face[:, None]
             has_valid = valid.any(axis=1)
 
-            # --- Sackgasse: einen Zug zurück ---
+            # dead end
             bt = idxs[~has_valid]
             if len(bt) > 0:
                 assert np.all(depth[bt] > 0), "Keine legalen Züge schon im Zielzustand"
@@ -154,12 +152,12 @@ class Puppet(Environment):
                 for m in np.unique(m_prev):
                     sel = bt[m_prev == m]
                     states_np[sel], _ = self._move_np(states_np[sel], int(self.moves_rev_ints[m]))
-                blocked[bt, depth[bt]] = False            # verlassene Ebene leeren
+                blocked[bt, depth[bt]] = False
                 depth[bt] -= 1
-                blocked[bt, depth[bt], m_prev] = True     # Zug auf der Ebene darunter sperren
+                blocked[bt, depth[bt], m_prev] = True     # block the move for layers below
                 history[bt, depth[bt]] = -1
 
-            # --- Vorwärts: zufälligen gültigen Zug wählen ---
+            # choose a random move
             fw = idxs[has_valid]
             if len(fw) > 0:
                 valid_fw = valid[has_valid]
@@ -174,7 +172,7 @@ class Puppet(Environment):
                     old = states_np[sub].copy()
                     new, tc = self._move_np(old.copy(), int(m))
                     ok = np.array(tc) == 1.0
-                    new[~ok] = old[~ok]                   # illegale Züge: Zustand sicher unverändert
+                    new[~ok] = old[~ok]
                     states_np[sub] = new
                     legal[sel] = ok
 
@@ -249,9 +247,9 @@ class Puppet(Environment):
         orientation_hash = np.sum(self.orientation[corners].astype(np.uint16) * self.pow3[pos].astype(np.uint16), axis=1, dtype=np.uint16)
 
         return (np.uint32(orientation_hash) * np.uint32(140)
-            + np.uint32(self.from7choose3[self.position[corners[:, 0]], permutation]))
+            + np.uint32(self.from6choose3[self.position[corners[:, 0]], permutation]))
 
-    def _compute_from7choose3(self):
+    def _compute_from6choose3(self):
         table = np.full((self.num_corners, 128), 255, dtype=np.uint8)
         idx = 0
         for i in range(self.num_corners):
@@ -263,4 +261,3 @@ class Puppet(Environment):
                             table[zeroCor, permutation] = idx
                             idx += 1
         return table
-
