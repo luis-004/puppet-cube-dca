@@ -179,6 +179,10 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		// Remove from open
 		int openSize = (int) open.size();
 		int numPop = std::min(openSize,numParallel);
+		if(numPop == 0){
+			std::cout << int(searchItr - 1) << "," << float(waitForHeuristicTime) << "," << float(fullHeuristicTime) << "," << float(totalTime) << "," << long(numNodesGenerated) << ",NO SOLUTION FOUND";
+			return;
+		}
 		std::vector<Node*> popped;
 
 		//printf("REMOVING FROM OPEN\n");

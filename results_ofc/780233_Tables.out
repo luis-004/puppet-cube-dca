@@ -1,0 +1,551 @@
+Node:
+lme170
+make: Nothing to be done for 'all'.
+
+Run...
+num turns:1
+num cases:10
+num visited:10
+time: 0.00389781
+
+num turns:2
+num cases:46
+num visited:46
+time: 0.00395666
+
+num turns:3
+num cases:160
+num visited:160
+time: 0.00405164
+
+num turns:4
+num cases:520
+num visited:520
+time: 0.00444791
+
+num turns:5
+num cases:1494
+num visited:1618
+time: 0.00546388
+
+num turns:6
+num cases:3564
+num visited:4232
+time: 0.0081959
+
+num turns:7
+num cases:6799
+num visited:9671
+time: 0.0114186
+
+num turns:8
+num cases:9771
+num visited:17416
+time: 0.0158404
+
+num turns:9
+num cases:11376
+num visited:23035
+time: 0.0197114
+
+num turns:10
+num cases:12132
+num visited:25291
+time: 0.0216724
+
+num turns:11
+num cases:12608
+num visited:26191
+time: 0.0225618
+
+num turns:12
+num cases:12844
+num visited:26560
+time: 0.0230963
+
+num turns:13
+num cases:13030
+num visited:26762
+time: 0.0233605
+
+num turns:14
+num cases:13132
+num visited:26924
+time: 0.0235627
+
+num turns:15
+num cases:13174
+num visited:26975
+time: 0.023675
+
+end
+saved
+time: 0.0692283
+start
+switching states: 2
+num turns:1
+cases:3
+total cases:10
+already visited:7
+sym visited:3
+time: 0.0704557
+
+switching states: 6
+num turns:2
+cases:9
+total cases:46
+already visited:8
+sym visited:3
+time: 0.0704871
+
+switching states: 19
+num turns:3
+cases:28
+total cases:160
+already visited:8
+sym visited:3
+time: 0.070525
+
+switching states: 60
+num turns:4
+cases:88
+total cases:520
+already visited:8
+sym visited:3
+time: 0.0706219
+
+switching states: 183
+num turns:5
+cases:271
+total cases:1618
+already visited:8
+sym visited:3
+time: 0.0708629
+
+switching states: 509
+num turns:6
+cases:780
+total cases:4669
+already visited:12
+sym visited:6
+time: 0.0714302
+
+switching states: 1412
+num turns:7
+cases:2192
+total cases:13138
+already visited:24
+sym visited:9
+time: 0.0727523
+
+switching states: 4022
+num turns:8
+cases:6214
+total cases:37267
+already visited:94
+sym visited:12
+time: 0.0762268
+
+switching states: 11119
+num turns:9
+cases:17333
+total cases:103969
+already visited:376
+sym visited:24
+time: 0.0850684
+
+switching states: 30257
+num turns:10
+cases:47590
+total cases:285468
+already visited:1449
+sym visited:67
+time: 0.107577
+
+switching states: 81679
+num turns:11
+cases:129269
+total cases:775486
+already visited:5144
+sym visited:123
+time: 0.167949
+
+switching states: 214834
+num turns:12
+cases:344103
+total cases:2064372
+already visited:20136
+sym visited:241
+time: 0.331428
+
+switching states: 537337
+num turns:13
+cases:881440
+total cases:5288227
+already visited:80172
+sym visited:408
+time: 0.700062
+
+switching states: 1237878
+num turns:14
+cases:2119318
+total cases:12715140
+already visited:317670
+sym visited:763
+time: 1.57932
+
+switching states: 2465878
+num turns:15
+cases:4585196
+total cases:27509660
+already visited:1162638
+sym visited:1511
+time: 3.36557
+
+switching states: 3896815
+num turns:16
+cases:8482011
+total cases:50889450
+already visited:3577962
+sym visited:2611
+time: 6.34311
+
+switching states: 4449525
+num turns:17
+cases:12931536
+total cases:77585264
+already visited:8396373
+sym visited:3947
+time: 10.057
+
+switching states: 3450145
+num turns:18
+cases:16381681
+total cases:98284906
+already visited:14372737
+sym visited:5175
+time: 13.1931
+
+switching states: 1905531
+num turns:19
+cases:18287212
+total cases:109717321
+already visited:18611007
+sym visited:5946
+time: 15.0253
+
+switching states: 932278
+num turns:20
+cases:19219490
+total cases:115310683
+already visited:20310889
+sym visited:6252
+time: 15.8162
+
+switching states: 499729
+num turns:21
+cases:19719219
+total cases:118308969
+already visited:20773078
+sym visited:6340
+time: 16.152
+
+switching states: 288194
+num turns:22
+cases:20007413
+total cases:120038058
+already visited:20900429
+sym visited:6415
+time: 16.27
+
+switching states: 150502
+num turns:23
+cases:20157915
+total cases:120941022
+already visited:20952329
+sym visited:6463
+time: 16.318
+
+switching states: 60213
+num turns:24
+cases:20218128
+total cases:121302288
+already visited:20977232
+sym visited:6475
+time: 16.3359
+
+switching states: 15742
+num turns:25
+cases:20233870
+total cases:121396740
+already visited:20983054
+sym visited:6475
+time: 16.3406
+
+switching states: 2370
+num turns:26
+cases:20236240
+total cases:121410960
+already visited:20983408
+sym visited:6475
+time: 16.3414
+
+switching states: 104
+num turns:27
+cases:20236344
+total cases:121411584
+already visited:20983411
+sym visited:6475
+time: 16.3414
+
+end
+saved
+num cases:20236344
+time: 18.333
+start
+switching states: 2
+num turns:1
+cases:3
+total cases:10
+already visited:7
+sym visited:3
+time: 1.81287
+
+switching states: 6
+num turns:2
+cases:9
+total cases:46
+already visited:8
+sym visited:3
+time: 1.8129
+
+switching states: 19
+num turns:3
+cases:28
+total cases:160
+already visited:8
+sym visited:3
+time: 1.81294
+
+switching states: 60
+num turns:4
+cases:88
+total cases:520
+already visited:8
+sym visited:3
+time: 1.81305
+
+switching states: 183
+num turns:5
+cases:271
+total cases:1618
+already visited:8
+sym visited:3
+time: 1.81333
+
+switching states: 513
+num turns:6
+cases:784
+total cases:4696
+already visited:8
+sym visited:3
+time: 1.81401
+
+switching states: 1431
+num turns:7
+cases:2215
+total cases:13282
+already visited:9
+sym visited:3
+time: 1.81572
+
+switching states: 4152
+num turns:8
+cases:6367
+total cases:38194
+already visited:14
+sym visited:3
+time: 1.8203
+
+switching states: 11817
+num turns:9
+cases:18184
+total cases:109081
+already visited:42
+sym visited:18
+time: 1.83247
+
+switching states: 33571
+num turns:10
+cases:51755
+total cases:310504
+already visited:115
+sym visited:21
+time: 1.86583
+
+switching states: 95309
+num turns:11
+cases:147064
+total cases:882333
+already visited:412
+sym visited:46
+time: 1.96153
+
+switching states: 271398
+num turns:12
+cases:418462
+total cases:2510661
+already visited:1497
+sym visited:106
+time: 2.23534
+
+switching states: 768159
+num turns:13
+cases:1186621
+total cases:7119504
+already visited:6597
+sym visited:217
+time: 3.01435
+
+switching states: 2166211
+num turns:14
+cases:3352832
+total cases:20116541
+already visited:31087
+sym visited:446
+time: 5.21503
+
+switching states: 6027292
+num turns:15
+cases:9380124
+total cases:56279771
+already visited:160779
+sym visited:968
+time: 11.3671
+
+switching states: 16352590
+num turns:16
+cases:25732714
+total cases:154394060
+already visited:879185
+sym visited:2219
+time: 28.1204
+
+switching states: 41896374
+num turns:17
+cases:67629088
+total cases:405769663
+already visited:4921033
+sym visited:4860
+time: 71.8612
+
+switching states: 94811965
+num turns:18
+cases:162441053
+total cases:974636290
+already visited:25775124
+sym visited:10023
+time: 174.548
+
+switching states: 167098918
+num turns:19
+cases:329539971
+total cases:1977221302
+already visited:110348466
+sym visited:18519
+time: 368.077
+
+switching states: 193719683
+num turns:20
+cases:523259654
+total cases:3139530418
+already visited:324779612
+sym visited:27501
+time: 617.868
+
+switching states: 135269517
+num turns:21
+cases:658529171
+total cases:3951141742
+already visited:596001989
+sym visited:33279
+time: 813.668
+
+switching states: 67054724
+num turns:22
+cases:725583895
+total cases:4353467443
+already visited:754613507
+sym visited:35922
+time: 911.487
+
+switching states: 33109045
+num turns:23
+cases:758692940
+total cases:4552120839
+already visited:804741555
+sym visited:36796
+time: 951.576
+
+switching states: 18834032
+num turns:24
+cases:777526972
+total cases:4665124568
+already visited:817556548
+sym visited:37259
+time: 970.453
+
+switching states: 11026804
+num turns:25
+cases:788553776
+total cases:4731285000
+already visited:821446240
+sym visited:37651
+time: 980.699
+
+switching states: 5672116
+num turns:26
+cases:794225892
+total cases:4765317552
+already visited:823505205
+sym visited:37795
+time: 985.662
+
+switching states: 2089906
+num turns:27
+cases:796315798
+total cases:4777856988
+already visited:824469059
+sym visited:37795
+time: 987.42
+
+switching states: 432108
+num turns:28
+cases:796747906
+total cases:4780449636
+already visited:824551555
+sym visited:37795
+time: 987.752
+
+switching states: 21876
+num turns:29
+cases:796769782
+total cases:4780580892
+already visited:824551812
+sym visited:37795
+time: 987.771
+
+switching states: 38
+num turns:30
+cases:796769820
+total cases:4780581120
+already visited:824551812
+sym visited:37795
+time: 987.771
+
+end
+saved
+num cases:796769820
+time: 1058.36
+
+Finished.
