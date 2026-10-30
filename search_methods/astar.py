@@ -456,7 +456,7 @@ def bwas_python(args, env: Environment, states: List[State]):
 
 def bwas_cpp(args, env: Environment, states: List[State], results_file: str):
     assert (args.env.upper() in ['CUBE3', 'CUBE4', 'PUZZLE15', 'PUZZLE24', 'PUZZLE35', 'PUZZLE48', 'LIGHTSOUT7', 'PUPPET'])
-    print("Index,Moves,Iterarions,HeuWaitTime,HeuristicTime,Time,Nodes,")
+    print("Index,Moves,Iterations,HeuWaitTime,HeuristicTime,Time,Nodes,")
     print("\n")
 
     # Make c++ socket

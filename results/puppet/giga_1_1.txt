@@ -1,0 +1,5 @@
+State: 0, SolnCost: 22.00, # Moves: 22, # Nodes Gen: 22,073, Time: 16.83
+State: 1, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 104,560, Time: 85.51
+State: 2, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 23,490, Time: 17.97
+State: 3, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 1,545,196, Time: 1214.14
+State: 4, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 304,473, Time: 241.46

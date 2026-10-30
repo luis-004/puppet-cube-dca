@@ -1,0 +1,4000 @@
+The argument supplied is 9 6 12 7 1 3 4 14 15 2 10 9 8 4 12 16
+Iterations: 24 Heuristic time overall and percentage: 0.338432 0.722156 Move nums:
+6 4 1 6 3 1 4 7 0 6 1 7 4 8 3 2 4 7 4 2 7 4 
+Nodes Generated:
+55678
+Total time:
+0.468641
+State: 0, SolnCost: 22.00, # Moves: 22, # Nodes Gen: 55,678, Time: 0.47, Nodes per second: 118807.36
+The argument supplied is 0 3 13 1 9 18 19 11 17 4 0 14 6 12 7 1
+Iterations: 49 Heuristic time overall and percentage: 0.410005 0.397504 Move nums:
+5 6 1 7 0 3 1 4 1 7 3 1 4 2 4 1 3 1 6 5 0 8 4 0 
+Nodes Generated:
+131843
+Total time:
+1.031449
+State: 1, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 131,843, Time: 1.03, Nodes per second: 127823.09
+The argument supplied is 7 5 2 20 15 17 18 1 4 17 14 7 15 11 12 9
+Iterations: 26 Heuristic time overall and percentage: 0.278055 0.640662 Move nums:
+8 0 3 1 5 0 6 3 6 3 0 8 2 5 0 6 3 6 4 8 3 6 0 6 
+Nodes Generated:
+55532
+Total time:
+0.434013
+State: 2, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 55,532, Time: 0.43, Nodes per second: 127950.08
+The argument supplied is 20 11 12 17 1 2 0 5 15 1 16 0 3 2 17 13
+Iterations: 581 Heuristic time overall and percentage: 3.342304 0.267018 Move nums:
+3 6 4 1 7 3 8 1 8 3 2 4 6 3 1 4 2 4 8 3 7 3 1 6 
+Nodes Generated:
+1795422
+Total time:
+12.517166
+State: 3, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 1,795,422, Time: 12.52, Nodes per second: 143436.78
+The argument supplied is 0 4 5 9 8 6 10 10 0 15 14 3 11 16 4 17
+Iterations: 58 Heuristic time overall and percentage: 0.511610 0.447774 Move nums:
+1 7 2 7 0 3 6 3 6 5 7 2 7 5 1 5 0 6 4 0 6 3 2 4 
+Nodes Generated:
+159714
+Total time:
+1.142564
+State: 4, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 159,714, Time: 1.14, Nodes per second: 139785.61
+The argument supplied is 7 3 9 8 13 12 11 6 5 11 7 12 9 8 4 10
+Iterations: 59 Heuristic time overall and percentage: 0.547855 0.432239 Move nums:
+7 1 4 1 7 1 4 6 4 0 6 4 1 8 0 3 0 3 6 1 7 4 0 5 
+Nodes Generated:
+161916
+Total time:
+1.267483
+State: 5, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 161,916, Time: 1.27, Nodes per second: 127746.09
+The argument supplied is 1 13 3 19 18 7 2 13 3 7 6 5 10 8 11 9
+Iterations: 26 Heuristic time overall and percentage: 0.268131 0.510277 Move nums:
+6 3 6 0 7 3 6 1 3 7 3 6 5 0 5 2 4 6 1 4 1 6 4 1 
+Nodes Generated:
+59256
+Total time:
+0.525463
+State: 6, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 59,256, Time: 0.53, Nodes per second: 112769.12
+The argument supplied is 16 1 7 10 11 12 6 1 9 14 11 13 17 16 15 12
+Iterations: 92 Heuristic time overall and percentage: 0.798654 0.426973 Move nums:
+8 4 2 3 7 2 8 0 7 4 6 1 8 4 7 3 8 4 7 1 4 6 0 8 
+Nodes Generated:
+263231
+Total time:
+1.870503
+State: 7, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 263,231, Time: 1.87, Nodes per second: 140727.39
+The argument supplied is 6 2 7 12 15 10 11 3 9 6 17 16 2 1 13 5
+Iterations: 26 Heuristic time overall and percentage: 0.278124 0.519780 Move nums:
+8 0 4 0 7 1 6 3 2 4 2 7 2 8 0 5 6 5 7 1 4 6 4 6 
+Nodes Generated:
+60924
+Total time:
+0.535080
+State: 8, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 60,924, Time: 0.54, Nodes per second: 113859.61
+The argument supplied is 11 2 8 17 7 19 20 7 6 9 1 12 13 11 17 14
+Iterations: 114 Heuristic time overall and percentage: 0.822053 0.361897 Move nums:
+0 6 2 7 5 6 4 8 3 6 3 1 5 2 8 1 6 4 1 6 5 6 1 8 
+Nodes Generated:
+332740
+Total time:
+2.271511
+State: 9, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 332,740, Time: 2.27, Nodes per second: 146483.99
+The argument supplied is 18 6 10 7 1 5 16 10 14 0 4 15 3 7 2 17
+Iterations: 71 Heuristic time overall and percentage: 0.611640 0.444187 Move nums:
+5 1 6 3 2 6 4 0 6 1 7 1 5 7 2 7 1 3 6 0 6 3 2 3 
+Nodes Generated:
+196286
+Total time:
+1.376988
+State: 10, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 196,286, Time: 1.38, Nodes per second: 142547.36
+The argument supplied is 17 20 7 9 11 12 8 5 4 9 6 1 12 17 11 7
+Iterations: 99 Heuristic time overall and percentage: 0.768898 0.400950 Move nums:
+6 4 1 7 5 6 4 2 6 0 6 3 6 1 5 6 4 6 5 8 1 5 7 2 
+Nodes Generated:
+286111
+Total time:
+1.917689
+State: 11, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 286,111, Time: 1.92, Nodes per second: 149195.72
+The argument supplied is 5 1 6 17 16 11 7 4 9 7 5 6 10 2 8 3
+Iterations: 517 Heuristic time overall and percentage: 3.424931 0.294205 Move nums:
+2 7 5 6 0 8 2 7 5 1 4 6 0 5 0 3 7 1 4 6 3 0 7 3 
+Nodes Generated:
+1589806
+Total time:
+11.641304
+State: 12, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 1,589,806, Time: 11.64, Nodes per second: 136565.97
+The argument supplied is 0 13 17 15 4 19 16 10 0 7 5 13 15 11 3 8
+Iterations: 26 Heuristic time overall and percentage: 0.297117 0.566307 Move nums:
+1 7 4 1 6 0 6 1 7 5 8 3 6 4 1 7 4 6 3 0 7 0 8 3 
+Nodes Generated:
+55105
+Total time:
+0.524657
+State: 13, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 55,105, Time: 0.52, Nodes per second: 105030.52
+The argument supplied is 2 4 15 17 20 0 5 17 1 5 11 16 4 3 0 15
+Iterations: 65 Heuristic time overall and percentage: 0.561989 0.401879 Move nums:
+1 5 1 3 7 4 0 4 7 4 6 0 4 0 3 0 3 1 4 7 5 6 0 8 
+Nodes Generated:
+182939
+Total time:
+1.398404
+State: 14, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 182,939, Time: 1.40, Nodes per second: 130819.85
+The argument supplied is 0 1 4 5 17 20 16 17 15 4 1 12 14 11 0 16
+Iterations: 39 Heuristic time overall and percentage: 0.346867 0.496995 Move nums:
+6 0 6 0 4 7 4 7 0 6 4 1 6 4 0 3 1 7 2 7 3 8 3 6 
+Nodes Generated:
+97906
+Total time:
+0.697929
+State: 15, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 97,906, Time: 0.70, Nodes per second: 140280.74
+The argument supplied is 3 15 6 7 19 18 16 7 10 3 13 2 15 8 9 5
+Iterations: 27 Heuristic time overall and percentage: 0.285544 0.614817 Move nums:
+7 0 3 7 4 0 7 1 4 6 1 4 7 0 5 1 6 1 8 1 3 7 5 7 
+Nodes Generated:
+61321
+Total time:
+0.464438
+State: 16, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 61,321, Time: 0.46, Nodes per second: 132032.69
+The argument supplied is 10 9 11 12 13 0 8 14 6 13 17 3 10 11 7 9
+Iterations: 61 Heuristic time overall and percentage: 0.563617 0.470028 Move nums:
+8 4 2 3 0 7 4 1 3 0 6 1 5 1 6 0 3 0 6 0 6 0 7 1 
+Nodes Generated:
+169218
+Total time:
+1.199115
+State: 17, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 169,218, Time: 1.20, Nodes per second: 141119.08
+The argument supplied is 14 9 6 1 4 3 5 17 9 13 15 5 3 7 1 2
+Iterations: 114 Heuristic time overall and percentage: 0.835605 0.378938 Move nums:
+4 1 3 6 0 4 1 8 3 2 3 2 6 2 3 6 4 1 3 1 6 0 3 7 
+Nodes Generated:
+332456
+Total time:
+2.205127
+State: 18, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 332,456, Time: 2.21, Nodes per second: 150765.01
+The argument supplied is 10 18 7 15 13 9 12 7 5 12 8 13 9 6 2 10
+Iterations: 128 Heuristic time overall and percentage: 0.849186 0.330679 Move nums:
+3 6 0 4 7 4 8 0 4 7 2 5 7 0 3 0 4 0 6 4 2 5 2 6 
+Nodes Generated:
+373505
+Total time:
+2.568007
+State: 19, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 373,505, Time: 2.57, Nodes per second: 145445.48
+The argument supplied is 8 13 9 7 19 4 3 10 2 5 12 17 6 9 13 16
+Iterations: 37 Heuristic time overall and percentage: 0.342874 0.513472 Move nums:
+5 6 2 5 0 6 4 7 4 0 6 1 4 0 7 1 3 6 3 6 2 6 4 6 
+Nodes Generated:
+92944
+Total time:
+0.667756
+State: 20, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 92,944, Time: 0.67, Nodes per second: 139188.57
+The argument supplied is 19 13 14 2 3 15 18 4 0 8 3 5 1 16 11 6
+Iterations: 44 Heuristic time overall and percentage: 0.412413 0.464038 Move nums:
+6 4 6 2 7 4 8 5 2 4 1 3 0 3 8 5 7 3 7 1 5 1 8 3 
+Nodes Generated:
+116122
+Total time:
+0.888747
+State: 21, SolnCost: 24.00, # Moves: 24, # Nodes Gen: 116,122, Time: 0.89, Nodes per second: 130658.11
+The argument supplied is 1 13 14 19 9 11 17 10 7 5 4 3 0 6 8 11
+Iterations: 300 Heuristic time overall and percentage: 1.837109 0.298832 Move nums:
+0 3 6 1 4 1 5 1 3 6 2 3 8 5 2 5 0 3 7 4 1 7 3 8 4 
+Nodes Generated:
+913464
+Total time:
+6.147628
+State: 22, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 913,464, Time: 6.15, Nodes per second: 148588.04
+The argument supplied is 14 1 6 9 11 12 10 16 13 2 15 9 14 12 10 17
+Iterations: 102 Heuristic time overall and percentage: 0.772331 0.392993 Move nums:
+7 0 3 2 3 6 4 2 4 8 0 5 6 4 1 4 1 6 3 2 7 0 3 7 4 
+Nodes Generated:
+290122
+Total time:
+1.965255
+State: 23, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 290,122, Time: 1.97, Nodes per second: 147625.63
+The argument supplied is 8 19 9 14 18 13 3 10 14 2 0 8 16 3 6 13
+Iterations: 81 Heuristic time overall and percentage: 0.671538 0.413447 Move nums:
+0 7 3 6 2 8 2 7 0 6 3 1 5 7 0 6 3 0 7 4 6 5 0 6 4 
+Nodes Generated:
+230488
+Total time:
+1.624241
+State: 24, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 230,488, Time: 1.62, Nodes per second: 141905.05
+The argument supplied is 5 11 15 0 10 20 2 3 11 4 9 14 8 6 10 7
+Iterations: 532 Heuristic time overall and percentage: 3.217253 0.282040 Move nums:
+7 0 7 5 0 8 1 5 6 4 7 4 1 4 8 3 6 0 4 1 3 0 8 4 8 1 
+Nodes Generated:
+1633274
+Total time:
+11.407074
+State: 25, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,633,274, Time: 11.41, Nodes per second: 143180.80
+The argument supplied is 15 7 12 4 20 3 2 11 7 8 13 0 3 5 10 15
+Iterations: 417 Heuristic time overall and percentage: 2.573605 0.298135 Move nums:
+5 1 6 0 7 4 6 3 6 1 4 8 3 0 4 8 1 4 6 5 7 1 4 7 2 6 
+Nodes Generated:
+1281256
+Total time:
+8.632341
+State: 26, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,281,256, Time: 8.63, Nodes per second: 148425.09
+The argument supplied is 0 12 13 8 3 4 2 15 13 16 8 5 3 11 10 9
+Iterations: 31 Heuristic time overall and percentage: 0.320686 0.580926 Move nums:
+7 4 7 4 0 6 5 0 6 4 1 7 4 0 4 6 5 0 5 7 4 0 4 7 1 
+Nodes Generated:
+72125
+Total time:
+0.552026
+State: 27, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 72,125, Time: 0.55, Nodes per second: 130655.08
+The argument supplied is 8 5 9 7 10 11 13 0 1 13 3 14 16 2 6 17
+Iterations: 105 Heuristic time overall and percentage: 0.971246 0.465931 Move nums:
+5 1 8 4 1 5 0 6 3 0 8 1 3 0 6 2 7 4 0 4 8 3 0 5 0 
+Nodes Generated:
+306120
+Total time:
+2.084530
+State: 28, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 306,120, Time: 2.08, Nodes per second: 146853.25
+The argument supplied is 19 6 16 1 18 17 7 2 17 7 13 15 9 5 1 3
+Iterations: 92 Heuristic time overall and percentage: 0.606826 0.343711 Move nums:
+0 3 2 4 7 0 7 4 0 7 1 8 4 0 7 2 6 3 1 8 0 7 5 7 4 
+Nodes Generated:
+259006
+Total time:
+1.765511
+State: 29, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 259,006, Time: 1.77, Nodes per second: 146703.14
+The argument supplied is 6 2 1 4 3 14 12 17 1 14 16 15 13 2 0 12
+Iterations: 146 Heuristic time overall and percentage: 0.965660 0.330089 Move nums:
+5 1 8 4 8 1 6 3 6 1 7 5 6 2 3 8 1 7 1 7 0 3 6 2 4 
+Nodes Generated:
+432137
+Total time:
+2.925454
+State: 30, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 432,137, Time: 2.93, Nodes per second: 147716.22
+The argument supplied is 10 12 0 15 16 18 13 3 4 14 7 6 8 9 1 2
+Iterations: 64 Heuristic time overall and percentage: 0.600594 0.479677 Move nums:
+7 0 7 5 6 0 6 3 1 7 1 6 0 8 1 7 3 6 4 7 4 7 0 4 6 
+Nodes Generated:
+180429
+Total time:
+1.252079
+State: 31, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 180,429, Time: 1.25, Nodes per second: 144103.53
+The argument supplied is 7 2 17 5 6 1 4 11 6 0 10 8 5 16 13 3
+Iterations: 128 Heuristic time overall and percentage: 0.801345 0.311877 Move nums:
+7 1 4 7 0 3 8 3 6 0 3 2 3 2 4 2 7 2 6 3 1 6 3 6 4 
+Nodes Generated:
+375667
+Total time:
+2.569424
+State: 32, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 375,667, Time: 2.57, Nodes per second: 146206.70
+The argument supplied is 8 4 5 6 3 7 9 15 8 4 11 10 16 12 9 5
+Iterations: 127 Heuristic time overall and percentage: 0.937452 0.372248 Move nums:
+6 5 6 0 7 3 6 5 6 1 7 0 7 3 0 6 1 3 7 2 6 2 4 2 6 
+Nodes Generated:
+376773
+Total time:
+2.518355
+State: 33, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 376,773, Time: 2.52, Nodes per second: 149610.76
+The argument supplied is 9 0 20 19 4 3 8 17 13 12 16 6 2 1 14 9
+Iterations: 27 Heuristic time overall and percentage: 0.296804 0.701688 Move nums:
+2 3 7 3 1 4 7 4 1 3 0 3 2 8 0 7 1 7 4 0 3 0 5 1 5 
+Nodes Generated:
+59548
+Total time:
+0.422985
+State: 34, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 59,548, Time: 0.42, Nodes per second: 140780.41
+The argument supplied is 19 10 0 4 1 2 6 2 1 17 16 15 14 12 9 4
+Iterations: 230 Heuristic time overall and percentage: 1.446374 0.263110 Move nums:
+6 0 6 0 4 7 4 0 6 4 2 5 0 7 3 0 3 7 4 7 5 6 4 7 1 
+Nodes Generated:
+701353
+Total time:
+5.497214
+State: 35, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 701,353, Time: 5.50, Nodes per second: 127583.35
+The argument supplied is 4 15 12 9 10 13 0 16 10 3 9 13 15 5 17 2
+Iterations: 191 Heuristic time overall and percentage: 1.429415 0.367644 Move nums:
+7 0 5 1 7 5 6 3 0 6 2 8 5 0 3 2 7 1 5 6 0 5 6 1 6 
+Nodes Generated:
+576682
+Total time:
+3.888036
+State: 36, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 576,682, Time: 3.89, Nodes per second: 148322.19
+The argument supplied is 17 2 19 13 11 14 8 8 0 15 4 5 2 16 3 1
+Iterations: 86 Heuristic time overall and percentage: 0.657663 0.395884 Move nums:
+5 1 7 4 0 6 0 4 2 3 8 4 7 1 7 4 1 6 0 6 0 8 1 4 6 
+Nodes Generated:
+245045
+Total time:
+1.661253
+State: 37, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 245,045, Time: 1.66, Nodes per second: 147506.13
+The argument supplied is 16 6 11 14 19 10 8 0 11 3 15 1 16 4 14 8
+Iterations: 183 Heuristic time overall and percentage: 1.094937 0.302637 Move nums:
+2 7 3 0 3 0 4 1 8 4 1 7 4 8 1 8 0 3 6 3 0 6 4 1 6 
+Nodes Generated:
+550391
+Total time:
+3.617990
+State: 38, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 550,391, Time: 3.62, Nodes per second: 152126.18
+The argument supplied is 3 9 13 18 15 5 0 12 6 17 14 0 7 11 13 10
+Iterations: 56 Heuristic time overall and percentage: 0.478943 0.463668 Move nums:
+0 5 6 1 7 4 7 4 7 0 7 4 0 6 1 3 2 5 1 6 1 3 2 4 1 
+Nodes Generated:
+150028
+Total time:
+1.032943
+State: 39, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 150,028, Time: 1.03, Nodes per second: 145243.25
+The argument supplied is 4 6 10 0 5 1 16 17 7 1 14 0 15 13 12 11
+Iterations: 102 Heuristic time overall and percentage: 0.780588 0.390029 Move nums:
+5 6 2 3 6 0 3 1 4 7 2 6 1 8 0 8 1 4 1 6 3 2 4 8 0 
+Nodes Generated:
+297811
+Total time:
+2.001358
+State: 40, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 297,811, Time: 2.00, Nodes per second: 148804.46
+The argument supplied is 9 8 12 6 18 10 0 6 13 16 14 17 11 0 3 10
+Iterations: 301 Heuristic time overall and percentage: 1.902009 0.297630 Move nums:
+3 1 7 5 6 1 4 7 3 1 6 2 7 2 5 1 5 2 8 1 6 3 7 3 1 5 
+Nodes Generated:
+912043
+Total time:
+6.390505
+State: 41, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 912,043, Time: 6.39, Nodes per second: 142718.45
+The argument supplied is 12 16 7 1 13 18 17 16 17 2 1 6 5 12 13 0
+Iterations: 101 Heuristic time overall and percentage: 0.845295 0.438366 Move nums:
+1 7 1 3 0 3 7 1 7 0 8 1 3 6 1 6 0 7 4 1 3 0 8 2 4 
+Nodes Generated:
+292408
+Total time:
+1.928288
+State: 42, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 292,408, Time: 1.93, Nodes per second: 151641.25
+The argument supplied is 11 1 2 5 3 14 6 0 10 5 3 8 6 13 2 7
+Iterations: 111 Heuristic time overall and percentage: 0.726612 0.339452 Move nums:
+6 0 8 1 7 0 3 7 5 6 3 7 1 5 1 4 0 5 2 5 1 5 0 8 0 
+Nodes Generated:
+322966
+Total time:
+2.140543
+State: 43, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 322,966, Time: 2.14, Nodes per second: 150880.41
+The argument supplied is 7 16 18 13 17 1 12 13 9 16 15 3 10 11 5 8
+Iterations: 101 Heuristic time overall and percentage: 0.859506 0.436779 Move nums:
+5 6 2 3 6 1 7 1 6 0 4 0 3 7 1 7 5 1 6 3 1 6 4 1 8 
+Nodes Generated:
+294036
+Total time:
+1.967828
+State: 44, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 294,036, Time: 1.97, Nodes per second: 149421.60
+The argument supplied is 3 18 2 1 19 14 6 2 8 6 10 14 0 13 7 12
+Iterations: 361 Heuristic time overall and percentage: 2.146456 0.284898 Move nums:
+8 0 7 4 2 6 1 5 1 5 0 4 7 3 6 3 6 3 2 7 4 0 4 1 3 
+Nodes Generated:
+1099889
+Total time:
+7.534113
+State: 45, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 1,099,889, Time: 7.53, Nodes per second: 145987.86
+The argument supplied is 8 10 0 5 18 16 6 10 4 15 0 3 8 5 7 2
+Iterations: 78 Heuristic time overall and percentage: 0.723024 0.456892 Move nums:
+8 4 0 3 1 3 6 0 3 1 4 0 5 1 3 0 4 6 1 6 4 8 3 1 7 
+Nodes Generated:
+221726
+Total time:
+1.582485
+State: 46, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 221,726, Time: 1.58, Nodes per second: 140112.54
+The argument supplied is 20 9 5 4 7 17 1 3 15 11 7 14 9 4 1 8
+Iterations: 609 Heuristic time overall and percentage: 3.930122 0.307993 Move nums:
+7 0 3 7 4 7 1 6 2 4 8 3 1 5 6 3 7 3 6 5 7 5 7 3 0 
+Nodes Generated:
+1869375
+Total time:
+12.760444
+State: 47, SolnCost: 25.00, # Moves: 25, # Nodes Gen: 1,869,375, Time: 12.76, Nodes per second: 146497.65
+The argument supplied is 3 18 15 12 0 2 13 8 15 4 9 2 1 12 5 16
+Iterations: 744 Heuristic time overall and percentage: 4.563869 0.283773 Move nums:
+4 1 4 6 3 0 3 0 8 1 4 2 6 1 6 3 7 1 3 0 7 0 3 0 4 0 4 
+Nodes Generated:
+2302617
+Total time:
+16.082808
+State: 48, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,302,617, Time: 16.08, Nodes per second: 143172.57
+The argument supplied is 17 13 18 2 19 15 0 5 1 17 0 16 15 11 4 3
+Iterations: 563 Heuristic time overall and percentage: 3.802440 0.315989 Move nums:
+3 2 6 0 3 1 6 4 8 3 0 7 1 7 3 7 1 5 7 2 7 3 1 5 0 6 1 
+Nodes Generated:
+1739465
+Total time:
+12.033464
+State: 49, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,739,465, Time: 12.03, Nodes per second: 144552.31
+The argument supplied is 10 15 12 2 13 7 4 11 8 3 9 13 6 7 1 14
+Iterations: 432 Heuristic time overall and percentage: 2.689757 0.293395 Move nums:
+2 7 5 1 4 0 7 0 7 1 7 4 0 3 1 4 1 6 3 2 8 0 5 0 7 5 
+Nodes Generated:
+1320762
+Total time:
+9.167683
+State: 50, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,320,762, Time: 9.17, Nodes per second: 144067.15
+The argument supplied is 9 3 11 5 6 7 1 0 1 2 5 15 7 17 12 13
+Iterations: 44 Heuristic time overall and percentage: 0.398729 0.507839 Move nums:
+3 1 7 2 4 1 3 6 5 8 0 3 6 3 2 6 1 7 1 6 3 0 5 1 8 4 
+Nodes Generated:
+110450
+Total time:
+0.785147
+State: 51, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 110,450, Time: 0.79, Nodes per second: 140674.29
+The argument supplied is 15 2 12 14 20 10 11 5 10 16 17 0 6 4 2 12
+Iterations: 256 Heuristic time overall and percentage: 1.560901 0.295770 Move nums:
+0 7 4 7 4 6 0 6 0 4 2 7 5 7 2 6 0 3 2 6 0 4 8 2 4 8 
+Nodes Generated:
+773358
+Total time:
+5.277422
+State: 52, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 773,358, Time: 5.28, Nodes per second: 146540.87
+The argument supplied is 13 4 9 14 19 10 15 15 8 12 1 4 9 2 14 7
+Iterations: 476 Heuristic time overall and percentage: 2.807532 0.279978 Move nums:
+4 6 0 6 4 7 1 7 4 0 6 1 6 5 7 3 6 1 8 0 8 5 6 5 7 2 4 
+Nodes Generated:
+1453445
+Total time:
+10.027669
+State: 53, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,453,445, Time: 10.03, Nodes per second: 144943.46
+The argument supplied is 19 4 3 20 15 14 9 17 12 9 16 2 1 13 6 14
+Iterations: 696 Heuristic time overall and percentage: 4.086513 0.279167 Move nums:
+1 7 0 3 0 3 7 1 4 0 6 3 8 2 7 0 3 8 4 7 4 7 1 4 8 3 
+Nodes Generated:
+2154750
+Total time:
+14.638227
+State: 54, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 2,154,750, Time: 14.64, Nodes per second: 147200.20
+The argument supplied is 9 6 7 17 12 4 8 1 16 9 17 15 2 13 12 5
+Iterations: 450 Heuristic time overall and percentage: 2.870121 0.281810 Move nums:
+4 6 0 3 8 4 1 3 7 1 7 1 3 1 3 6 3 7 1 7 3 1 4 6 0 7 
+Nodes Generated:
+1367223
+Total time:
+10.184585
+State: 55, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,367,223, Time: 10.18, Nodes per second: 134244.35
+The argument supplied is 3 2 11 12 0 20 15 17 7 0 13 3 1 5 15 11
+Iterations: 2493 Heuristic time overall and percentage: 14.459728 0.263145 Move nums:
+2 7 5 6 4 6 2 7 4 8 0 6 4 1 4 1 7 0 6 1 7 3 2 3 8 0 
+Nodes Generated:
+7711442
+Total time:
+54.949610
+State: 56, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 7,711,442, Time: 54.95, Nodes per second: 140336.61
+The argument supplied is 12 2 3 7 1 20 18 2 1 8 0 16 5 6 4 12
+Iterations: 1397 Heuristic time overall and percentage: 9.747602 0.299084 Move nums:
+1 4 2 3 6 1 4 6 0 3 7 1 3 1 8 0 8 2 6 3 7 4 7 3 6 1 4 7 
+Nodes Generated:
+4295463
+Total time:
+32.591502
+State: 57, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,295,463, Time: 32.59, Nodes per second: 131797.02
+The argument supplied is 2 15 0 10 20 19 18 4 12 6 9 5 1 11 17 7
+Iterations: 523 Heuristic time overall and percentage: 3.373039 0.301875 Move nums:
+0 7 3 0 8 1 5 0 3 1 7 1 6 0 5 1 4 1 6 0 4 1 8 0 8 1 4 
+Nodes Generated:
+1610276
+Total time:
+11.173640
+State: 58, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,610,276, Time: 11.17, Nodes per second: 144113.83
+The argument supplied is 4 6 14 19 10 9 1 2 0 13 16 15 5 12 8 1
+Iterations: 423 Heuristic time overall and percentage: 2.857662 0.329214 Move nums:
+3 0 6 0 3 2 4 6 0 7 2 3 0 8 3 2 6 1 7 1 6 1 3 0 3 2 
+Nodes Generated:
+1292974
+Total time:
+8.680254
+State: 59, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,292,974, Time: 8.68, Nodes per second: 148955.78
+The argument supplied is 19 16 17 18 6 1 7 9 13 10 16 11 8 12 5 6
+Iterations: 136 Heuristic time overall and percentage: 0.924891 0.257179 Move nums:
+8 4 2 7 4 8 3 6 1 3 6 4 7 3 7 1 6 0 5 6 3 1 4 1 7 4 
+Nodes Generated:
+402141
+Total time:
+3.596300
+State: 60, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 402,141, Time: 3.60, Nodes per second: 111820.76
+The argument supplied is 5 10 0 16 18 20 15 12 16 17 11 15 9 14 10 4
+Iterations: 96 Heuristic time overall and percentage: 0.692668 0.361478 Move nums:
+4 1 3 6 0 6 5 6 1 4 7 1 4 0 7 0 5 2 5 6 5 7 3 0 3 7 
+Nodes Generated:
+275046
+Total time:
+1.916207
+State: 61, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 275,046, Time: 1.92, Nodes per second: 143536.68
+The argument supplied is 11 8 13 16 14 12 10 12 17 2 7 0 10 6 13 5
+Iterations: 2617 Heuristic time overall and percentage: 17.294284 0.285031 Move nums:
+5 1 7 0 4 1 3 7 4 7 4 2 3 7 1 6 0 5 1 3 6 3 1 7 0 5 6 2 
+Nodes Generated:
+8109662
+Total time:
+60.675184
+State: 62, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 8,109,662, Time: 60.68, Nodes per second: 133656.98
+The argument supplied is 15 16 20 4 14 10 5 15 5 2 7 10 17 13 3 0
+Iterations: 1122 Heuristic time overall and percentage: 6.400152 0.266341 Move nums:
+2 7 5 6 0 3 1 8 0 3 0 3 8 4 7 2 5 2 7 3 0 6 2 8 2 4 
+Nodes Generated:
+3462929
+Total time:
+24.029896
+State: 63, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 3,462,929, Time: 24.03, Nodes per second: 144109.20
+The argument supplied is 6 4 9 8 10 5 0 2 10 7 3 14 6 9 4 17
+Iterations: 101 Heuristic time overall and percentage: 0.708139 0.372657 Move nums:
+4 6 0 6 0 7 4 1 7 1 3 2 3 7 2 6 3 0 4 1 4 1 7 0 6 5 
+Nodes Generated:
+284975
+Total time:
+1.900246
+State: 64, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 284,975, Time: 1.90, Nodes per second: 149967.43
+The argument supplied is 3 7 1 19 2 6 4 10 0 5 8 12 2 16 4 15
+Iterations: 99 Heuristic time overall and percentage: 0.725836 0.370173 Move nums:
+2 7 5 6 4 7 4 0 7 1 4 6 4 7 0 3 6 3 8 0 4 6 3 6 2 3 
+Nodes Generated:
+284978
+Total time:
+1.960802
+State: 65, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 284,978, Time: 1.96, Nodes per second: 145337.47
+The argument supplied is 10 9 19 18 15 14 20 5 4 9 8 7 15 11 3 10
+Iterations: 328 Heuristic time overall and percentage: 1.954395 0.293039 Move nums:
+4 2 3 8 3 0 7 5 8 3 6 0 6 4 7 1 3 6 1 7 3 6 2 3 7 4 
+Nodes Generated:
+1003963
+Total time:
+6.669413
+State: 66, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,003,963, Time: 6.67, Nodes per second: 150532.44
+The argument supplied is 15 5 4 7 20 16 17 10 12 11 7 14 17 4 0 15
+Iterations: 933 Heuristic time overall and percentage: 5.860240 0.286803 Move nums:
+3 8 4 2 3 6 5 1 8 3 8 0 5 1 5 0 6 2 7 2 4 8 1 6 3 6 
+Nodes Generated:
+2848485
+Total time:
+20.432954
+State: 67, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 2,848,485, Time: 20.43, Nodes per second: 139406.42
+The argument supplied is 19 18 14 20 9 8 17 10 14 17 6 0 4 12 7 2
+Iterations: 193 Heuristic time overall and percentage: 1.260232 0.335642 Move nums:
+0 8 0 3 6 0 8 0 6 0 7 1 4 2 7 4 1 6 3 6 4 6 0 3 7 4 
+Nodes Generated:
+577904
+Total time:
+3.754693
+State: 68, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 577,904, Time: 3.75, Nodes per second: 153915.11
+The argument supplied is 19 17 13 0 15 4 16 4 9 6 5 12 7 2 17 10
+Iterations: 1190 Heuristic time overall and percentage: 6.849822 0.266535 Move nums:
+5 6 2 7 2 6 2 3 6 1 5 8 1 5 6 4 1 7 2 4 6 2 3 6 4 7 
+Nodes Generated:
+3692926
+Total time:
+25.699565
+State: 69, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 3,692,926, Time: 25.70, Nodes per second: 143696.05
+The argument supplied is 6 19 16 18 17 7 1 4 14 11 6 8 16 10 3 0
+Iterations: 154 Heuristic time overall and percentage: 1.088257 0.358630 Move nums:
+0 6 0 3 1 7 0 7 5 8 4 0 3 6 0 4 8 1 8 0 6 4 6 1 6 0 
+Nodes Generated:
+455457
+Total time:
+3.034480
+State: 70, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 455,457, Time: 3.03, Nodes per second: 150093.92
+The argument supplied is 10 15 16 12 7 4 20 14 17 16 13 10 12 11 6 9
+Iterations: 357 Heuristic time overall and percentage: 2.179874 0.292062 Move nums:
+4 1 4 8 0 6 0 6 4 1 5 1 7 2 4 7 4 8 4 1 6 0 7 4 6 5 
+Nodes Generated:
+1096752
+Total time:
+7.463735
+State: 71, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,096,752, Time: 7.46, Nodes per second: 146944.12
+The argument supplied is 6 2 17 5 1 7 4 4 1 6 7 8 5 9 2 12
+Iterations: 1984 Heuristic time overall and percentage: 11.971511 0.262942 Move nums:
+7 4 7 0 5 6 2 3 6 1 4 7 1 3 8 3 1 7 4 0 3 1 3 8 4 6 
+Nodes Generated:
+6125597
+Total time:
+45.529148
+State: 72, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 6,125,597, Time: 45.53, Nodes per second: 134542.32
+The argument supplied is 6 2 11 10 19 15 0 13 7 11 8 15 9 1 14 12
+Iterations: 3030 Heuristic time overall and percentage: 17.982987 0.269473 Move nums:
+2 7 4 6 3 7 4 0 7 1 5 1 6 2 7 4 0 6 3 7 0 7 2 6 3 6 
+Nodes Generated:
+9404817
+Total time:
+66.733959
+State: 73, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 9,404,817, Time: 66.73, Nodes per second: 140930.00
+The argument supplied is 8 4 2 7 3 19 20 17 5 3 16 11 9 6 10 13
+Iterations: 505 Heuristic time overall and percentage: 3.031460 0.292625 Move nums:
+0 7 0 5 1 7 1 4 2 3 0 6 2 7 1 5 7 1 6 4 7 4 8 0 8 2 
+Nodes Generated:
+1542233
+Total time:
+10.359526
+State: 74, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,542,233, Time: 10.36, Nodes per second: 148871.00
+The argument supplied is 6 4 10 8 0 19 16 0 7 5 4 15 8 11 12 10
+Iterations: 215 Heuristic time overall and percentage: 1.351622 0.309597 Move nums:
+4 2 3 8 3 1 3 8 0 6 4 1 4 2 3 0 6 3 0 4 7 5 6 0 8 2 
+Nodes Generated:
+641992
+Total time:
+4.365754
+State: 75, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 641,992, Time: 4.37, Nodes per second: 147051.80
+The argument supplied is 18 8 16 12 17 6 7 8 4 15 3 7 14 1 0 2
+Iterations: 209 Heuristic time overall and percentage: 1.565396 0.384590 Move nums:
+8 4 2 3 2 4 6 3 6 0 7 1 4 1 5 0 8 0 4 7 5 1 7 5 8 3 
+Nodes Generated:
+625041
+Total time:
+4.070303
+State: 76, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 625,041, Time: 4.07, Nodes per second: 153561.30
+The argument supplied is 8 7 12 9 4 3 20 8 11 13 0 12 10 14 16 6
+Iterations: 568 Heuristic time overall and percentage: 4.072591 0.316950 Move nums:
+3 6 3 2 6 3 1 6 1 5 2 3 7 5 0 3 6 0 3 0 6 4 0 6 5 7 
+Nodes Generated:
+1738115
+Total time:
+12.849330
+State: 77, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,738,115, Time: 12.85, Nodes per second: 135268.92
+The argument supplied is 16 14 18 10 20 15 12 7 2 0 10 8 14 3 13 15
+Iterations: 220 Heuristic time overall and percentage: 1.329216 0.308032 Move nums:
+8 4 6 0 3 7 3 0 3 6 0 8 1 8 3 6 2 4 0 6 0 6 1 5 0 4 
+Nodes Generated:
+665421
+Total time:
+4.315192
+State: 78, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 665,421, Time: 4.32, Nodes per second: 154204.26
+The argument supplied is 15 14 3 4 9 20 19 15 1 11 8 9 7 12 4 5
+Iterations: 98 Heuristic time overall and percentage: 0.783670 0.416239 Move nums:
+6 4 0 6 5 0 5 1 4 2 4 7 2 3 7 5 1 6 1 5 1 8 2 6 0 3 
+Nodes Generated:
+283466
+Total time:
+1.882743
+State: 79, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 283,466, Time: 1.88, Nodes per second: 150560.11
+The argument supplied is 17 8 7 6 5 9 11 6 5 8 13 16 0 3 10 11
+Iterations: 103 Heuristic time overall and percentage: 0.697398 0.354106 Move nums:
+4 1 5 1 7 3 0 8 1 4 6 3 0 8 2 7 5 6 2 7 2 6 5 7 4 8 
+Nodes Generated:
+296777
+Total time:
+1.969464
+State: 80, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 296,777, Time: 1.97, Nodes per second: 150689.22
+The argument supplied is 2 7 12 18 1 6 17 7 17 6 4 0 10 11 3 14
+Iterations: 386 Heuristic time overall and percentage: 2.260326 0.287293 Move nums:
+4 8 1 7 3 6 3 6 3 1 6 1 5 6 3 7 5 6 3 6 1 6 1 5 0 4 
+Nodes Generated:
+1171360
+Total time:
+7.867681
+State: 81, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,171,360, Time: 7.87, Nodes per second: 148882.50
+The argument supplied is 2 8 10 0 11 6 5 1 13 0 7 12 2 14 6 17
+Iterations: 1078 Heuristic time overall and percentage: 6.178975 0.267316 Move nums:
+8 4 0 6 5 0 8 1 6 1 3 1 7 3 6 0 7 2 5 8 3 0 8 1 4 1 
+Nodes Generated:
+3320624
+Total time:
+23.114909
+State: 82, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 3,320,624, Time: 23.11, Nodes per second: 143657.24
+The argument supplied is 14 11 20 19 15 3 2 6 4 3 16 9 17 11 1 5
+Iterations: 83 Heuristic time overall and percentage: 0.640189 0.396938 Move nums:
+5 6 2 6 5 7 0 6 1 5 8 2 8 0 7 0 7 1 6 1 4 6 3 0 3 0 
+Nodes Generated:
+237773
+Total time:
+1.612816
+State: 83, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 237,773, Time: 1.61, Nodes per second: 147427.23
+The argument supplied is 18 2 3 15 0 12 13 7 11 1 13 8 6 12 14 0
+Iterations: 268 Heuristic time overall and percentage: 1.728229 0.314340 Move nums:
+8 4 1 8 0 3 8 3 6 4 2 7 3 2 4 7 3 0 6 0 4 7 1 4 0 6 
+Nodes Generated:
+817096
+Total time:
+5.497966
+State: 84, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 817,096, Time: 5.50, Nodes per second: 148617.87
+The argument supplied is 19 0 3 2 1 11 6 0 6 16 17 14 1 12 11 13
+Iterations: 676 Heuristic time overall and percentage: 4.361365 0.287668 Move nums:
+3 6 5 7 2 3 6 1 3 0 5 7 0 6 3 6 2 4 2 7 5 7 0 4 6 3 
+Nodes Generated:
+2068163
+Total time:
+15.161091
+State: 85, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 2,068,163, Time: 15.16, Nodes per second: 136412.54
+The argument supplied is 3 1 20 14 19 9 18 3 10 17 6 11 4 7 9 5
+Iterations: 1644 Heuristic time overall and percentage: 11.411238 0.329174 Move nums:
+6 4 0 6 5 2 6 4 1 5 7 0 5 1 7 2 7 5 1 3 1 7 1 3 7 4 
+Nodes Generated:
+5094061
+Total time:
+34.666287
+State: 86, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 5,094,061, Time: 34.67, Nodes per second: 146945.68
+The argument supplied is 0 6 2 3 18 1 12 13 8 2 7 15 9 10 12 14
+Iterations: 137 Heuristic time overall and percentage: 1.057158 0.391963 Move nums:
+2 7 5 6 0 6 0 4 7 0 6 3 7 1 7 4 7 5 6 1 4 8 3 2 7 2 
+Nodes Generated:
+405371
+Total time:
+2.697088
+State: 87, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 405,371, Time: 2.70, Nodes per second: 150299.51
+The argument supplied is 1 16 17 4 19 13 14 4 10 2 17 0 12 5 16 6
+Iterations: 1905 Heuristic time overall and percentage: 11.331832 0.252883 Move nums:
+5 1 3 6 2 6 0 5 0 8 0 3 7 5 0 7 4 0 7 3 0 4 0 3 7 5 
+Nodes Generated:
+5879128
+Total time:
+44.810607
+State: 88, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 5,879,128, Time: 44.81, Nodes per second: 131199.47
+The argument supplied is 1 14 12 4 13 17 2 3 8 14 16 1 0 2 15 13
+Iterations: 285 Heuristic time overall and percentage: 1.751896 0.300907 Move nums:
+2 7 4 0 3 1 7 1 4 8 4 2 7 4 6 0 6 0 6 2 6 1 3 0 8 0 
+Nodes Generated:
+859875
+Total time:
+5.822042
+State: 89, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 859,875, Time: 5.82, Nodes per second: 147693.03
+The argument supplied is 1 13 12 2 18 17 0 13 1 3 6 17 0 11 14 7
+Iterations: 418 Heuristic time overall and percentage: 2.415411 0.282973 Move nums:
+1 7 1 5 6 1 4 8 1 8 0 3 7 4 8 3 1 7 3 8 4 8 4 7 3 6 
+Nodes Generated:
+1280218
+Total time:
+8.535842
+State: 90, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,280,218, Time: 8.54, Nodes per second: 149981.45
+The argument supplied is 10 12 20 9 8 14 11 4 14 11 12 9 15 7 1 17
+Iterations: 492 Heuristic time overall and percentage: 3.070007 0.266419 Move nums:
+3 6 3 2 7 1 7 3 0 6 2 8 1 3 8 0 4 0 7 3 6 0 4 0 7 0 
+Nodes Generated:
+1517772
+Total time:
+11.523238
+State: 91, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,517,772, Time: 11.52, Nodes per second: 131714.02
+The argument supplied is 12 15 16 17 14 11 20 3 6 1 11 5 8 16 13 9
+Iterations: 183 Heuristic time overall and percentage: 1.425370 0.390041 Move nums:
+7 1 4 1 7 2 5 0 8 1 4 1 3 0 7 4 6 3 7 0 3 1 6 0 8 3 
+Nodes Generated:
+545900
+Total time:
+3.654411
+State: 92, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 545,900, Time: 3.65, Nodes per second: 149381.12
+The argument supplied is 20 15 10 9 12 7 11 7 4 14 11 3 6 1 0 8
+Iterations: 75 Heuristic time overall and percentage: 0.527024 0.372337 Move nums:
+0 3 0 3 7 1 5 8 0 5 0 7 5 6 0 6 1 6 4 8 5 7 3 6 1 6 
+Nodes Generated:
+207343
+Total time:
+1.415447
+State: 93, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 207,343, Time: 1.42, Nodes per second: 146485.88
+The argument supplied is 2 0 20 4 10 1 5 6 17 14 9 13 10 3 7 11
+Iterations: 114 Heuristic time overall and percentage: 0.791455 0.361013 Move nums:
+7 0 3 7 5 6 3 7 5 8 0 4 1 3 8 4 2 4 1 8 2 6 4 0 6 3 
+Nodes Generated:
+331453
+Total time:
+2.192318
+State: 94, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 331,453, Time: 2.19, Nodes per second: 151188.38
+The argument supplied is 8 2 14 3 18 19 20 9 14 10 8 15 12 13 2 7
+Iterations: 133 Heuristic time overall and percentage: 0.895266 0.342689 Move nums:
+8 0 4 0 3 7 4 6 4 1 6 1 4 8 1 4 8 3 0 5 1 5 0 4 7 5 
+Nodes Generated:
+394065
+Total time:
+2.612475
+State: 95, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 394,065, Time: 2.61, Nodes per second: 150839.72
+The argument supplied is 6 0 17 8 16 19 18 12 2 13 10 0 7 5 8 15
+Iterations: 112 Heuristic time overall and percentage: 0.950948 0.440169 Move nums:
+3 8 4 1 7 1 5 0 6 0 4 1 4 6 0 4 7 3 6 1 3 2 8 3 7 2 
+Nodes Generated:
+327155
+Total time:
+2.160414
+State: 96, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 327,155, Time: 2.16, Nodes per second: 151431.62
+The argument supplied is 11 7 20 2 3 15 5 5 11 0 6 10 7 13 8 12
+Iterations: 596 Heuristic time overall and percentage: 3.666982 0.298918 Move nums:
+2 3 6 4 7 0 6 1 8 3 8 5 1 6 2 3 8 3 2 4 6 3 0 6 1 5 
+Nodes Generated:
+1826120
+Total time:
+12.267516
+State: 97, SolnCost: 26.00, # Moves: 26, # Nodes Gen: 1,826,120, Time: 12.27, Nodes per second: 148858.17
+The argument supplied is 13 7 12 3 1 9 18 11 5 3 1 0 4 16 6 8
+Iterations: 450 Heuristic time overall and percentage: 2.684089 0.285055 Move nums:
+3 8 4 2 3 6 1 3 0 3 1 7 2 4 0 3 1 7 1 7 5 6 0 6 1 3 1 6 2 
+Nodes Generated:
+1375147
+Total time:
+9.416028
+State: 98, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,375,147, Time: 9.42, Nodes per second: 146043.21
+The argument supplied is 3 6 9 4 8 14 19 10 4 12 8 2 7 5 15 9
+Iterations: 246 Heuristic time overall and percentage: 1.530692 0.313032 Move nums:
+5 6 2 7 2 4 6 4 1 8 2 5 6 0 5 7 4 0 6 4 0 4 1 5 0 4 0 
+Nodes Generated:
+735962
+Total time:
+4.889884
+State: 99, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 735,962, Time: 4.89, Nodes per second: 150507.05
+The argument supplied is 4 8 16 19 14 6 17 6 4 0 16 5 12 10 2 17
+Iterations: 1049 Heuristic time overall and percentage: 5.928415 0.246002 Move nums:
+2 7 3 8 4 6 3 1 7 0 3 0 7 3 2 5 6 3 8 4 8 3 0 6 3 1 7 
+Nodes Generated:
+3225020
+Total time:
+24.099092
+State: 100, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,225,020, Time: 24.10, Nodes per second: 133823.30
+The argument supplied is 7 17 18 6 19 9 8 13 0 7 17 10 2 5 15 3
+Iterations: 248 Heuristic time overall and percentage: 1.761635 0.357594 Move nums:
+8 4 0 6 5 7 3 8 4 8 4 0 4 7 1 4 7 3 6 2 6 2 6 0 4 2 4 
+Nodes Generated:
+748591
+Total time:
+4.926351
+State: 101, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 748,591, Time: 4.93, Nodes per second: 151956.49
+The argument supplied is 9 19 8 0 11 6 10 10 16 6 2 14 8 9 3 4
+Iterations: 538 Heuristic time overall and percentage: 3.385010 0.289488 Move nums:
+8 4 0 6 0 6 1 7 0 8 1 7 4 1 4 0 8 3 8 3 2 8 0 3 6 1 8 1 
+Nodes Generated:
+1642879
+Total time:
+11.693087
+State: 102, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,642,879, Time: 11.69, Nodes per second: 140500.02
+The argument supplied is 15 16 18 14 3 20 19 6 0 17 16 10 5 12 11 13
+Iterations: 279 Heuristic time overall and percentage: 1.664602 0.287138 Move nums:
+4 6 0 6 2 7 1 4 1 8 4 7 0 6 1 7 1 3 0 6 1 3 7 1 5 2 3 
+Nodes Generated:
+848462
+Total time:
+5.797224
+State: 103, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 848,462, Time: 5.80, Nodes per second: 146356.60
+The argument supplied is 12 2 1 10 6 14 18 1 3 17 16 2 5 15 9 4
+Iterations: 655 Heuristic time overall and percentage: 6.319021 0.422809 Move nums:
+4 1 5 7 4 0 3 1 3 1 3 6 1 3 0 8 3 6 1 3 7 1 7 2 4 8 3 
+Nodes Generated:
+2020982
+Total time:
+14.945345
+State: 104, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,020,982, Time: 14.95, Nodes per second: 135224.85
+The argument supplied is 20 8 17 16 11 19 14 10 3 4 7 5 8 11 6 0
+Iterations: 2567 Heuristic time overall and percentage: 16.397625 0.272427 Move nums:
+8 4 6 0 7 0 5 2 3 2 4 1 6 4 7 2 6 5 6 0 4 2 7 1 4 7 0 5 
+Nodes Generated:
+7958665
+Total time:
+60.190803
+State: 105, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 7,958,665, Time: 60.19, Nodes per second: 132223.94
+The argument supplied is 9 15 14 17 5 4 20 10 15 11 8 7 4 9 3 5
+Iterations: 6238 Heuristic time overall and percentage: 41.316508 0.241775 Move nums:
+7 4 7 2 3 8 4 7 3 8 3 1 7 2 3 6 1 7 4 2 6 3 0 3 1 4 2 6 
+Nodes Generated:
+19486611
+Total time:
+170.888501
+State: 106, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 19,486,611, Time: 170.89, Nodes per second: 114031.14
+The argument supplied is 16 7 12 15 10 13 11 11 16 5 3 13 10 15 9 8
+Iterations: 1495 Heuristic time overall and percentage: 8.754040 0.260509 Move nums:
+8 0 4 7 2 6 3 1 6 0 5 7 0 3 1 4 1 8 1 7 5 1 7 5 1 3 8 
+Nodes Generated:
+4606536
+Total time:
+33.603620
+State: 107, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 4,606,536, Time: 33.60, Nodes per second: 137084.52
+The argument supplied is 14 2 10 6 12 11 8 6 8 4 12 11 7 9 14 1
+Iterations: 1490 Heuristic time overall and percentage: 8.884027 0.280294 Move nums:
+2 7 3 8 1 7 0 3 2 6 5 2 6 1 3 6 1 5 7 3 0 7 1 5 6 3 7 5 
+Nodes Generated:
+4589662
+Total time:
+31.695389
+State: 108, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,589,662, Time: 31.70, Nodes per second: 144805.35
+The argument supplied is 14 1 12 2 3 13 18 15 0 3 1 4 16 11 8 14
+Iterations: 429 Heuristic time overall and percentage: 2.656015 0.301432 Move nums:
+1 7 1 3 0 6 3 1 7 1 4 6 3 8 1 7 0 7 3 0 3 8 4 2 3 2 8 
+Nodes Generated:
+1320472
+Total time:
+8.811331
+State: 109, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,320,472, Time: 8.81, Nodes per second: 149860.67
+The argument supplied is 2 3 5 7 1 18 6 6 9 5 7 3 1 2 8 13
+Iterations: 50 Heuristic time overall and percentage: 0.450678 0.505333 Move nums:
+5 6 2 7 0 3 6 1 7 3 1 5 0 4 1 7 3 2 4 2 3 8 4 8 5 7 1 
+Nodes Generated:
+126251
+Total time:
+0.891843
+State: 110, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 126,251, Time: 0.89, Nodes per second: 141561.91
+The argument supplied is 17 20 16 12 0 18 1 13 1 9 8 6 2 16 5 12
+Iterations: 197 Heuristic time overall and percentage: 1.234948 0.305662 Move nums:
+6 4 1 5 1 7 0 5 0 4 6 0 3 8 3 6 2 7 2 6 2 4 8 3 7 4 6 
+Nodes Generated:
+588709
+Total time:
+4.040235
+State: 111, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 588,709, Time: 4.04, Nodes per second: 145711.57
+The argument supplied is 9 8 5 6 17 7 11 10 14 17 6 9 13 3 11 7
+Iterations: 1107 Heuristic time overall and percentage: 6.558911 0.267213 Move nums:
+0 3 2 4 1 4 1 3 8 1 6 0 4 6 1 7 5 0 4 1 4 1 4 2 6 5 7 
+Nodes Generated:
+3411672
+Total time:
+24.545656
+State: 112, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,411,672, Time: 24.55, Nodes per second: 138992.90
+The argument supplied is 19 10 11 8 13 2 0 14 2 13 10 6 16 0 12 17
+Iterations: 2152 Heuristic time overall and percentage: 13.203153 0.239558 Move nums:
+6 2 7 5 7 2 6 4 2 7 1 3 1 7 4 1 6 3 7 2 4 0 3 1 8 1 3 
+Nodes Generated:
+6633337
+Total time:
+55.114699
+State: 113, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 6,633,337, Time: 55.11, Nodes per second: 120355.13
+The argument supplied is 12 17 0 11 16 6 1 12 6 17 14 9 1 2 4 7
+Iterations: 1009 Heuristic time overall and percentage: 6.570575 0.301638 Move nums:
+1 7 1 7 4 6 3 6 2 7 1 6 3 2 6 3 8 1 5 0 7 2 5 0 7 0 3 1 
+Nodes Generated:
+3103927
+Total time:
+21.782966
+State: 114, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,103,927, Time: 21.78, Nodes per second: 142493.31
+The argument supplied is 13 16 7 4 3 8 12 0 4 8 11 3 1 14 6 7
+Iterations: 2333 Heuristic time overall and percentage: 15.659791 0.267317 Move nums:
+3 1 7 0 7 4 1 6 2 7 5 2 3 2 8 0 3 1 7 3 0 7 0 6 2 3 8 3 0 7 
+Nodes Generated:
+7210511
+Total time:
+58.581442
+State: 115, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 7,210,511, Time: 58.58, Nodes per second: 123085.24
+The argument supplied is 19 3 15 0 11 16 20 3 9 7 14 13 2 10 6 8
+Iterations: 381 Heuristic time overall and percentage: 2.365545 0.284843 Move nums:
+0 3 1 7 4 7 0 3 0 7 1 7 2 4 6 0 3 6 3 0 4 6 0 4 7 0 6 
+Nodes Generated:
+1160151
+Total time:
+8.304746
+State: 116, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,160,151, Time: 8.30, Nodes per second: 139697.35
+The argument supplied is 14 8 13 18 17 16 19 13 1 9 2 12 5 8 6 16
+Iterations: 620 Heuristic time overall and percentage: 3.559044 0.254905 Move nums:
+3 0 5 2 6 3 6 1 5 0 4 1 4 8 4 7 4 0 3 6 1 7 1 5 8 4 1 
+Nodes Generated:
+1906500
+Total time:
+13.962220
+State: 117, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,906,500, Time: 13.96, Nodes per second: 136547.05
+The argument supplied is 19 1 3 0 20 2 18 12 2 1 15 5 9 4 8 16
+Iterations: 339 Heuristic time overall and percentage: 1.964084 0.284323 Move nums:
+7 4 6 4 6 0 6 3 8 3 6 4 1 5 2 3 7 3 6 1 8 1 3 8 4 1 7 
+Nodes Generated:
+1024026
+Total time:
+6.907927
+State: 118, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,024,026, Time: 6.91, Nodes per second: 148239.26
+The argument supplied is 15 10 5 7 9 6 11 8 12 7 4 0 11 10 5 15
+Iterations: 907 Heuristic time overall and percentage: 5.326337 0.284684 Move nums:
+3 6 3 6 2 7 1 8 1 8 0 3 2 3 6 1 7 1 3 6 0 4 7 4 8 5 6 
+Nodes Generated:
+2784662
+Total time:
+18.709636
+State: 119, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,784,662, Time: 18.71, Nodes per second: 148835.71
+The argument supplied is 12 11 20 15 16 0 10 6 12 1 13 5 7 17 2 9
+Iterations: 816 Heuristic time overall and percentage: 4.954885 0.294646 Move nums:
+8 4 0 4 1 4 6 2 3 7 3 6 2 4 1 3 1 8 5 1 8 0 8 1 7 0 7 3 
+Nodes Generated:
+2521031
+Total time:
+16.816428
+State: 120, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,521,031, Time: 16.82, Nodes per second: 149914.77
+The argument supplied is 17 19 4 0 15 6 2 6 17 12 4 11 0 5 7 10
+Iterations: 518 Heuristic time overall and percentage: 3.111760 0.288492 Move nums:
+2 7 4 6 5 7 1 6 4 7 1 3 7 3 0 7 4 2 5 0 8 4 2 7 0 3 1 
+Nodes Generated:
+1574172
+Total time:
+10.786307
+State: 121, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,574,172, Time: 10.79, Nodes per second: 145941.70
+The argument supplied is 10 5 20 14 16 15 4 3 4 0 11 5 15 17 7 10
+Iterations: 3803 Heuristic time overall and percentage: 23.823472 0.265174 Move nums:
+8 0 5 1 7 1 6 3 0 8 1 4 6 3 7 0 7 5 7 0 3 7 1 7 1 8 0 7 4 
+Nodes Generated:
+11884072
+Total time:
+89.840786
+State: 122, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 11,884,072, Time: 89.84, Nodes per second: 132279.25
+The argument supplied is 10 1 6 0 2 18 5 2 0 10 8 6 7 4 3 14
+Iterations: 214 Heuristic time overall and percentage: 1.389600 0.324661 Move nums:
+0 7 0 5 1 6 3 0 7 3 7 3 0 5 6 5 7 4 1 6 5 7 0 4 7 2 3 
+Nodes Generated:
+646064
+Total time:
+4.280158
+State: 123, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 646,064, Time: 4.28, Nodes per second: 150943.96
+The argument supplied is 6 19 10 11 8 0 9 7 11 13 17 12 14 0 15 1
+Iterations: 980 Heuristic time overall and percentage: 6.142649 0.296164 Move nums:
+2 7 5 6 1 5 2 6 1 6 3 6 1 7 5 8 3 8 0 8 0 4 6 4 7 2 3 
+Nodes Generated:
+3025056
+Total time:
+20.740735
+State: 124, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,025,056, Time: 20.74, Nodes per second: 145850.95
+The argument supplied is 1 7 12 11 3 6 2 11 14 13 7 0 3 15 8 1
+Iterations: 355 Heuristic time overall and percentage: 2.141703 0.263228 Move nums:
+7 4 7 0 5 6 5 7 2 7 0 7 1 7 5 6 5 6 4 7 3 7 2 4 1 5 0 
+Nodes Generated:
+1074869
+Total time:
+8.136308
+State: 125, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,074,869, Time: 8.14, Nodes per second: 132107.71
+The argument supplied is 20 8 19 16 17 7 18 12 4 7 8 14 15 0 2 10
+Iterations: 1084 Heuristic time overall and percentage: 6.449442 0.274499 Move nums:
+2 7 4 2 3 0 4 2 5 6 3 1 7 2 6 3 2 4 1 8 0 5 8 2 4 2 5 
+Nodes Generated:
+3359337
+Total time:
+23.495293
+State: 126, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,359,337, Time: 23.50, Nodes per second: 142979.15
+The argument supplied is 11 6 2 8 5 7 3 1 5 16 3 2 13 9 6 17
+Iterations: 1139 Heuristic time overall and percentage: 6.465280 0.263817 Move nums:
+6 4 0 6 4 0 5 6 0 3 7 4 1 3 8 0 6 0 8 1 3 7 0 3 7 4 6 
+Nodes Generated:
+3508263
+Total time:
+24.506689
+State: 127, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,508,263, Time: 24.51, Nodes per second: 143155.32
+The argument supplied is 17 4 7 1 5 2 6 2 1 12 17 0 4 7 5 6
+Iterations: 249 Heuristic time overall and percentage: 1.555182 0.314148 Move nums:
+3 8 4 0 7 1 5 8 3 0 3 7 4 8 4 0 4 7 2 4 2 3 2 6 3 8 3 
+Nodes Generated:
+750028
+Total time:
+4.950479
+State: 128, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 750,028, Time: 4.95, Nodes per second: 151506.15
+The argument supplied is 17 6 9 11 15 5 0 7 8 3 6 9 13 2 14 10
+Iterations: 33 Heuristic time overall and percentage: 0.287103 0.558311 Move nums:
+7 4 8 3 8 4 0 6 0 7 3 1 4 0 6 3 7 0 5 1 3 2 5 2 4 1 5 
+Nodes Generated:
+67256
+Total time:
+0.514234
+State: 129, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 67,256, Time: 0.51, Nodes per second: 130788.71
+The argument supplied is 7 2 13 15 4 5 17 9 13 6 3 2 7 14 10 8
+Iterations: 785 Heuristic time overall and percentage: 5.120563 0.261853 Move nums:
+4 6 1 4 8 1 6 0 6 1 8 2 6 3 2 7 1 7 2 5 0 6 5 7 2 4 8 4 
+Nodes Generated:
+2417116
+Total time:
+19.555101
+State: 130, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,417,116, Time: 19.56, Nodes per second: 123605.40
+The argument supplied is 5 10 0 8 13 16 11 8 15 5 4 7 0 3 11 1
+Iterations: 343 Heuristic time overall and percentage: 2.067835 0.294482 Move nums:
+0 3 0 8 5 6 1 7 1 8 0 7 0 4 0 7 4 8 0 5 1 3 1 6 1 6 3 
+Nodes Generated:
+1039797
+Total time:
+7.021944
+State: 131, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,039,797, Time: 7.02, Nodes per second: 148078.22
+The argument supplied is 1 6 5 16 7 4 3 3 1 14 2 9 6 7 4 8
+Iterations: 447 Heuristic time overall and percentage: 2.869625 0.303982 Move nums:
+4 6 2 7 2 5 8 3 7 4 7 3 7 1 4 0 3 7 1 4 6 3 1 5 0 7 1 
+Nodes Generated:
+1360983
+Total time:
+9.440128
+State: 132, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,360,983, Time: 9.44, Nodes per second: 144169.97
+The argument supplied is 10 11 16 13 7 15 12 4 6 2 5 10 7 17 0 3
+Iterations: 528 Heuristic time overall and percentage: 3.650302 0.333328 Move nums:
+1 4 7 1 4 6 1 3 0 6 0 4 8 3 0 6 3 1 4 8 1 6 0 3 1 6 4 
+Nodes Generated:
+1605941
+Total time:
+10.951078
+State: 133, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,605,941, Time: 10.95, Nodes per second: 146646.84
+The argument supplied is 20 11 1 0 16 19 17 13 8 10 0 16 3 15 14 11
+Iterations: 546 Heuristic time overall and percentage: 3.360490 0.288713 Move nums:
+7 4 7 0 6 0 6 1 4 1 3 6 3 2 6 1 3 2 6 5 7 4 7 1 3 6 1 
+Nodes Generated:
+1671047
+Total time:
+11.639553
+State: 134, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,671,047, Time: 11.64, Nodes per second: 143566.25
+The argument supplied is 20 19 15 4 7 2 17 13 7 2 10 17 14 3 6 0
+Iterations: 202 Heuristic time overall and percentage: 1.235787 0.254873 Move nums:
+4 6 1 4 2 6 0 7 0 5 2 6 2 7 0 3 6 1 6 3 6 3 1 7 1 8 2 
+Nodes Generated:
+605395
+Total time:
+4.848630
+State: 135, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 605,395, Time: 4.85, Nodes per second: 124858.98
+The argument supplied is 1 17 18 6 14 19 9 4 0 10 12 14 2 17 7 6
+Iterations: 425 Heuristic time overall and percentage: 2.585981 0.291517 Move nums:
+3 6 0 3 7 1 7 1 3 2 4 2 7 3 1 5 2 8 2 7 2 6 4 1 3 2 3 
+Nodes Generated:
+1290512
+Total time:
+8.870770
+State: 136, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,290,512, Time: 8.87, Nodes per second: 145479.14
+The argument supplied is 14 5 15 3 18 20 9 2 13 7 8 6 5 10 9 12
+Iterations: 1507 Heuristic time overall and percentage: 10.441104 0.309329 Move nums:
+8 4 1 6 0 6 1 7 2 5 1 6 2 8 1 3 2 3 7 3 6 3 1 4 0 7 0 5 
+Nodes Generated:
+4652208
+Total time:
+33.754063
+State: 137, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,652,208, Time: 33.75, Nodes per second: 137826.61
+The argument supplied is 4 20 3 1 19 14 2 1 0 3 7 17 15 11 13 5
+Iterations: 422 Heuristic time overall and percentage: 3.025476 0.337939 Move nums:
+2 7 3 8 0 8 2 7 2 3 6 4 7 4 0 7 5 6 5 0 3 0 7 5 7 4 0 
+Nodes Generated:
+1289170
+Total time:
+8.952725
+State: 138, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,289,170, Time: 8.95, Nodes per second: 143997.50
+The argument supplied is 14 3 11 1 2 12 20 7 5 0 6 12 2 17 13 10
+Iterations: 754 Heuristic time overall and percentage: 5.183573 0.299704 Move nums:
+7 0 4 1 7 2 4 1 5 1 8 2 7 5 8 2 7 0 7 3 7 3 7 4 8 3 2 
+Nodes Generated:
+2332531
+Total time:
+17.295651
+State: 139, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,332,531, Time: 17.30, Nodes per second: 134862.28
+The argument supplied is 5 20 9 8 18 0 3 10 3 2 17 16 15 5 4 0
+Iterations: 802 Heuristic time overall and percentage: 4.878963 0.285943 Move nums:
+5 6 0 7 2 6 1 4 0 3 0 7 2 6 0 8 1 3 6 2 8 3 7 2 8 1 3 
+Nodes Generated:
+2478040
+Total time:
+17.062698
+State: 140, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,478,040, Time: 17.06, Nodes per second: 145231.43
+The argument supplied is 1 12 17 4 9 7 13 6 17 11 4 3 7 0 14 10
+Iterations: 401 Heuristic time overall and percentage: 2.417612 0.296230 Move nums:
+1 5 7 4 1 4 7 3 6 3 1 3 6 4 1 7 4 6 2 4 0 7 0 6 2 7 0 
+Nodes Generated:
+1222783
+Total time:
+8.161252
+State: 141, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,222,783, Time: 8.16, Nodes per second: 149827.87
+The argument supplied is 15 7 12 4 20 3 2 6 7 2 12 10 0 13 14 8
+Iterations: 1024 Heuristic time overall and percentage: 6.208331 0.274187 Move nums:
+0 7 4 1 8 0 3 1 8 0 7 0 3 8 4 2 7 5 1 3 8 4 1 4 0 4 1 
+Nodes Generated:
+3176775
+Total time:
+22.642718
+State: 142, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,176,775, Time: 22.64, Nodes per second: 140300.07
+The argument supplied is 4 2 8 17 14 19 20 4 6 8 12 16 11 10 14 9
+Iterations: 1553 Heuristic time overall and percentage: 9.177240 0.269542 Move nums:
+2 3 8 2 3 8 4 8 2 4 6 0 7 4 1 3 2 4 7 0 6 3 6 1 3 6 5 7 
+Nodes Generated:
+4769697
+Total time:
+34.047576
+State: 143, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,769,697, Time: 34.05, Nodes per second: 140089.18
+The argument supplied is 1 4 9 10 5 7 6 15 7 13 9 10 2 8 5 3
+Iterations: 421 Heuristic time overall and percentage: 2.903613 0.341853 Move nums:
+2 3 8 0 8 3 0 6 1 8 5 6 3 1 8 2 6 5 7 1 3 6 1 6 2 7 2 
+Nodes Generated:
+1289970
+Total time:
+8.493740
+State: 144, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,289,970, Time: 8.49, Nodes per second: 151873.03
+The argument supplied is 9 15 10 6 12 11 0 12 16 13 5 15 1 2 0 8
+Iterations: 573 Heuristic time overall and percentage: 3.566479 0.288247 Move nums:
+8 4 2 3 1 8 3 0 3 1 8 0 3 7 2 7 5 7 1 4 6 0 4 6 5 0 4 
+Nodes Generated:
+1757661
+Total time:
+12.372986
+State: 145, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,757,661, Time: 12.37, Nodes per second: 142056.33
+The argument supplied is 16 12 3 4 7 1 20 13 3 9 11 7 5 6 8 10
+Iterations: 468 Heuristic time overall and percentage: 3.069752 0.291481 Move nums:
+1 3 1 8 0 7 1 3 6 3 7 4 6 0 3 2 4 2 7 1 7 4 0 7 4 0 4 
+Nodes Generated:
+1438675
+Total time:
+10.531584
+State: 146, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,438,675, Time: 10.53, Nodes per second: 136605.76
+The argument supplied is 0 16 19 3 13 1 11 7 12 8 11 9 14 1 6 4
+Iterations: 348 Heuristic time overall and percentage: 2.113217 0.295319 Move nums:
+3 1 8 0 3 2 4 7 4 1 8 0 3 6 5 2 4 6 4 6 1 8 2 7 2 6 0 
+Nodes Generated:
+1058270
+Total time:
+7.155718
+State: 147, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,058,270, Time: 7.16, Nodes per second: 147891.52
+The argument supplied is 10 6 15 9 11 14 19 15 9 4 17 10 11 12 7 5
+Iterations: 6555 Heuristic time overall and percentage: 46.105401 0.240519 Move nums:
+4 1 3 7 4 0 4 6 1 5 0 3 1 3 0 7 5 7 1 3 6 0 6 5 1 8 0 6 4 8 
+Nodes Generated:
+20278851
+Total time:
+191.691236
+State: 148, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 20,278,851, Time: 191.69, Nodes per second: 105789.14
+The argument supplied is 14 8 17 6 9 19 11 16 6 4 0 11 10 5 12 8
+Iterations: 726 Heuristic time overall and percentage: 4.728453 0.302354 Move nums:
+3 1 7 3 0 7 1 4 6 2 7 0 5 1 5 0 6 2 7 0 7 4 1 3 2 8 0 
+Nodes Generated:
+2232373
+Total time:
+15.638810
+State: 149, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,232,373, Time: 15.64, Nodes per second: 142745.71
+The argument supplied is 8 16 3 13 18 19 7 9 7 6 2 5 13 12 1 17
+Iterations: 969 Heuristic time overall and percentage: 5.680154 0.264550 Move nums:
+3 6 0 3 7 1 7 3 0 8 1 4 1 8 2 6 2 3 0 3 7 1 7 0 7 4 6 4 
+Nodes Generated:
+2998678
+Total time:
+21.470964
+State: 150, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,998,678, Time: 21.47, Nodes per second: 139662.01
+The argument supplied is 20 0 10 12 2 8 11 9 10 7 6 2 12 8 14 4
+Iterations: 2166 Heuristic time overall and percentage: 13.384535 0.271560 Move nums:
+2 7 4 1 6 3 8 3 6 4 7 2 7 3 6 5 8 4 2 6 0 6 5 7 4 7 1 
+Nodes Generated:
+6713336
+Total time:
+49.287551
+State: 151, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 6,713,336, Time: 49.29, Nodes per second: 136207.54
+The argument supplied is 1 19 20 7 4 16 17 15 13 3 7 1 14 2 0 17
+Iterations: 1793 Heuristic time overall and percentage: 10.596461 0.265765 Move nums:
+8 0 5 1 6 0 5 6 1 4 8 1 5 7 1 3 6 3 6 1 5 7 3 0 6 0 4 1 4 
+Nodes Generated:
+5444843
+Total time:
+39.871510
+State: 152, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,444,843, Time: 39.87, Nodes per second: 136559.74
+The argument supplied is 2 4 6 10 8 14 19 17 13 3 9 6 7 14 2 1
+Iterations: 988 Heuristic time overall and percentage: 6.237926 0.282539 Move nums:
+7 4 8 3 0 6 3 1 8 1 7 4 0 3 1 3 7 3 7 0 7 4 2 7 0 6 4 8 
+Nodes Generated:
+3034231
+Total time:
+22.078112
+State: 153, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,034,231, Time: 22.08, Nodes per second: 137431.63
+The argument supplied is 10 14 2 4 19 20 15 15 0 17 10 7 14 2 12 13
+Iterations: 1227 Heuristic time overall and percentage: 7.414080 0.273991 Move nums:
+5 6 0 5 1 4 1 7 1 6 1 5 0 6 1 3 6 2 8 4 7 0 6 0 7 2 7 
+Nodes Generated:
+3799430
+Total time:
+27.059592
+State: 154, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,799,430, Time: 27.06, Nodes per second: 140409.73
+The argument supplied is 5 20 18 2 3 0 15 3 11 8 5 13 16 10 9 15
+Iterations: 786 Heuristic time overall and percentage: 4.803397 0.294808 Move nums:
+4 1 4 6 0 6 3 0 3 1 5 0 6 3 7 4 0 8 3 0 4 1 8 1 7 3 0 
+Nodes Generated:
+2424758
+Total time:
+16.293313
+State: 155, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,424,758, Time: 16.29, Nodes per second: 148819.21
+The argument supplied is 17 18 19 14 15 20 2 12 14 0 8 11 1 7 6 13
+Iterations: 2410 Heuristic time overall and percentage: 14.996380 0.278259 Move nums:
+7 0 3 7 1 7 3 0 5 2 6 3 7 4 6 1 3 6 3 8 1 7 5 6 3 7 1 3 
+Nodes Generated:
+7519491
+Total time:
+53.893660
+State: 156, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 7,519,491, Time: 53.89, Nodes per second: 139524.59
+The argument supplied is 9 19 17 8 11 6 14 6 1 4 12 16 17 9 5 2
+Iterations: 2759 Heuristic time overall and percentage: 17.138216 0.273351 Move nums:
+1 7 1 5 8 0 3 1 7 1 8 1 6 3 8 0 8 2 5 0 8 4 6 1 3 6 4 
+Nodes Generated:
+8488733
+Total time:
+62.696792
+State: 157, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 8,488,733, Time: 62.70, Nodes per second: 135393.42
+The argument supplied is 1 16 14 3 11 20 19 9 5 17 11 10 15 3 13 7
+Iterations: 70 Heuristic time overall and percentage: 0.550615 0.413626 Move nums:
+8 4 0 6 3 6 3 7 4 7 0 3 6 4 1 4 6 3 8 0 3 6 1 7 3 6 1 
+Nodes Generated:
+191245
+Total time:
+1.331191
+State: 158, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 191,245, Time: 1.33, Nodes per second: 143664.58
+The argument supplied is 9 4 8 6 12 17 7 7 14 9 8 2 15 10 13 12
+Iterations: 8360 Heuristic time overall and percentage: 56.320463 0.185946 Move nums:
+4 6 0 3 7 1 7 0 7 0 7 5 1 3 1 4 2 8 5 2 5 7 3 2 5 1 7 1 3 7 
+Nodes Generated:
+25878440
+Total time:
+302.886470
+State: 159, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 25,878,440, Time: 302.89, Nodes per second: 85439.41
+The argument supplied is 17 16 12 7 11 8 13 0 15 2 10 14 3 17 7 4
+Iterations: 420 Heuristic time overall and percentage: 3.603772 0.428772 Move nums:
+7 0 5 8 3 2 5 0 6 5 2 5 1 7 3 0 4 1 4 1 4 6 3 7 0 8 1 
+Nodes Generated:
+1282292
+Total time:
+8.404873
+State: 160, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,282,292, Time: 8.40, Nodes per second: 152565.30
+The argument supplied is 14 15 17 4 5 13 16 12 8 7 15 4 0 2 14 10
+Iterations: 150 Heuristic time overall and percentage: 1.146939 0.305343 Move nums:
+4 1 4 6 3 0 3 6 1 7 2 3 8 4 1 3 0 3 1 8 0 6 1 4 0 8 0 6 
+Nodes Generated:
+439276
+Total time:
+3.756239
+State: 161, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 439,276, Time: 3.76, Nodes per second: 116945.70
+The argument supplied is 12 4 0 2 15 17 13 16 0 10 12 11 4 17 5 15
+Iterations: 248 Heuristic time overall and percentage: 1.561310 0.307373 Move nums:
+3 1 8 0 3 2 4 8 3 7 0 4 7 3 8 4 1 6 3 1 4 8 2 4 2 3 1 
+Nodes Generated:
+751517
+Total time:
+5.079522
+State: 162, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 751,517, Time: 5.08, Nodes per second: 147950.34
+The argument supplied is 15 17 0 12 16 4 20 8 1 7 15 4 9 14 11 3
+Iterations: 429 Heuristic time overall and percentage: 2.521014 0.283764 Move nums:
+6 4 6 0 4 0 8 1 3 1 7 2 6 4 1 6 0 4 2 7 2 7 2 3 2 4 7 
+Nodes Generated:
+1301686
+Total time:
+8.884182
+State: 163, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,301,686, Time: 8.88, Nodes per second: 146517.26
+The argument supplied is 5 4 13 16 10 0 15 1 11 4 9 6 17 3 5 16
+Iterations: 1177 Heuristic time overall and percentage: 7.090393 0.280369 Move nums:
+2 7 5 6 5 1 7 0 5 6 0 7 1 5 7 1 3 7 0 6 5 2 3 0 4 0 7 0 
+Nodes Generated:
+3637931
+Total time:
+25.289483
+State: 164, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,637,931, Time: 25.29, Nodes per second: 143851.54
+The argument supplied is 10 15 16 18 0 5 20 3 16 15 9 2 8 5 1 13
+Iterations: 2601 Heuristic time overall and percentage: 16.038029 0.263042 Move nums:
+1 8 4 6 0 7 1 7 3 1 8 4 1 8 3 6 3 0 3 7 0 4 7 1 7 0 7 
+Nodes Generated:
+8029493
+Total time:
+60.971290
+State: 165, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 8,029,493, Time: 60.97, Nodes per second: 131693.01
+The argument supplied is 4 9 0 12 1 6 10 9 6 1 4 8 3 14 2 7
+Iterations: 282 Heuristic time overall and percentage: 1.837518 0.317342 Move nums:
+5 6 4 1 8 1 4 7 3 6 3 0 6 3 1 6 1 3 6 0 7 0 7 1 6 4 8 3 
+Nodes Generated:
+850797
+Total time:
+5.790335
+State: 166, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 850,797, Time: 5.79, Nodes per second: 146933.99
+The argument supplied is 11 10 0 2 13 12 15 8 6 1 16 4 14 11 9 3
+Iterations: 1002 Heuristic time overall and percentage: 6.217507 0.264801 Move nums:
+0 8 0 3 6 1 4 1 5 0 7 3 2 6 0 5 7 3 6 3 6 1 8 4 6 0 8 
+Nodes Generated:
+3107709
+Total time:
+23.479947
+State: 167, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 3,107,709, Time: 23.48, Nodes per second: 132355.88
+The argument supplied is 1 13 17 16 14 12 11 6 17 0 12 16 13 1 5 2
+Iterations: 407 Heuristic time overall and percentage: 2.412041 0.282960 Move nums:
+0 3 1 7 4 7 1 8 0 4 7 2 6 5 7 4 0 3 1 4 7 2 8 3 1 7 4 
+Nodes Generated:
+1247462
+Total time:
+8.524310
+State: 168, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,247,462, Time: 8.52, Nodes per second: 146341.70
+The argument supplied is 3 2 0 6 19 18 15 1 8 5 15 11 4 3 7 0
+Iterations: 1519 Heuristic time overall and percentage: 10.657701 0.321129 Move nums:
+6 4 1 6 0 4 8 3 7 4 1 5 0 6 5 7 1 3 7 3 0 7 4 7 5 6 4 8 
+Nodes Generated:
+4696963
+Total time:
+33.188219
+State: 169, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,696,963, Time: 33.19, Nodes per second: 141525.01
+The argument supplied is 1 4 6 14 9 10 19 13 1 11 8 5 15 16 3 0
+Iterations: 774 Heuristic time overall and percentage: 4.680415 0.276187 Move nums:
+8 4 0 4 1 4 6 5 0 6 0 3 1 7 4 2 3 0 4 7 4 0 5 8 0 5 6 1 
+Nodes Generated:
+2382175
+Total time:
+16.946518
+State: 170, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,382,175, Time: 16.95, Nodes per second: 140570.17
+The argument supplied is 16 12 0 4 13 15 3 10 0 5 11 6 17 16 13 12
+Iterations: 758 Heuristic time overall and percentage: 4.413391 0.277320 Move nums:
+8 4 2 7 4 8 3 7 1 4 7 3 2 6 3 2 3 1 4 2 6 5 7 3 0 4 6 
+Nodes Generated:
+2345475
+Total time:
+15.914425
+State: 171, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,345,475, Time: 15.91, Nodes per second: 147380.44
+The argument supplied is 12 0 18 8 3 20 2 2 12 6 4 9 1 5 16 17
+Iterations: 847 Heuristic time overall and percentage: 5.070523 0.282905 Move nums:
+6 0 8 3 6 4 7 4 7 4 1 7 5 6 0 3 6 5 6 3 0 7 1 7 3 2 7 0 
+Nodes Generated:
+2606209
+Total time:
+17.923074
+State: 172, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,606,209, Time: 17.92, Nodes per second: 145410.83
+The argument supplied is 12 0 15 4 2 20 10 7 12 9 10 4 6 2 8 14
+Iterations: 1447 Heuristic time overall and percentage: 8.548015 0.265976 Move nums:
+8 4 0 4 6 5 7 1 5 7 0 7 4 0 4 1 3 6 1 5 0 6 4 7 5 1 7 
+Nodes Generated:
+4478254
+Total time:
+32.138312
+State: 173, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 4,478,254, Time: 32.14, Nodes per second: 139343.16
+The argument supplied is 10 19 4 6 16 15 14 15 2 12 16 1 5 8 4 9
+Iterations: 189 Heuristic time overall and percentage: 1.199659 0.322458 Move nums:
+8 4 1 7 3 0 3 1 3 2 4 1 4 1 5 0 5 8 1 4 6 4 7 2 3 2 4 
+Nodes Generated:
+557683
+Total time:
+3.720352
+State: 174, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 557,683, Time: 3.72, Nodes per second: 149900.60
+The argument supplied is 14 11 12 6 2 17 1 2 1 12 16 13 9 6 17 14
+Iterations: 345 Heuristic time overall and percentage: 2.327549 0.335380 Move nums:
+6 4 2 8 1 3 7 1 6 5 0 6 3 7 4 7 0 8 3 6 3 1 5 0 3 2 7 1 3 
+Nodes Generated:
+1046127
+Total time:
+6.940040
+State: 175, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,046,127, Time: 6.94, Nodes per second: 150737.89
+The argument supplied is 0 17 12 15 16 4 20 17 6 13 10 0 11 14 7 12
+Iterations: 5245 Heuristic time overall and percentage: 35.179826 0.248314 Move nums:
+7 1 4 1 6 1 5 2 7 5 6 4 0 6 5 7 3 6 2 5 8 3 6 0 6 3 1 4 
+Nodes Generated:
+16263549
+Total time:
+141.674950
+State: 176, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 16,263,549, Time: 141.67, Nodes per second: 114794.81
+The argument supplied is 10 1 7 16 6 18 5 11 17 6 16 12 0 5 4 1
+Iterations: 518 Heuristic time overall and percentage: 3.327913 0.277851 Move nums:
+5 6 2 7 0 7 3 0 3 1 7 2 6 2 7 4 0 6 3 8 4 1 6 3 8 2 3 
+Nodes Generated:
+1588408
+Total time:
+11.977313
+State: 177, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,588,408, Time: 11.98, Nodes per second: 132618.06
+The argument supplied is 20 17 18 19 14 9 8 12 4 15 14 16 8 9 11 1
+Iterations: 954 Heuristic time overall and percentage: 6.113452 0.285141 Move nums:
+1 7 4 1 6 0 3 2 4 7 0 5 7 4 2 3 2 3 7 4 6 3 7 3 7 3 6 0 
+Nodes Generated:
+2947258
+Total time:
+21.440074
+State: 178, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,947,258, Time: 21.44, Nodes per second: 137464.92
+The argument supplied is 8 10 0 5 13 16 11 14 10 9 12 7 2 4 8 6
+Iterations: 265 Heuristic time overall and percentage: 2.402524 0.439194 Move nums:
+4 1 4 6 3 6 4 2 3 7 3 8 4 1 8 1 7 5 6 5 7 4 6 4 1 8 1 
+Nodes Generated:
+801278
+Total time:
+5.470305
+State: 179, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 801,278, Time: 5.47, Nodes per second: 146477.76
+The argument supplied is 4 15 16 6 10 19 14 16 0 4 5 17 15 11 1 3
+Iterations: 520 Heuristic time overall and percentage: 3.078075 0.279267 Move nums:
+2 7 5 2 4 1 3 0 3 0 6 4 2 8 0 5 6 3 7 4 1 6 4 0 3 0 3 
+Nodes Generated:
+1586874
+Total time:
+11.021971
+State: 180, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,586,874, Time: 11.02, Nodes per second: 143973.70
+The argument supplied is 3 4 9 12 15 20 0 17 7 9 6 4 10 2 14 3
+Iterations: 679 Heuristic time overall and percentage: 4.022469 0.280483 Move nums:
+5 1 7 3 0 6 2 4 0 6 5 0 7 1 6 3 7 4 0 3 6 4 7 1 4 1 7 
+Nodes Generated:
+2079422
+Total time:
+14.341196
+State: 181, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,079,422, Time: 14.34, Nodes per second: 144996.41
+The argument supplied is 1 7 13 4 17 12 9 7 2 12 13 15 5 17 1 0
+Iterations: 3554 Heuristic time overall and percentage: 22.161689 0.263330 Move nums:
+5 6 4 1 7 3 7 4 2 7 4 1 8 0 5 7 0 6 3 6 5 0 7 4 0 6 2 
+Nodes Generated:
+10941631
+Total time:
+84.159485
+State: 182, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 10,941,631, Time: 84.16, Nodes per second: 130010.67
+The argument supplied is 12 20 18 17 16 15 7 15 7 14 11 12 4 8 10 9
+Iterations: 719 Heuristic time overall and percentage: 4.196495 0.280070 Move nums:
+5 6 0 4 1 6 4 0 8 2 7 3 6 5 2 7 3 7 0 4 8 5 6 1 3 7 0 
+Nodes Generated:
+2211326
+Total time:
+14.983735
+State: 183, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 2,211,326, Time: 14.98, Nodes per second: 147581.76
+The argument supplied is 19 6 18 17 14 9 1 2 0 3 5 13 15 1 8 7
+Iterations: 606 Heuristic time overall and percentage: 3.541756 0.278498 Move nums:
+7 4 7 0 3 6 0 7 5 7 4 1 3 0 8 3 0 6 1 5 7 1 4 2 6 5 0 
+Nodes Generated:
+1872432
+Total time:
+12.717341
+State: 184, SolnCost: 27.00, # Moves: 27, # Nodes Gen: 1,872,432, Time: 12.72, Nodes per second: 147234.55
+The argument supplied is 6 10 18 8 0 2 19 6 8 10 0 16 11 12 5 4
+Iterations: 1506 Heuristic time overall and percentage: 8.817637 0.264130 Move nums:
+1 3 6 1 8 0 7 3 1 3 6 2 8 1 6 3 1 3 7 1 4 0 3 0 4 1 6 1 
+Nodes Generated:
+4648905
+Total time:
+33.383735
+State: 185, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,648,905, Time: 33.38, Nodes per second: 139256.59
+The argument supplied is 4 9 14 15 19 3 20 13 12 14 15 0 16 17 1 2
+Iterations: 366 Heuristic time overall and percentage: 2.179598 0.291836 Move nums:
+8 0 5 6 4 7 1 6 0 5 7 0 3 7 1 3 2 4 2 6 0 4 1 6 3 0 7 3 
+Nodes Generated:
+1109320
+Total time:
+7.468558
+State: 186, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,109,320, Time: 7.47, Nodes per second: 148532.02
+The argument supplied is 14 9 12 17 13 11 8 6 7 0 5 4 8 12 1 11
+Iterations: 700 Heuristic time overall and percentage: 4.224841 0.289660 Move nums:
+4 7 5 6 2 3 6 4 1 6 1 7 2 7 2 5 7 5 7 4 2 6 0 7 1 8 4 0 
+Nodes Generated:
+2145088
+Total time:
+14.585501
+State: 187, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,145,088, Time: 14.59, Nodes per second: 147069.89
+The argument supplied is 1 17 13 2 7 11 12 4 2 7 17 10 9 15 5 3
+Iterations: 270 Heuristic time overall and percentage: 1.633052 0.301432 Move nums:
+2 7 4 2 3 6 2 6 4 1 7 4 0 3 2 4 1 6 5 6 2 3 0 3 8 4 8 0 
+Nodes Generated:
+811550
+Total time:
+5.417638
+State: 188, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 811,550, Time: 5.42, Nodes per second: 149797.75
+The argument supplied is 12 9 15 11 0 6 10 4 12 14 15 16 11 8 1 9
+Iterations: 2009 Heuristic time overall and percentage: 12.599479 0.265986 Move nums:
+1 3 6 1 5 1 8 0 3 1 3 1 6 2 6 5 7 3 6 0 3 7 4 1 7 0 5 1 
+Nodes Generated:
+6190910
+Total time:
+47.369020
+State: 189, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 6,190,910, Time: 47.37, Nodes per second: 130695.34
+The argument supplied is 17 6 16 15 4 14 12 13 17 16 5 6 11 12 10 0
+Iterations: 2781 Heuristic time overall and percentage: 16.996321 0.263646 Move nums:
+5 6 1 6 4 8 3 0 7 2 3 6 0 4 1 7 0 7 4 2 4 1 6 0 4 8 3 6 4 
+Nodes Generated:
+8626003
+Total time:
+64.466508
+State: 190, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 8,626,003, Time: 64.47, Nodes per second: 133805.96
+The argument supplied is 19 2 6 7 18 10 1 3 9 17 6 4 7 10 11 5
+Iterations: 543 Heuristic time overall and percentage: 3.603930 0.317435 Move nums:
+4 6 2 4 7 0 7 1 8 1 4 6 3 8 4 6 0 3 6 4 8 5 0 6 4 0 7 2 
+Nodes Generated:
+1668170
+Total time:
+11.353279
+State: 191, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,668,170, Time: 11.35, Nodes per second: 146932.88
+The argument supplied is 3 18 7 9 8 19 20 7 0 4 6 17 10 2 5 3
+Iterations: 427 Heuristic time overall and percentage: 2.488451 0.256704 Move nums:
+2 7 5 6 4 6 3 1 4 7 3 0 8 1 3 6 4 7 4 2 4 6 4 0 6 0 3 8 
+Nodes Generated:
+1296891
+Total time:
+9.693862
+State: 192, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,296,891, Time: 9.69, Nodes per second: 133784.76
+The argument supplied is 17 8 13 18 7 12 9 1 14 11 3 4 15 16 17 9
+Iterations: 1151 Heuristic time overall and percentage: 7.118035 0.287672 Move nums:
+6 0 6 0 4 7 1 4 7 0 3 7 4 6 1 7 4 6 0 5 0 5 2 3 0 7 0 4 
+Nodes Generated:
+3557757
+Total time:
+24.743557
+State: 193, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,557,757, Time: 24.74, Nodes per second: 143785.19
+The argument supplied is 10 15 14 18 20 12 16 1 14 3 7 6 4 11 8 0
+Iterations: 1386 Heuristic time overall and percentage: 9.825359 0.288040 Move nums:
+6 4 0 3 6 1 8 2 6 3 6 1 7 4 7 4 0 6 3 7 1 3 7 3 2 3 6 5 8 
+Nodes Generated:
+4305383
+Total time:
+34.111142
+State: 194, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,305,383, Time: 34.11, Nodes per second: 126216.33
+The argument supplied is 14 6 8 3 16 4 12 1 12 5 15 9 7 13 11 17
+Iterations: 1002 Heuristic time overall and percentage: 5.847199 0.267941 Move nums:
+4 6 1 4 1 5 0 3 0 7 2 4 1 4 7 4 8 3 2 4 6 3 2 3 7 3 6 4 0 6 1 
+Nodes Generated:
+3100264
+Total time:
+21.822741
+State: 195, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 3,100,264, Time: 21.82, Nodes per second: 142065.75
+The argument supplied is 19 4 17 0 13 16 15 6 14 9 1 3 4 8 11 16
+Iterations: 3337 Heuristic time overall and percentage: 22.721478 0.288818 Move nums:
+2 3 7 5 6 4 1 7 0 3 1 5 2 3 6 5 6 2 7 4 6 3 6 0 4 8 3 7 2 
+Nodes Generated:
+10375366
+Total time:
+78.670699
+State: 196, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 10,375,366, Time: 78.67, Nodes per second: 131883.49
+The argument supplied is 3 1 18 13 7 9 12 12 16 13 9 17 15 14 1 11
+Iterations: 1731 Heuristic time overall and percentage: 10.388217 0.248489 Move nums:
+1 8 0 5 1 7 1 6 4 7 1 8 0 6 2 7 4 0 4 1 4 6 3 8 2 8 2 8 
+Nodes Generated:
+5349228
+Total time:
+41.805472
+State: 197, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 5,349,228, Time: 41.81, Nodes per second: 127955.21
+The argument supplied is 16 10 7 15 11 13 12 5 15 17 7 9 11 4 3 1
+Iterations: 620 Heuristic time overall and percentage: 4.634995 0.357152 Move nums:
+3 1 7 1 7 4 6 0 7 5 1 7 3 2 4 7 4 0 7 5 7 5 8 0 8 0 4 8 
+Nodes Generated:
+1907405
+Total time:
+12.977649
+State: 198, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,907,405, Time: 12.98, Nodes per second: 146976.16
+The argument supplied is 9 5 17 15 6 7 4 9 1 3 7 14 15 11 4 8
+Iterations: 1999 Heuristic time overall and percentage: 12.588846 0.281737 Move nums:
+4 8 4 6 1 7 0 7 1 6 4 7 2 4 6 0 3 7 3 6 2 7 4 8 1 3 8 4 
+Nodes Generated:
+6154714
+Total time:
+44.683017
+State: 199, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 6,154,714, Time: 44.68, Nodes per second: 137741.68
+The argument supplied is 12 2 13 0 17 8 11 2 12 17 4 1 9 15 14 16
+Iterations: 1470 Heuristic time overall and percentage: 8.865689 0.265125 Move nums:
+2 7 4 6 3 7 3 2 3 7 5 7 0 5 2 6 3 2 5 6 5 6 4 7 5 7 5 7 
+Nodes Generated:
+4556858
+Total time:
+33.439684
+State: 200, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,556,858, Time: 33.44, Nodes per second: 136270.96
+The argument supplied is 12 15 10 4 16 6 0 7 0 4 3 11 8 14 6 1
+Iterations: 360 Heuristic time overall and percentage: 2.228888 0.308977 Move nums:
+0 3 1 7 1 7 1 6 3 1 4 7 0 3 0 4 7 1 3 6 1 3 7 0 7 0 6 1 
+Nodes Generated:
+1090489
+Total time:
+7.213779
+State: 201, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,090,489, Time: 7.21, Nodes per second: 151167.51
+The argument supplied is 16 19 20 11 0 15 3 1 8 13 15 3 0 7 2 5
+Iterations: 1865 Heuristic time overall and percentage: 10.992328 0.276485 Move nums:
+1 7 1 3 8 3 2 4 7 3 6 3 1 4 7 0 6 0 5 7 5 6 3 6 3 0 8 3 
+Nodes Generated:
+5751017
+Total time:
+39.757416
+State: 202, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 5,751,017, Time: 39.76, Nodes per second: 144652.69
+The argument supplied is 16 4 5 1 7 13 17 14 4 3 1 16 8 2 0 6
+Iterations: 1964 Heuristic time overall and percentage: 12.314390 0.282109 Move nums:
+7 4 7 0 4 7 4 0 3 6 3 7 3 8 5 2 7 4 6 1 6 4 0 7 3 6 4 7 2 7 
+Nodes Generated:
+6084536
+Total time:
+43.651172
+State: 203, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 6,084,536, Time: 43.65, Nodes per second: 139389.98
+The argument supplied is 7 10 18 15 12 2 20 7 5 10 17 15 11 13 9 3
+Iterations: 2211 Heuristic time overall and percentage: 14.829549 0.286347 Move nums:
+6 5 6 0 3 1 5 0 7 1 4 0 7 1 7 3 0 6 0 8 3 7 4 7 0 8 1 5 
+Nodes Generated:
+6848644
+Total time:
+51.788665
+State: 204, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 6,848,644, Time: 51.79, Nodes per second: 132242.14
+The argument supplied is 13 7 3 16 12 8 4 11 10 12 14 4 6 17 16 0
+Iterations: 1126 Heuristic time overall and percentage: 6.462228 0.254845 Move nums:
+2 7 5 6 4 7 4 0 6 5 0 4 8 4 1 8 0 3 7 5 8 0 4 2 3 8 0 7 
+Nodes Generated:
+3462126
+Total time:
+25.357522
+State: 205, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,462,126, Time: 25.36, Nodes per second: 136532.51
+The argument supplied is 3 19 18 0 2 1 20 0 7 2 8 10 13 3 5 6
+Iterations: 3862 Heuristic time overall and percentage: 23.479925 0.254376 Move nums:
+0 8 3 6 1 7 0 4 6 1 4 7 0 3 7 1 7 0 3 6 0 6 5 7 4 8 1 3 2 
+Nodes Generated:
+12027323
+Total time:
+92.303836
+State: 206, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 12,027,323, Time: 92.30, Nodes per second: 130301.44
+The argument supplied is 9 12 8 3 14 6 11 13 1 3 14 0 17 7 6 11
+Iterations: 79 Heuristic time overall and percentage: 0.615788 0.412719 Move nums:
+0 6 3 6 0 8 4 1 6 1 7 2 6 2 3 2 4 8 3 0 3 6 0 4 6 0 6 1 
+Nodes Generated:
+215041
+Total time:
+1.492025
+State: 207, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 215,041, Time: 1.49, Nodes per second: 144126.94
+The argument supplied is 1 7 18 17 19 13 9 10 0 12 11 15 13 8 5 16
+Iterations: 524 Heuristic time overall and percentage: 3.403794 0.302193 Move nums:
+1 7 1 7 0 4 7 4 6 5 0 8 1 3 6 2 6 0 4 7 2 7 5 8 0 6 4 6 
+Nodes Generated:
+1618355
+Total time:
+11.263634
+State: 208, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,618,355, Time: 11.26, Nodes per second: 143679.65
+The argument supplied is 19 17 14 6 2 4 1 1 2 7 8 6 0 14 13 3
+Iterations: 914 Heuristic time overall and percentage: 5.717600 0.280041 Move nums:
+2 3 7 1 5 7 2 4 6 3 0 6 3 1 5 0 7 3 1 7 1 6 0 4 6 2 6 1 
+Nodes Generated:
+2801103
+Total time:
+20.417012
+State: 209, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,801,103, Time: 20.42, Nodes per second: 137194.56
+The argument supplied is 2 5 15 20 3 14 4 8 4 0 5 15 12 10 16 2
+Iterations: 1742 Heuristic time overall and percentage: 9.952335 0.262854 Move nums:
+6 0 6 4 1 6 4 7 1 4 6 0 8 0 6 0 7 3 6 0 8 0 6 4 7 3 7 0 6 
+Nodes Generated:
+5397463
+Total time:
+37.862620
+State: 210, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,397,463, Time: 37.86, Nodes per second: 142553.87
+The argument supplied is 16 15 11 10 12 13 7 12 1 4 14 9 8 2 16 6
+Iterations: 1197 Heuristic time overall and percentage: 7.369984 0.281718 Move nums:
+0 7 4 7 4 2 3 0 8 3 0 8 0 4 7 0 8 3 1 5 0 3 8 0 4 7 0 7 
+Nodes Generated:
+3688146
+Total time:
+26.160853
+State: 211, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,688,146, Time: 26.16, Nodes per second: 140979.58
+The argument supplied is 0 1 10 5 18 13 16 10 4 8 9 16 15 2 12 14
+Iterations: 1995 Heuristic time overall and percentage: 11.791903 0.268666 Move nums:
+4 8 4 6 0 5 2 8 2 5 7 1 3 2 7 1 6 4 1 6 4 8 2 8 5 7 3 1 8 
+Nodes Generated:
+6138577
+Total time:
+43.890543
+State: 212, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,138,577, Time: 43.89, Nodes per second: 139861.04
+The argument supplied is 8 19 18 6 17 7 9 6 8 13 1 0 14 11 16 3
+Iterations: 2440 Heuristic time overall and percentage: 14.622979 0.266487 Move nums:
+5 6 2 7 0 3 1 7 4 0 5 1 8 3 7 1 4 7 3 7 2 8 5 2 8 1 3 1 
+Nodes Generated:
+7551861
+Total time:
+54.873112
+State: 213, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 7,551,861, Time: 54.87, Nodes per second: 137624.07
+The argument supplied is 10 15 12 14 16 13 4 13 5 0 8 10 11 6 12 7
+Iterations: 1856 Heuristic time overall and percentage: 11.191936 0.274208 Move nums:
+1 3 6 3 0 3 7 3 6 3 0 5 7 2 6 4 8 1 5 7 5 6 5 0 6 0 3 6 
+Nodes Generated:
+5755241
+Total time:
+40.815493
+State: 214, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 5,755,241, Time: 40.82, Nodes per second: 141006.28
+The argument supplied is 20 4 2 12 14 8 3 6 7 4 3 1 8 2 5 0
+Iterations: 210 Heuristic time overall and percentage: 1.427601 0.349309 Move nums:
+5 1 8 0 8 4 1 5 1 5 7 3 7 0 4 0 8 1 4 0 8 3 1 4 1 7 1 6 
+Nodes Generated:
+619519
+Total time:
+4.086924
+State: 215, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 619,519, Time: 4.09, Nodes per second: 151585.64
+The argument supplied is 11 6 8 10 9 12 7 17 12 5 9 15 16 2 1 13
+Iterations: 3472 Heuristic time overall and percentage: 22.881997 0.258350 Move nums:
+4 6 2 3 8 4 1 8 4 8 4 6 1 4 8 5 2 6 4 6 3 8 4 1 8 3 2 4 
+Nodes Generated:
+10707823
+Total time:
+88.569753
+State: 216, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 10,707,823, Time: 88.57, Nodes per second: 120897.06
+The argument supplied is 12 20 10 8 14 2 18 15 5 2 9 17 12 1 13 16
+Iterations: 539 Heuristic time overall and percentage: 3.583632 0.311892 Move nums:
+1 7 1 3 7 1 3 0 8 4 2 5 1 8 4 8 1 4 6 3 6 3 1 7 3 2 3 7 
+Nodes Generated:
+1641563
+Total time:
+11.489971
+State: 217, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,641,563, Time: 11.49, Nodes per second: 142869.20
+The argument supplied is 18 14 3 20 9 1 19 2 13 1 15 9 14 7 17 12
+Iterations: 3941 Heuristic time overall and percentage: 24.138495 0.263637 Move nums:
+3 1 6 0 3 2 4 8 3 8 1 5 0 6 5 7 4 6 5 7 1 7 2 6 0 5 8 0 4 
+Nodes Generated:
+12127944
+Total time:
+91.559527
+State: 218, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 12,127,944, Time: 91.56, Nodes per second: 132459.66
+The argument supplied is 4 8 0 6 12 2 10 6 10 2 12 17 14 0 16 13
+Iterations: 2325 Heuristic time overall and percentage: 14.232302 0.267048 Move nums:
+0 7 4 6 3 1 6 3 2 4 7 5 0 4 8 3 2 3 7 4 1 4 1 7 0 6 3 2 6 
+Nodes Generated:
+7231662
+Total time:
+53.294849
+State: 219, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 7,231,662, Time: 53.29, Nodes per second: 135691.57
+The argument supplied is 10 7 4 9 12 8 13 17 6 12 13 14 0 11 16 1
+Iterations: 621 Heuristic time overall and percentage: 3.851268 0.297937 Move nums:
+2 3 7 1 7 1 3 0 4 0 4 1 5 7 4 2 6 3 6 4 2 7 4 6 0 7 5 1 
+Nodes Generated:
+1897539
+Total time:
+12.926446
+State: 220, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,897,539, Time: 12.93, Nodes per second: 146795.11
+The argument supplied is 19 8 10 0 11 6 9 4 2 15 17 14 12 7 0 1
+Iterations: 661 Heuristic time overall and percentage: 4.407444 0.299795 Move nums:
+2 7 0 3 8 3 2 8 5 8 1 4 7 1 3 6 1 8 0 7 0 5 1 6 2 8 0 4 
+Nodes Generated:
+2024843
+Total time:
+14.701534
+State: 221, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,024,843, Time: 14.70, Nodes per second: 137730.05
+The argument supplied is 3 12 7 6 11 9 15 5 8 0 4 3 2 16 15 1
+Iterations: 4389 Heuristic time overall and percentage: 28.462519 0.238379 Move nums:
+6 4 6 1 4 0 3 0 5 7 2 6 2 6 4 8 3 2 4 7 1 7 1 7 3 6 5 2 8 
+Nodes Generated:
+13594518
+Total time:
+119.400294
+State: 222, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 13,594,518, Time: 119.40, Nodes per second: 113856.65
+The argument supplied is 8 19 10 11 0 6 9 4 3 2 7 5 6 9 17 1
+Iterations: 705 Heuristic time overall and percentage: 4.297005 0.285758 Move nums:
+1 3 1 8 0 7 1 6 3 6 0 6 3 0 6 1 7 1 7 4 6 4 1 6 5 6 5 7 1 
+Nodes Generated:
+2163010
+Total time:
+15.037215
+State: 223, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,163,010, Time: 15.04, Nodes per second: 143843.79
+The argument supplied is 0 19 10 1 20 2 11 4 9 12 7 14 10 2 6 8
+Iterations: 2395 Heuristic time overall and percentage: 14.162800 0.263507 Move nums:
+4 1 5 7 4 0 3 6 2 3 7 1 5 2 8 1 4 6 2 8 0 5 6 3 0 6 4 8 2 7 3 6 
+Nodes Generated:
+7377289
+Total time:
+53.747304
+State: 224, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 7,377,289, Time: 53.75, Nodes per second: 137258.77
+The argument supplied is 8 12 11 10 0 2 20 3 7 14 15 13 8 1 9 2
+Iterations: 6573 Heuristic time overall and percentage: 43.353950 0.248118 Move nums:
+5 1 7 0 6 4 7 2 7 3 6 2 7 4 0 6 2 5 7 1 6 5 7 3 6 3 1 3 0 6 
+Nodes Generated:
+20339944
+Total time:
+174.730853
+State: 225, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 20,339,944, Time: 174.73, Nodes per second: 116407.28
+The argument supplied is 18 12 10 9 6 0 8 3 5 15 10 9 16 11 8 13
+Iterations: 944 Heuristic time overall and percentage: 5.524078 0.276023 Move nums:
+3 6 3 6 1 4 6 1 7 3 0 4 8 1 3 6 0 6 0 4 2 7 1 7 0 7 4 2 
+Nodes Generated:
+2882185
+Total time:
+20.013098
+State: 226, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,882,185, Time: 20.01, Nodes per second: 144014.93
+The argument supplied is 1 5 3 16 0 13 4 1 16 9 8 11 14 6 4 3
+Iterations: 438 Heuristic time overall and percentage: 2.638684 0.281043 Move nums:
+7 4 7 0 6 1 4 8 1 4 6 2 6 0 3 8 4 7 5 1 8 0 6 4 6 4 6 0 
+Nodes Generated:
+1343869
+Total time:
+9.388910
+State: 227, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,343,869, Time: 9.39, Nodes per second: 143133.65
+The argument supplied is 7 16 13 5 3 4 15 3 10 16 9 17 14 13 11 15
+Iterations: 252 Heuristic time overall and percentage: 1.510437 0.297848 Move nums:
+1 4 7 4 1 3 6 0 6 0 6 4 1 4 2 3 6 3 6 5 6 0 7 3 0 6 5 8 
+Nodes Generated:
+754386
+Total time:
+5.071167
+State: 228, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 754,386, Time: 5.07, Nodes per second: 148759.84
+The argument supplied is 11 12 3 0 6 1 9 2 16 9 17 4 6 5 12 1
+Iterations: 1145 Heuristic time overall and percentage: 8.080880 0.308066 Move nums:
+1 5 1 7 5 6 0 7 1 5 0 3 6 3 0 3 6 3 0 3 8 4 6 5 0 7 1 6 
+Nodes Generated:
+3515323
+Total time:
+26.231023
+State: 229, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,515,323, Time: 26.23, Nodes per second: 134013.95
+The argument supplied is 13 16 15 19 17 0 4 6 12 14 17 0 10 11 16 4
+Iterations: 490 Heuristic time overall and percentage: 3.107325 0.300665 Move nums:
+0 7 5 6 5 2 6 1 8 0 6 1 3 0 8 2 7 0 8 2 4 6 2 3 6 5 6 2 
+Nodes Generated:
+1491544
+Total time:
+10.334849
+State: 230, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,491,544, Time: 10.33, Nodes per second: 144321.80
+The argument supplied is 5 0 4 16 15 10 13 0 13 12 1 5 6 8 2 7
+Iterations: 377 Heuristic time overall and percentage: 2.376819 0.301389 Move nums:
+0 5 1 7 4 7 5 6 0 4 1 4 7 2 3 6 1 4 0 7 5 8 0 4 1 8 2 4 
+Nodes Generated:
+1147773
+Total time:
+7.886205
+State: 231, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,147,773, Time: 7.89, Nodes per second: 145541.87
+The argument supplied is 10 12 1 20 16 18 7 11 12 17 15 0 5 1 7 4
+Iterations: 1082 Heuristic time overall and percentage: 7.366902 0.285492 Move nums:
+6 4 6 1 4 8 2 5 2 6 5 0 4 7 5 6 5 0 6 4 0 7 4 7 1 7 0 6 
+Nodes Generated:
+3338235
+Total time:
+25.804208
+State: 232, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,338,235, Time: 25.80, Nodes per second: 129367.85
+The argument supplied is 3 4 9 12 13 14 8 7 1 14 11 0 17 13 15 12
+Iterations: 2217 Heuristic time overall and percentage: 13.006545 0.264189 Move nums:
+2 3 6 1 7 3 6 5 0 4 7 2 4 1 3 1 4 7 0 6 4 0 3 0 7 4 2 3 2 
+Nodes Generated:
+6836882
+Total time:
+49.232032
+State: 233, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,836,882, Time: 49.23, Nodes per second: 138870.60
+The argument supplied is 9 4 7 19 3 1 20 11 15 5 3 4 9 1 8 16
+Iterations: 732 Heuristic time overall and percentage: 4.442838 0.272080 Move nums:
+7 0 7 4 0 7 1 6 3 6 1 7 5 1 7 3 0 5 7 0 5 6 0 4 1 5 0 6 
+Nodes Generated:
+2264162
+Total time:
+16.329153
+State: 234, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,264,162, Time: 16.33, Nodes per second: 138657.65
+The argument supplied is 1 11 17 7 6 5 16 8 2 7 10 15 0 4 14 12
+Iterations: 1330 Heuristic time overall and percentage: 8.869705 0.295626 Move nums:
+4 1 4 8 3 2 4 1 3 0 3 6 4 7 4 6 3 7 1 7 0 8 1 8 1 3 0 8 
+Nodes Generated:
+4115985
+Total time:
+30.003082
+State: 235, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,115,985, Time: 30.00, Nodes per second: 137185.41
+The argument supplied is 1 20 9 10 19 4 0 3 9 4 14 11 15 8 1 7
+Iterations: 599 Heuristic time overall and percentage: 3.743410 0.294743 Move nums:
+8 0 4 1 7 1 7 1 7 0 7 1 4 6 3 1 6 0 7 5 7 2 7 1 6 1 7 0 
+Nodes Generated:
+1837929
+Total time:
+12.700574
+State: 236, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,837,929, Time: 12.70, Nodes per second: 144712.28
+The argument supplied is 13 10 14 2 4 19 1 9 15 5 2 7 3 8 10 13
+Iterations: 1885 Heuristic time overall and percentage: 10.887397 0.264582 Move nums:
+4 8 1 4 7 0 7 1 3 6 4 7 0 7 3 1 3 8 3 6 2 7 0 6 4 1 6 3 7 
+Nodes Generated:
+5839290
+Total time:
+41.149476
+State: 237, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,839,290, Time: 41.15, Nodes per second: 141904.36
+The argument supplied is 20 2 1 12 7 4 17 9 3 14 16 10 11 8 13 6
+Iterations: 886 Heuristic time overall and percentage: 5.279552 0.281589 Move nums:
+3 6 3 1 7 1 7 0 7 0 6 0 7 1 5 2 3 0 8 1 5 6 3 8 1 4 7 3 
+Nodes Generated:
+2744811
+Total time:
+18.749146
+State: 238, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,744,811, Time: 18.75, Nodes per second: 146396.59
+The argument supplied is 0 11 17 6 9 5 15 7 5 0 2 6 17 13 3 1
+Iterations: 163 Heuristic time overall and percentage: 1.243020 0.306938 Move nums:
+0 7 4 6 1 8 2 7 2 8 4 7 1 5 1 6 0 5 6 2 8 2 5 7 1 4 2 5 
+Nodes Generated:
+479654
+Total time:
+4.049741
+State: 239, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 479,654, Time: 4.05, Nodes per second: 118440.66
+The argument supplied is 17 15 11 9 7 13 12 11 7 0 4 15 14 10 17 12
+Iterations: 485 Heuristic time overall and percentage: 2.985154 0.274214 Move nums:
+0 7 3 6 0 4 2 5 0 4 7 5 2 3 6 0 6 3 7 3 8 0 3 1 3 6 2 7 
+Nodes Generated:
+1480706
+Total time:
+10.886204
+State: 240, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,480,706, Time: 10.89, Nodes per second: 136016.74
+The argument supplied is 16 6 7 18 5 15 17 7 10 11 14 9 4 15 17 3
+Iterations: 1434 Heuristic time overall and percentage: 8.619541 0.265987 Move nums:
+4 6 0 4 7 0 6 3 0 3 0 7 0 3 7 0 3 6 1 5 0 6 4 7 3 6 0 7 1 4 
+Nodes Generated:
+4424573
+Total time:
+32.405920
+State: 241, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 4,424,573, Time: 32.41, Nodes per second: 136535.95
+The argument supplied is 16 10 15 14 11 5 13 2 1 8 12 6 13 5 9 16
+Iterations: 797 Heuristic time overall and percentage: 6.316649 0.344619 Move nums:
+8 0 3 8 4 7 4 2 4 0 6 0 3 6 1 5 1 8 0 7 1 8 2 8 5 7 5 8 
+Nodes Generated:
+2427587
+Total time:
+18.329383
+State: 242, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,427,587, Time: 18.33, Nodes per second: 132442.37
+The argument supplied is 12 6 4 8 14 3 16 17 2 15 14 1 0 3 4 16
+Iterations: 784 Heuristic time overall and percentage: 4.897589 0.298564 Move nums:
+2 3 8 2 3 8 4 7 0 3 7 5 8 2 7 5 1 6 3 0 3 2 6 2 6 5 2 3 
+Nodes Generated:
+2408605
+Total time:
+16.403835
+State: 243, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,408,605, Time: 16.40, Nodes per second: 146831.82
+The argument supplied is 20 7 11 9 10 15 12 1 17 7 11 15 14 4 12 9
+Iterations: 184 Heuristic time overall and percentage: 1.264176 0.343665 Move nums:
+1 5 7 4 0 3 0 8 0 3 2 4 6 0 8 3 6 0 7 4 7 1 7 3 0 5 1 6 
+Nodes Generated:
+533297
+Total time:
+3.678515
+State: 244, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 533,297, Time: 3.68, Nodes per second: 144976.17
+The argument supplied is 10 9 18 6 7 1 12 3 16 11 5 6 0 1 17 13
+Iterations: 505 Heuristic time overall and percentage: 3.867979 0.366228 Move nums:
+8 0 5 6 4 7 3 1 6 0 3 0 6 3 8 1 3 6 1 5 1 6 4 0 7 1 5 2 
+Nodes Generated:
+1547651
+Total time:
+10.561656
+State: 245, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,547,651, Time: 10.56, Nodes per second: 146534.88
+The argument supplied is 13 17 8 4 16 12 14 6 5 12 10 8 16 9 11 13
+Iterations: 609 Heuristic time overall and percentage: 3.696600 0.294018 Move nums:
+5 6 2 3 2 6 2 7 2 6 0 7 4 0 4 6 0 4 7 3 0 6 3 2 3 1 4 7 
+Nodes Generated:
+1866532
+Total time:
+12.572685
+State: 246, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,866,532, Time: 12.57, Nodes per second: 148459.30
+The argument supplied is 18 8 12 10 9 6 0 12 11 6 10 13 16 17 5 0
+Iterations: 746 Heuristic time overall and percentage: 5.393412 0.329117 Move nums:
+3 1 7 3 8 4 7 5 2 4 6 5 7 0 6 3 1 7 1 8 4 7 4 6 1 3 0 5 
+Nodes Generated:
+2301575
+Total time:
+16.387508
+State: 247, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,301,575, Time: 16.39, Nodes per second: 140446.92
+The argument supplied is 9 10 0 8 13 12 11 3 6 2 0 17 5 10 16 13
+Iterations: 7719 Heuristic time overall and percentage: 52.991526 0.250880 Move nums:
+4 8 4 6 0 5 0 6 3 1 5 0 6 1 7 4 2 6 1 3 6 4 6 4 1 4 1 6 3 
+Nodes Generated:
+23790249
+Total time:
+211.222953
+State: 248, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 23,790,249, Time: 211.22, Nodes per second: 112630.98
+The argument supplied is 3 1 9 0 6 12 11 8 6 16 10 9 4 2 5 12
+Iterations: 1043 Heuristic time overall and percentage: 6.359714 0.266172 Move nums:
+2 7 5 6 4 7 4 0 7 3 0 4 7 2 6 5 7 1 3 6 5 6 5 7 0 3 8 3 6 
+Nodes Generated:
+3226936
+Total time:
+23.893252
+State: 249, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,226,936, Time: 23.89, Nodes per second: 135056.37
+The argument supplied is 15 11 9 5 3 20 0 7 3 10 4 6 5 11 0 8
+Iterations: 1995 Heuristic time overall and percentage: 12.125871 0.273031 Move nums:
+8 4 6 0 7 2 7 0 7 4 8 5 0 4 0 8 1 4 7 4 8 5 2 6 3 8 0 4 
+Nodes Generated:
+6168778
+Total time:
+44.412078
+State: 250, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 6,168,778, Time: 44.41, Nodes per second: 138898.66
+The argument supplied is 0 3 5 1 9 18 6 6 4 8 16 5 10 0 12 11
+Iterations: 192 Heuristic time overall and percentage: 1.253611 0.322416 Move nums:
+1 7 1 3 7 3 0 3 1 3 1 4 7 3 1 3 6 1 6 3 7 1 6 5 1 3 7 3 
+Nodes Generated:
+570439
+Total time:
+3.888179
+State: 251, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 570,439, Time: 3.89, Nodes per second: 146711.10
+The argument supplied is 17 8 14 6 19 9 11 1 12 5 9 15 13 16 17 2
+Iterations: 1577 Heuristic time overall and percentage: 9.346852 0.266376 Move nums:
+8 0 5 1 7 2 8 5 8 4 6 3 2 6 2 5 7 1 7 3 0 6 0 4 2 6 4 8 
+Nodes Generated:
+4839186
+Total time:
+35.088968
+State: 252, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,839,186, Time: 35.09, Nodes per second: 137911.89
+The argument supplied is 3 6 5 16 4 8 0 5 16 2 0 6 13 1 17 12
+Iterations: 268 Heuristic time overall and percentage: 1.650328 0.300492 Move nums:
+7 2 4 7 1 3 1 4 6 5 7 1 3 7 3 0 3 0 7 2 4 7 0 3 0 4 6 4 
+Nodes Generated:
+800837
+Total time:
+5.492079
+State: 253, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 800,837, Time: 5.49, Nodes per second: 145816.73
+The argument supplied is 4 14 13 5 3 2 1 12 0 6 4 14 10 7 11 8
+Iterations: 1542 Heuristic time overall and percentage: 9.312670 0.272190 Move nums:
+0 3 2 6 4 1 3 1 8 1 7 0 7 5 6 5 8 5 0 3 1 4 8 3 7 1 7 5 
+Nodes Generated:
+4728735
+Total time:
+34.213877
+State: 254, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 4,728,735, Time: 34.21, Nodes per second: 138211.02
+The argument supplied is 7 11 9 13 12 3 8 16 14 3 8 9 11 1 6 4
+Iterations: 559 Heuristic time overall and percentage: 3.289355 0.282544 Move nums:
+3 6 5 7 1 4 7 2 6 0 7 4 7 2 3 0 6 0 8 4 1 5 7 1 7 4 1 5 
+Nodes Generated:
+1714653
+Total time:
+11.641931
+State: 255, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,714,653, Time: 11.64, Nodes per second: 147282.53
+The argument supplied is 9 13 3 12 14 4 8 16 2 0 13 17 5 12 6 1
+Iterations: 2043 Heuristic time overall and percentage: 12.851857 0.281583 Move nums:
+5 6 4 1 8 1 4 7 4 6 0 3 0 3 2 4 1 4 6 0 8 3 2 4 1 6 5 1 5 0 
+Nodes Generated:
+6346198
+Total time:
+45.641432
+State: 256, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 6,346,198, Time: 45.64, Nodes per second: 139044.67
+The argument supplied is 18 6 7 2 12 15 3 15 13 16 12 9 2 14 1 8
+Iterations: 1168 Heuristic time overall and percentage: 7.120224 0.278174 Move nums:
+7 4 7 4 2 3 2 4 7 2 6 0 4 0 6 0 3 1 4 7 0 6 1 7 0 5 0 3 
+Nodes Generated:
+3616205
+Total time:
+25.596291
+State: 257, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,616,205, Time: 25.60, Nodes per second: 141278.48
+The argument supplied is 15 2 0 10 5 6 4 10 5 17 9 12 4 7 6 2
+Iterations: 376 Heuristic time overall and percentage: 2.189069 0.287975 Move nums:
+0 7 5 1 8 0 3 7 3 6 1 4 7 1 3 6 3 0 3 0 6 4 6 4 0 4 6 4 
+Nodes Generated:
+1130073
+Total time:
+7.601583
+State: 258, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,130,073, Time: 7.60, Nodes per second: 148662.85
+The argument supplied is 1 13 19 17 18 14 2 3 13 17 7 1 6 11 9 5
+Iterations: 1132 Heuristic time overall and percentage: 6.691456 0.265701 Move nums:
+2 7 3 7 0 8 1 3 6 5 7 4 2 3 2 4 0 6 4 7 1 7 3 0 3 6 3 6 0 
+Nodes Generated:
+3494056
+Total time:
+25.184135
+State: 259, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,494,056, Time: 25.18, Nodes per second: 138740.36
+The argument supplied is 19 16 13 10 14 8 4 14 9 6 2 3 17 4 1 16
+Iterations: 494 Heuristic time overall and percentage: 2.955114 0.276187 Move nums:
+6 0 6 5 7 4 0 3 0 6 0 6 5 7 5 6 3 8 3 2 6 1 7 2 5 6 1 4 
+Nodes Generated:
+1519263
+Total time:
+10.699669
+State: 260, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,519,263, Time: 10.70, Nodes per second: 141991.59
+The argument supplied is 14 12 1 6 3 4 2 9 4 2 7 1 3 15 14 17
+Iterations: 787 Heuristic time overall and percentage: 4.669119 0.285742 Move nums:
+6 2 7 3 1 5 0 6 5 7 4 2 8 5 8 1 7 5 6 4 1 3 1 6 0 3 2 4 
+Nodes Generated:
+2412226
+Total time:
+16.340354
+State: 261, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,412,226, Time: 16.34, Nodes per second: 147623.85
+The argument supplied is 17 14 16 6 8 4 19 12 5 11 7 13 9 6 17 10
+Iterations: 5727 Heuristic time overall and percentage: 37.222350 0.255091 Move nums:
+0 7 4 0 5 1 4 2 3 0 7 3 1 3 1 7 5 2 4 1 4 2 4 1 8 2 5 2 
+Nodes Generated:
+17763330
+Total time:
+145.917833
+State: 262, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 17,763,330, Time: 145.92, Nodes per second: 121735.15
+The argument supplied is 15 2 20 7 17 11 12 8 11 3 6 5 1 13 16 9
+Iterations: 3917 Heuristic time overall and percentage: 24.450025 0.245586 Move nums:
+6 2 7 3 1 4 6 5 1 5 8 0 6 2 6 0 4 6 1 5 0 6 3 6 0 6 2 5 
+Nodes Generated:
+12141312
+Total time:
+99.557817
+State: 263, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 12,141,312, Time: 99.56, Nodes per second: 121952.37
+The argument supplied is 2 13 8 0 10 4 5 16 0 4 15 5 8 1 2 3
+Iterations: 481 Heuristic time overall and percentage: 2.805638 0.277000 Move nums:
+4 6 0 6 3 6 1 6 0 8 4 1 8 5 6 2 8 1 8 0 8 3 2 6 1 4 6 0 
+Nodes Generated:
+1469651
+Total time:
+10.128644
+State: 264, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,469,651, Time: 10.13, Nodes per second: 145098.49
+The argument supplied is 6 1 18 14 3 19 2 7 1 17 6 0 5 11 3 4
+Iterations: 71 Heuristic time overall and percentage: 0.591177 0.452289 Move nums:
+3 8 4 1 7 3 7 4 8 1 7 4 0 3 2 6 4 7 1 7 1 6 1 8 2 4 7 2 
+Nodes Generated:
+189073
+Total time:
+1.307077
+State: 265, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 189,073, Time: 1.31, Nodes per second: 144653.30
+The argument supplied is 9 17 6 0 1 4 5 13 0 11 5 10 3 6 8 16
+Iterations: 950 Heuristic time overall and percentage: 5.765806 0.249030 Move nums:
+0 3 0 7 0 6 3 8 4 2 7 1 8 1 8 1 6 5 8 4 6 0 3 8 4 1 6 5 
+Nodes Generated:
+2919737
+Total time:
+23.153050
+State: 266, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,919,737, Time: 23.15, Nodes per second: 126105.93
+The argument supplied is 6 19 16 8 17 11 7 12 7 4 10 6 11 9 8 5
+Iterations: 1134 Heuristic time overall and percentage: 6.878217 0.277469 Move nums:
+3 6 5 7 4 7 5 6 0 5 1 4 2 5 1 6 3 7 4 2 3 0 3 8 1 3 0 6 3 
+Nodes Generated:
+3464029
+Total time:
+24.789172
+State: 267, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,464,029, Time: 24.79, Nodes per second: 139739.60
+The argument supplied is 20 5 10 15 0 2 11 14 4 2 12 6 7 17 9 1
+Iterations: 428 Heuristic time overall and percentage: 2.445458 0.279790 Move nums:
+7 5 1 6 1 3 2 4 7 0 6 3 2 8 1 6 0 4 1 3 6 4 6 1 4 7 2 4 
+Nodes Generated:
+1303474
+Total time:
+8.740337
+State: 268, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,303,474, Time: 8.74, Nodes per second: 149133.15
+The argument supplied is 7 5 9 13 11 10 8 9 13 3 15 5 16 17 11 1
+Iterations: 410 Heuristic time overall and percentage: 2.560379 0.274074 Move nums:
+4 7 5 6 0 3 0 6 4 1 6 0 7 0 3 0 4 1 4 6 5 1 3 7 4 1 4 8 
+Nodes Generated:
+1248730
+Total time:
+9.341926
+State: 269, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,248,730, Time: 9.34, Nodes per second: 133669.44
+The argument supplied is 17 5 6 9 8 14 4 8 9 11 5 3 1 15 4 16
+Iterations: 2941 Heuristic time overall and percentage: 18.760076 0.271301 Move nums:
+2 7 3 6 4 1 3 2 3 1 6 1 7 2 6 1 5 1 3 1 6 4 1 4 6 1 6 1 
+Nodes Generated:
+9160339
+Total time:
+69.148684
+State: 270, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 9,160,339, Time: 69.15, Nodes per second: 132473.08
+The argument supplied is 8 16 0 4 3 12 20 1 17 15 0 16 4 11 3 5
+Iterations: 3735 Heuristic time overall and percentage: 24.133097 0.257965 Move nums:
+1 4 1 7 4 1 4 2 6 4 6 1 4 0 7 0 8 1 7 1 4 0 3 6 0 8 1 8 1 
+Nodes Generated:
+11575934
+Total time:
+93.551818
+State: 271, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 11,575,934, Time: 93.55, Nodes per second: 123738.20
+The argument supplied is 15 12 9 17 0 4 6 1 12 5 17 13 9 6 16 11
+Iterations: 276 Heuristic time overall and percentage: 1.642718 0.297735 Move nums:
+1 3 7 1 5 0 3 1 4 7 2 6 5 0 6 2 5 7 3 7 4 1 3 8 0 4 8 1 
+Nodes Generated:
+825637
+Total time:
+5.517377
+State: 272, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 825,637, Time: 5.52, Nodes per second: 149643.03
+The argument supplied is 4 13 12 2 8 17 7 16 2 3 9 4 8 6 10 14
+Iterations: 2798 Heuristic time overall and percentage: 16.650876 0.266133 Move nums:
+4 1 5 0 6 1 4 6 2 3 1 6 1 5 8 2 6 4 1 7 3 0 3 8 4 7 5 7 
+Nodes Generated:
+8580479
+Total time:
+62.566031
+State: 273, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 8,580,479, Time: 62.57, Nodes per second: 137142.77
+The argument supplied is 17 8 4 14 2 5 13 8 5 1 7 6 9 12 2 4
+Iterations: 426 Heuristic time overall and percentage: 2.828017 0.281547 Move nums:
+5 1 6 4 8 3 0 6 2 7 2 3 2 4 2 6 2 4 1 7 2 7 5 7 0 7 1 5 
+Nodes Generated:
+1295565
+Total time:
+10.044562
+State: 274, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,295,565, Time: 10.04, Nodes per second: 128981.73
+The argument supplied is 10 14 8 20 19 18 16 0 6 4 16 8 10 5 3 2
+Iterations: 2235 Heuristic time overall and percentage: 13.648604 0.280269 Move nums:
+1 7 2 6 4 7 1 3 8 3 8 4 7 4 1 6 0 8 5 0 4 1 6 0 7 1 3 6 
+Nodes Generated:
+6884054
+Total time:
+48.698271
+State: 275, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 6,884,054, Time: 48.70, Nodes per second: 141361.36
+The argument supplied is 1 10 9 19 14 13 18 7 14 0 2 8 1 6 12 4
+Iterations: 926 Heuristic time overall and percentage: 5.714266 0.277001 Move nums:
+1 4 2 3 7 1 7 3 6 0 6 3 0 3 2 8 2 3 2 5 1 6 3 6 3 8 1 4 
+Nodes Generated:
+2850769
+Total time:
+20.629038
+State: 276, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,850,769, Time: 20.63, Nodes per second: 138192.05
+The argument supplied is 18 20 19 2 15 10 0 3 13 11 5 10 17 16 6 9
+Iterations: 1809 Heuristic time overall and percentage: 10.606999 0.260773 Move nums:
+4 1 7 4 0 6 2 3 6 3 0 7 1 5 7 4 0 4 1 4 8 2 7 5 1 5 8 4 
+Nodes Generated:
+5590779
+Total time:
+40.675156
+State: 277, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 5,590,779, Time: 40.68, Nodes per second: 137449.48
+The argument supplied is 7 8 11 12 9 6 10 9 16 6 10 2 3 14 8 4
+Iterations: 342 Heuristic time overall and percentage: 2.340215 0.294443 Move nums:
+6 4 1 7 5 6 1 3 6 0 4 1 3 6 0 5 1 8 0 6 4 0 6 0 5 8 1 4 
+Nodes Generated:
+1033608
+Total time:
+7.947931
+State: 278, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,033,608, Time: 7.95, Nodes per second: 130047.43
+The argument supplied is 0 17 12 15 16 11 13 14 6 1 2 8 7 13 0 3
+Iterations: 706 Heuristic time overall and percentage: 4.225912 0.293520 Move nums:
+4 1 4 6 3 7 5 6 3 6 4 0 3 8 5 6 2 7 1 7 1 3 6 2 3 7 1 7 
+Nodes Generated:
+2164846
+Total time:
+14.397351
+State: 279, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,164,846, Time: 14.40, Nodes per second: 150364.19
+The argument supplied is 12 20 9 7 11 8 17 0 16 8 1 5 15 13 11 3
+Iterations: 640 Heuristic time overall and percentage: 3.787829 0.288768 Move nums:
+0 6 2 3 7 5 6 4 7 4 1 4 7 2 6 4 2 4 2 7 2 4 8 5 7 0 4 7 
+Nodes Generated:
+1956177
+Total time:
+13.117216
+State: 280, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,956,177, Time: 13.12, Nodes per second: 149130.50
+The argument supplied is 11 19 1 6 17 2 7 11 6 10 17 12 16 0 4 14
+Iterations: 1716 Heuristic time overall and percentage: 10.618441 0.280263 Move nums:
+6 2 7 5 7 2 6 4 8 1 4 7 0 3 7 5 6 0 6 3 8 5 6 2 6 5 1 3 
+Nodes Generated:
+5290660
+Total time:
+37.887483
+State: 281, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 5,290,660, Time: 37.89, Nodes per second: 139641.37
+The argument supplied is 8 10 11 20 9 12 14 10 0 2 16 6 4 14 3 17
+Iterations: 1895 Heuristic time overall and percentage: 13.364341 0.323798 Move nums:
+5 1 6 1 3 0 8 4 8 1 4 0 8 0 4 1 5 0 6 1 4 1 7 5 0 8 1 4 7 
+Nodes Generated:
+5886941
+Total time:
+41.273712
+State: 282, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,886,941, Time: 41.27, Nodes per second: 142631.73
+The argument supplied is 16 12 10 6 11 7 1 3 2 9 13 8 1 6 5 7
+Iterations: 1628 Heuristic time overall and percentage: 9.855423 0.272049 Move nums:
+8 0 3 7 1 4 2 6 1 6 4 1 4 6 5 6 1 4 0 4 7 5 8 1 4 0 4 7 
+Nodes Generated:
+5026790
+Total time:
+36.226654
+State: 283, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 5,026,790, Time: 36.23, Nodes per second: 138759.43
+The argument supplied is 11 6 2 7 1 12 3 11 15 14 12 1 8 0 7 4
+Iterations: 866 Heuristic time overall and percentage: 5.273637 0.291255 Move nums:
+6 4 1 4 7 5 6 0 6 4 1 3 6 4 7 3 8 1 5 0 6 4 6 3 1 4 2 6 
+Nodes Generated:
+2639734
+Total time:
+18.106597
+State: 284, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,639,734, Time: 18.11, Nodes per second: 145788.52
+The argument supplied is 20 5 15 17 18 14 16 15 2 12 1 4 14 7 0 17
+Iterations: 93 Heuristic time overall and percentage: 0.697564 0.399240 Move nums:
+8 4 2 3 7 1 5 0 8 3 7 1 8 0 7 4 7 4 6 0 8 3 6 4 0 6 1 6 
+Nodes Generated:
+261107
+Total time:
+1.747229
+State: 285, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 261,107, Time: 1.75, Nodes per second: 149440.63
+The argument supplied is 8 7 12 3 11 13 9 14 1 0 11 3 13 15 17 16
+Iterations: 1059 Heuristic time overall and percentage: 6.647456 0.281403 Move nums:
+3 6 3 1 6 3 2 5 1 3 1 8 1 6 0 6 0 8 5 1 6 5 0 6 0 7 3 8 
+Nodes Generated:
+3253747
+Total time:
+23.622513
+State: 286, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,253,747, Time: 23.62, Nodes per second: 137739.24
+The argument supplied is 3 15 16 7 5 13 4 14 15 16 0 13 12 10 17 11
+Iterations: 212 Heuristic time overall and percentage: 1.522198 0.373497 Move nums:
+6 0 6 0 3 1 4 8 1 3 6 2 4 8 4 0 6 5 6 3 0 4 0 6 0 8 4 7 
+Nodes Generated:
+634198
+Total time:
+4.075529
+State: 287, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 634,198, Time: 4.08, Nodes per second: 155611.21
+The argument supplied is 20 1 2 4 10 0 5 15 9 17 3 16 1 11 14 4
+Iterations: 10534 Heuristic time overall and percentage: 75.291419 0.219700 Move nums:
+3 1 3 6 2 7 1 6 0 6 1 5 7 0 7 4 2 3 0 3 0 7 4 1 7 0 5 2 
+Nodes Generated:
+32586920
+Total time:
+342.700637
+State: 288, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 32,586,920, Time: 342.70, Nodes per second: 95088.59
+The argument supplied is 12 17 16 11 15 14 20 0 14 10 16 12 15 4 8 11
+Iterations: 773 Heuristic time overall and percentage: 5.105731 0.309210 Move nums:
+7 1 8 0 5 1 3 0 3 7 1 4 6 5 0 8 2 7 0 6 1 4 1 4 6 1 7 4 
+Nodes Generated:
+2364174
+Total time:
+16.512198
+State: 289, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,364,174, Time: 16.51, Nodes per second: 143177.43
+The argument supplied is 9 10 13 8 12 7 4 5 1 15 12 11 9 16 8 13
+Iterations: 974 Heuristic time overall and percentage: 5.860069 0.280090 Move nums:
+6 0 8 1 6 0 3 6 1 4 1 5 1 8 1 7 3 6 5 0 5 2 5 8 1 8 4 7 
+Nodes Generated:
+3004087
+Total time:
+20.922099
+State: 290, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 3,004,087, Time: 20.92, Nodes per second: 143584.40
+The argument supplied is 13 14 3 19 18 8 9 1 8 7 15 2 14 12 13 0
+Iterations: 1003 Heuristic time overall and percentage: 6.732785 0.294879 Move nums:
+5 6 2 7 1 3 6 0 7 4 0 4 1 6 2 5 1 3 6 1 6 3 7 4 1 6 4 7 0 
+Nodes Generated:
+3079891
+Total time:
+22.832350
+State: 291, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,079,891, Time: 22.83, Nodes per second: 134891.55
+The argument supplied is 13 7 12 8 3 2 18 9 12 16 17 15 1 14 4 2
+Iterations: 2118 Heuristic time overall and percentage: 12.285927 0.263187 Move nums:
+0 8 0 7 3 7 0 6 1 8 0 6 2 3 1 6 3 1 4 1 6 3 8 4 2 3 0 3 
+Nodes Generated:
+6551106
+Total time:
+46.681357
+State: 292, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 6,551,106, Time: 46.68, Nodes per second: 140336.67
+The argument supplied is 9 10 4 14 12 1 13 16 3 15 17 4 0 1 2 14
+Iterations: 84 Heuristic time overall and percentage: 0.673907 0.432218 Move nums:
+4 1 4 8 2 3 6 4 7 2 6 5 8 4 8 1 3 0 6 4 0 8 1 3 7 0 4 0 
+Nodes Generated:
+226410
+Total time:
+1.559182
+State: 293, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 226,410, Time: 1.56, Nodes per second: 145210.76
+The argument supplied is 5 4 10 8 0 6 9 4 10 15 7 14 12 0 11 17
+Iterations: 1693 Heuristic time overall and percentage: 10.324485 0.267000 Move nums:
+7 0 4 7 4 1 3 0 6 5 0 8 1 8 3 1 4 6 0 6 1 6 3 7 4 0 3 0 4 
+Nodes Generated:
+5242119
+Total time:
+38.668449
+State: 294, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,242,119, Time: 38.67, Nodes per second: 135565.79
+The argument supplied is 1 11 17 2 20 19 14 3 9 15 4 5 1 8 16 11
+Iterations: 540 Heuristic time overall and percentage: 3.639288 0.319401 Move nums:
+6 2 7 4 2 3 0 5 1 4 8 4 1 4 1 4 1 3 6 1 4 0 3 1 4 0 6 3 
+Nodes Generated:
+1657348
+Total time:
+11.394121
+State: 295, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,657,348, Time: 11.39, Nodes per second: 145456.42
+The argument supplied is 10 12 9 1 11 14 6 10 6 4 9 14 12 11 17 7
+Iterations: 892 Heuristic time overall and percentage: 5.249618 0.270711 Move nums:
+1 7 2 6 0 6 4 2 7 4 1 3 6 1 8 1 7 0 7 4 0 3 7 1 6 1 4 7 
+Nodes Generated:
+2744130
+Total time:
+19.391942
+State: 296, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 2,744,130, Time: 19.39, Nodes per second: 141508.78
+The argument supplied is 1 6 11 7 10 19 9 1 0 11 13 15 16 3 8 5
+Iterations: 601 Heuristic time overall and percentage: 3.470274 0.279517 Move nums:
+4 6 4 1 6 2 8 0 6 1 8 2 8 3 8 0 5 0 4 0 6 1 7 5 1 4 6 5 
+Nodes Generated:
+1840998
+Total time:
+12.415240
+State: 297, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,840,998, Time: 12.42, Nodes per second: 148285.33
+The argument supplied is 7 1 11 10 12 13 9 5 15 8 1 16 13 0 3 11
+Iterations: 545 Heuristic time overall and percentage: 3.282305 0.282792 Move nums:
+1 7 1 7 3 6 0 7 0 3 6 1 3 8 1 7 5 1 6 3 6 0 7 5 6 1 4 7 
+Nodes Generated:
+1688693
+Total time:
+11.606776
+State: 298, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,688,693, Time: 11.61, Nodes per second: 145492.00
+The argument supplied is 10 6 18 14 9 8 19 12 7 9 6 2 8 1 14 13
+Iterations: 198 Heuristic time overall and percentage: 1.528359 0.394332 Move nums:
+0 3 0 3 1 7 3 0 7 1 4 6 0 4 1 3 6 1 5 6 3 7 5 6 5 7 1 5 
+Nodes Generated:
+586531
+Total time:
+3.875813
+State: 299, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 586,531, Time: 3.88, Nodes per second: 151331.09
+The argument supplied is 7 8 16 6 10 4 12 4 14 0 10 17 12 11 15 7
+Iterations: 654 Heuristic time overall and percentage: 4.293763 0.316317 Move nums:
+6 0 6 0 4 1 4 1 3 7 5 6 3 0 7 4 1 8 3 6 0 8 2 5 0 7 5 0 4 
+Nodes Generated:
+2001720
+Total time:
+13.574246
+State: 300, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,001,720, Time: 13.57, Nodes per second: 147464.54
+The argument supplied is 5 8 13 10 0 2 4 9 15 13 10 2 17 7 14 3
+Iterations: 3180 Heuristic time overall and percentage: 19.285530 0.270359 Move nums:
+2 7 3 1 5 0 4 7 0 6 3 1 7 2 3 6 1 6 3 7 4 0 4 7 4 0 6 2 3 0 
+Nodes Generated:
+9872321
+Total time:
+71.333106
+State: 301, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 9,872,321, Time: 71.33, Nodes per second: 138397.46
+The argument supplied is 8 4 3 19 14 16 20 15 7 4 1 0 8 14 2 3
+Iterations: 1970 Heuristic time overall and percentage: 11.022455 0.259827 Move nums:
+7 5 1 6 0 3 0 3 0 7 0 8 5 0 4 1 7 3 0 4 1 4 1 4 6 5 6 1 5 
+Nodes Generated:
+6001312
+Total time:
+42.422241
+State: 302, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,001,312, Time: 42.42, Nodes per second: 141466.17
+The argument supplied is 0 15 6 9 18 5 10 4 6 0 7 17 5 1 11 3
+Iterations: 477 Heuristic time overall and percentage: 3.187955 0.323607 Move nums:
+6 0 7 4 1 6 1 4 1 3 2 4 8 2 6 1 7 3 7 5 8 4 0 6 1 7 2 6 
+Nodes Generated:
+1446163
+Total time:
+9.851320
+State: 303, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 1,446,163, Time: 9.85, Nodes per second: 146798.91
+The argument supplied is 5 3 4 7 16 6 1 11 1 5 15 16 3 13 17 9
+Iterations: 2516 Heuristic time overall and percentage: 15.028482 0.267541 Move nums:
+5 1 3 6 0 4 1 6 5 7 4 6 5 7 0 6 0 3 7 2 6 0 6 5 7 4 1 3 
+Nodes Generated:
+7780319
+Total time:
+56.172630
+State: 304, SolnCost: 28.00, # Moves: 28, # Nodes Gen: 7,780,319, Time: 56.17, Nodes per second: 138507.29
+The argument supplied is 12 15 16 3 18 0 20 9 6 4 3 5 10 2 17 16
+Iterations: 1853 Heuristic time overall and percentage: 11.197927 0.276740 Move nums:
+7 4 7 4 1 6 0 3 6 5 0 3 1 5 7 5 1 4 0 8 1 4 1 3 2 7 0 7 5 
+Nodes Generated:
+5754209
+Total time:
+40.463652
+State: 305, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,754,209, Time: 40.46, Nodes per second: 142206.86
+The argument supplied is 2 7 6 18 19 15 17 12 5 2 13 15 7 17 1 0
+Iterations: 1965 Heuristic time overall and percentage: 13.072065 0.293138 Move nums:
+5 6 0 4 1 6 5 7 3 6 5 1 3 2 4 2 5 6 1 3 0 7 4 8 1 4 0 6 4 
+Nodes Generated:
+6085347
+Total time:
+44.593504
+State: 306, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,085,347, Time: 44.59, Nodes per second: 136462.63
+The argument supplied is 2 14 8 19 4 13 3 16 12 1 6 9 14 8 13 11
+Iterations: 4526 Heuristic time overall and percentage: 28.543282 0.254907 Move nums:
+4 6 1 4 8 2 6 5 8 4 1 3 6 4 1 3 0 5 1 7 3 8 3 8 0 4 6 3 0 
+Nodes Generated:
+14010069
+Total time:
+111.975179
+State: 307, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 14,010,069, Time: 111.98, Nodes per second: 125117.63
+The argument supplied is 3 13 19 18 9 14 8 16 14 0 15 3 1 17 4 2
+Iterations: 1945 Heuristic time overall and percentage: 11.471692 0.266619 Move nums:
+3 6 4 1 3 1 8 4 1 3 2 6 3 0 4 7 2 8 4 7 3 7 0 6 2 4 2 7 4 
+Nodes Generated:
+5989858
+Total time:
+43.026498
+State: 308, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,989,858, Time: 43.03, Nodes per second: 139213.24
+The argument supplied is 7 5 8 3 18 13 9 13 3 16 15 14 9 17 10 11
+Iterations: 962 Heuristic time overall and percentage: 8.466269 0.383136 Move nums:
+5 1 8 0 4 1 3 1 7 0 8 3 7 5 7 1 5 0 6 5 1 7 2 4 0 3 0 8 1 
+Nodes Generated:
+2947635
+Total time:
+22.097293
+State: 309, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,947,635, Time: 22.10, Nodes per second: 133393.49
+The argument supplied is 10 1 12 13 7 18 2 7 14 4 15 17 3 1 11 0
+Iterations: 1807 Heuristic time overall and percentage: 11.215032 0.268964 Move nums:
+1 7 1 5 7 1 5 0 5 6 4 1 3 6 1 3 2 6 0 3 2 5 1 6 4 0 6 0 3 
+Nodes Generated:
+5557787
+Total time:
+41.697116
+State: 310, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,557,787, Time: 41.70, Nodes per second: 133289.48
+The argument supplied is 8 12 16 20 17 4 7 17 1 6 13 12 0 16 11 14
+Iterations: 2078 Heuristic time overall and percentage: 13.197466 0.288891 Move nums:
+1 8 4 0 5 6 1 8 0 8 1 7 3 1 4 2 3 2 6 4 1 5 2 3 6 0 6 0 7 
+Nodes Generated:
+6413165
+Total time:
+45.683278
+State: 311, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,413,165, Time: 45.68, Nodes per second: 140383.21
+The argument supplied is 5 20 7 2 11 1 17 7 4 15 1 9 12 5 11 8
+Iterations: 810 Heuristic time overall and percentage: 4.957703 0.277958 Move nums:
+7 0 7 5 6 0 6 1 7 3 7 1 4 7 1 5 6 5 7 1 6 2 7 4 7 4 7 3 7 
+Nodes Generated:
+2478515
+Total time:
+17.836136
+State: 312, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,478,515, Time: 17.84, Nodes per second: 138960.31
+The argument supplied is 4 2 0 8 12 6 10 6 4 3 16 0 5 17 11 10
+Iterations: 822 Heuristic time overall and percentage: 4.908064 0.278302 Move nums:
+0 3 2 4 7 3 6 2 7 5 7 4 1 4 1 5 2 7 2 5 1 3 6 1 7 0 3 0 4 
+Nodes Generated:
+2541722
+Total time:
+17.635737
+State: 313, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,541,722, Time: 17.64, Nodes per second: 144123.38
+The argument supplied is 5 2 0 10 1 20 4 0 12 6 8 16 10 14 11 13
+Iterations: 2771 Heuristic time overall and percentage: 17.638929 0.245302 Move nums:
+3 1 8 0 8 1 6 1 3 0 8 5 6 5 7 5 6 0 6 3 2 3 6 1 4 0 4 8 4 
+Nodes Generated:
+8601092
+Total time:
+71.906884
+State: 314, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 8,601,092, Time: 71.91, Nodes per second: 119614.31
+The argument supplied is 10 18 13 12 1 7 2 3 9 1 8 11 5 7 6 4
+Iterations: 853 Heuristic time overall and percentage: 5.040270 0.282136 Move nums:
+4 6 1 7 4 6 1 7 4 6 3 0 4 8 4 2 4 7 3 2 5 1 3 0 8 4 1 3 6 
+Nodes Generated:
+2627144
+Total time:
+17.864668
+State: 315, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,627,144, Time: 17.86, Nodes per second: 147058.09
+The argument supplied is 1 16 10 13 12 11 0 5 10 6 2 3 17 7 9 13
+Iterations: 1792 Heuristic time overall and percentage: 10.910140 0.263090 Move nums:
+2 3 6 2 7 4 0 8 3 6 1 7 2 8 0 6 2 4 8 3 6 1 7 2 6 3 6 0 4 
+Nodes Generated:
+5563040
+Total time:
+41.469271
+State: 316, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,563,040, Time: 41.47, Nodes per second: 134148.49
+The argument supplied is 10 18 6 2 19 7 1 15 17 5 3 0 1 4 2 7
+Iterations: 1835 Heuristic time overall and percentage: 12.093987 0.284607 Move nums:
+8 4 2 3 1 4 2 3 0 6 3 7 1 8 0 8 1 4 2 6 3 0 3 1 3 0 8 4 7 
+Nodes Generated:
+5677248
+Total time:
+42.493596
+State: 317, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,677,248, Time: 42.49, Nodes per second: 133602.44
+The argument supplied is 7 6 18 16 17 1 19 10 15 12 9 5 7 13 8 11
+Iterations: 775 Heuristic time overall and percentage: 4.456124 0.272362 Move nums:
+4 2 3 6 0 6 2 7 4 1 3 0 6 3 6 2 8 2 7 1 7 1 4 0 8 5 2 4 2 
+Nodes Generated:
+2380982
+Total time:
+16.361047
+State: 318, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,380,982, Time: 16.36, Nodes per second: 145527.48
+The argument supplied is 15 19 20 4 7 2 17 13 9 12 2 16 8 1 6 5
+Iterations: 1846 Heuristic time overall and percentage: 10.916859 0.260053 Move nums:
+3 6 3 1 7 1 7 0 3 6 1 7 2 4 1 3 6 3 1 8 5 6 1 6 5 8 3 6 4 
+Nodes Generated:
+5681296
+Total time:
+41.979373
+State: 319, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,681,296, Time: 41.98, Nodes per second: 135335.42
+The argument supplied is 12 18 7 1 9 20 17 14 6 12 4 10 7 2 9 8
+Iterations: 747 Heuristic time overall and percentage: 4.607045 0.293029 Move nums:
+0 7 0 5 1 7 1 6 0 6 3 7 0 5 7 3 8 0 3 0 4 6 0 3 1 7 0 3 7 
+Nodes Generated:
+2300229
+Total time:
+15.722154
+State: 320, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,300,229, Time: 15.72, Nodes per second: 146304.95
+The argument supplied is 0 4 8 9 19 3 20 15 3 17 10 2 16 13 5 9
+Iterations: 1263 Heuristic time overall and percentage: 8.626475 0.309768 Move nums:
+4 1 4 8 1 6 0 7 1 7 4 8 1 6 3 0 6 3 7 4 0 3 7 5 7 2 7 3 2 
+Nodes Generated:
+3901497
+Total time:
+27.848176
+State: 321, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,901,497, Time: 27.85, Nodes per second: 140098.83
+The argument supplied is 12 2 13 0 10 15 11 10 8 5 9 11 7 6 4 12
+Iterations: 3129 Heuristic time overall and percentage: 18.623929 0.259628 Move nums:
+1 5 1 3 7 0 5 1 5 7 1 3 2 6 4 0 4 8 4 2 3 2 6 3 7 3 7 4 6 5 
+Nodes Generated:
+9713384
+Total time:
+71.733208
+State: 322, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 9,713,384, Time: 71.73, Nodes per second: 135409.86
+The argument supplied is 12 2 10 0 13 15 11 1 2 9 6 4 14 16 8 12
+Iterations: 2156 Heuristic time overall and percentage: 13.792066 0.264025 Move nums:
+3 0 3 6 4 1 3 2 3 6 4 1 4 8 1 4 7 0 7 1 3 1 4 2 4 7 4 7 5 
+Nodes Generated:
+6667982
+Total time:
+52.237742
+State: 323, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,667,982, Time: 52.24, Nodes per second: 127646.83
+The argument supplied is 16 12 8 10 20 4 14 6 2 3 17 7 4 5 9 1
+Iterations: 2420 Heuristic time overall and percentage: 14.409517 0.263820 Move nums:
+8 4 2 7 0 7 1 8 0 8 3 2 3 0 7 1 4 0 4 1 3 6 3 0 3 8 4 1 3 8 
+Nodes Generated:
+7492599
+Total time:
+54.618719
+State: 324, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 7,492,599, Time: 54.62, Nodes per second: 137180.06
+The argument supplied is 7 12 11 1 10 13 9 4 6 17 0 5 2 7 1 12
+Iterations: 225 Heuristic time overall and percentage: 1.546676 0.354546 Move nums:
+1 4 7 1 3 6 1 3 6 5 0 3 1 7 1 6 2 7 0 8 4 7 1 5 1 4 1 4 7 
+Nodes Generated:
+667609
+Total time:
+4.362418
+State: 325, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 667,609, Time: 4.36, Nodes per second: 153036.46
+The argument supplied is 1 5 9 7 17 13 11 3 7 2 9 15 8 10 13 5
+Iterations: 3059 Heuristic time overall and percentage: 19.926874 0.268059 Move nums:
+7 4 7 0 6 3 1 7 3 0 3 1 5 0 7 5 8 0 4 8 1 4 6 0 6 1 7 3 6 
+Nodes Generated:
+9458299
+Total time:
+74.337694
+State: 326, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 9,458,299, Time: 74.34, Nodes per second: 127234.23
+The argument supplied is 11 2 6 7 3 15 19 11 8 9 6 3 10 4 7 14
+Iterations: 1556 Heuristic time overall and percentage: 9.789908 0.280222 Move nums:
+7 1 4 7 0 5 2 3 1 8 2 4 1 6 0 6 2 8 0 6 4 0 3 8 4 1 4 0 8 
+Nodes Generated:
+4803840
+Total time:
+34.936254
+State: 327, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,803,840, Time: 34.94, Nodes per second: 137503.01
+The argument supplied is 16 17 13 4 1 12 0 15 3 0 17 4 5 11 16 1
+Iterations: 2728 Heuristic time overall and percentage: 15.875083 0.263885 Move nums:
+2 3 6 1 4 7 3 6 0 6 0 6 3 2 4 7 1 8 1 8 0 6 3 0 8 3 1 3 6 
+Nodes Generated:
+8446360
+Total time:
+60.159093
+State: 328, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 8,446,360, Time: 60.16, Nodes per second: 140400.39
+The argument supplied is 1 18 19 13 16 3 14 10 2 8 5 7 0 15 4 3
+Iterations: 493 Heuristic time overall and percentage: 2.998556 0.291535 Move nums:
+5 6 1 7 0 7 4 1 7 0 3 7 3 6 2 4 1 6 3 7 0 4 1 3 2 7 3 7 3 
+Nodes Generated:
+1503492
+Total time:
+10.285392
+State: 329, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,503,492, Time: 10.29, Nodes per second: 146177.41
+The argument supplied is 0 19 15 6 3 11 9 1 14 7 12 4 9 2 17 6
+Iterations: 509 Heuristic time overall and percentage: 2.957553 0.277205 Move nums:
+4 2 3 8 4 1 4 0 6 3 0 4 8 5 1 4 1 6 0 3 6 4 1 5 7 1 4 2 3 
+Nodes Generated:
+1554618
+Total time:
+10.669201
+State: 330, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,554,618, Time: 10.67, Nodes per second: 145710.82
+The argument supplied is 7 10 18 2 19 20 8 14 17 3 0 15 11 4 7 1
+Iterations: 1371 Heuristic time overall and percentage: 7.827097 0.255704 Move nums:
+3 1 7 3 0 8 1 7 3 0 6 4 0 3 7 1 7 1 4 8 1 6 3 0 6 1 6 4 6 
+Nodes Generated:
+4240663
+Total time:
+30.610042
+State: 331, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,240,663, Time: 30.61, Nodes per second: 138538.29
+The argument supplied is 7 18 17 12 1 2 6 10 8 6 12 9 16 14 13 2
+Iterations: 249 Heuristic time overall and percentage: 1.719262 0.290954 Move nums:
+4 2 7 3 0 8 0 4 8 3 6 4 6 2 6 2 7 4 0 4 1 7 3 7 4 8 0 6 4 
+Nodes Generated:
+735894
+Total time:
+5.909056
+State: 332, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 735,894, Time: 5.91, Nodes per second: 124536.64
+The argument supplied is 10 1 20 14 12 2 4 10 16 6 11 8 0 12 5 4
+Iterations: 361 Heuristic time overall and percentage: 2.220105 0.299082 Move nums:
+7 0 4 7 0 4 7 0 6 0 7 1 4 0 8 1 4 0 5 1 7 0 6 5 7 0 3 7 3 
+Nodes Generated:
+1100194
+Total time:
+7.423053
+State: 333, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,100,194, Time: 7.42, Nodes per second: 148213.14
+The argument supplied is 10 6 8 4 9 14 12 3 13 2 10 7 9 6 17 5
+Iterations: 2192 Heuristic time overall and percentage: 13.000381 0.269739 Move nums:
+0 3 0 8 5 6 1 6 1 8 0 5 0 7 4 6 3 2 6 4 0 6 3 7 0 5 1 3 2 
+Nodes Generated:
+6744412
+Total time:
+48.196122
+State: 334, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,744,412, Time: 48.20, Nodes per second: 139936.82
+The argument supplied is 12 4 1 20 14 17 16 16 1 6 2 4 8 5 12 0
+Iterations: 777 Heuristic time overall and percentage: 4.955142 0.286198 Move nums:
+5 1 6 3 6 3 1 4 7 4 2 6 0 3 0 6 1 5 6 0 4 0 3 1 3 0 6 2 7 1 
+Nodes Generated:
+2378522
+Total time:
+17.313692
+State: 335, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,378,522, Time: 17.31, Nodes per second: 137378.09
+The argument supplied is 10 9 12 6 1 7 18 1 11 14 3 15 0 7 17 4
+Iterations: 2390 Heuristic time overall and percentage: 14.845700 0.280979 Move nums:
+6 4 6 2 4 8 3 2 7 0 3 1 7 1 5 0 4 1 3 6 2 7 1 8 0 5 0 4 1 
+Nodes Generated:
+7388139
+Total time:
+52.835709
+State: 336, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 7,388,139, Time: 52.84, Nodes per second: 139832.31
+The argument supplied is 1 19 20 3 2 0 18 2 9 17 16 14 3 4 10 15
+Iterations: 2087 Heuristic time overall and percentage: 12.490505 0.273871 Move nums:
+8 0 3 1 3 6 4 7 0 5 0 3 1 7 5 1 3 6 4 6 4 1 7 0 4 1 3 6 4 
+Nodes Generated:
+6446216
+Total time:
+45.607310
+State: 337, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,446,216, Time: 45.61, Nodes per second: 141341.73
+The argument supplied is 14 16 19 1 17 4 13 17 6 9 10 2 5 12 4 7
+Iterations: 1448 Heuristic time overall and percentage: 8.997543 0.275902 Move nums:
+0 6 3 6 0 4 1 7 4 8 1 4 7 1 3 6 1 8 3 6 0 7 1 7 2 6 4 8 2 
+Nodes Generated:
+4483526
+Total time:
+32.611402
+State: 338, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,483,526, Time: 32.61, Nodes per second: 137483.39
+The argument supplied is 17 0 4 6 16 15 5 8 2 12 9 13 16 10 6 14
+Iterations: 569 Heuristic time overall and percentage: 3.356759 0.282561 Move nums:
+8 4 0 3 1 7 2 7 4 1 6 0 7 4 2 8 4 0 8 2 7 4 7 1 6 0 7 4 7 
+Nodes Generated:
+1740975
+Total time:
+11.879764
+State: 339, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,740,975, Time: 11.88, Nodes per second: 146549.63
+The argument supplied is 7 9 15 5 11 3 13 6 2 3 1 9 5 4 7 17
+Iterations: 625 Heuristic time overall and percentage: 4.937894 0.378550 Move nums:
+7 0 5 1 7 1 4 1 3 6 4 6 0 5 0 4 7 0 3 0 8 5 8 1 4 2 5 6 1 
+Nodes Generated:
+1922561
+Total time:
+13.044235
+State: 340, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,922,561, Time: 13.04, Nodes per second: 147387.79
+The argument supplied is 7 4 20 2 10 12 8 1 14 15 8 2 16 0 12 4
+Iterations: 490 Heuristic time overall and percentage: 3.250975 0.289007 Move nums:
+4 6 0 6 0 4 7 4 6 4 6 3 7 1 5 0 4 7 1 7 1 3 2 5 1 5 2 6 1 
+Nodes Generated:
+1505095
+Total time:
+11.248762
+State: 341, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,505,095, Time: 11.25, Nodes per second: 133800.95
+The argument supplied is 5 10 9 1 7 4 6 2 15 8 0 12 16 10 4 5
+Iterations: 774 Heuristic time overall and percentage: 4.581974 0.247325 Move nums:
+5 6 2 7 2 6 0 6 4 7 4 6 4 0 6 5 2 7 5 7 1 6 3 0 4 2 8 1 6 
+Nodes Generated:
+2373369
+Total time:
+18.526118
+State: 342, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,373,369, Time: 18.53, Nodes per second: 128109.35
+The argument supplied is 3 4 12 9 7 6 1 7 13 9 5 3 8 6 11 10
+Iterations: 6620 Heuristic time overall and percentage: 43.333925 0.236813 Move nums:
+6 2 3 7 3 1 5 0 6 4 7 1 6 1 6 1 3 8 2 6 5 7 5 1 3 1 6 3 0 6 
+Nodes Generated:
+20416768
+Total time:
+182.987585
+State: 343, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 20,416,768, Time: 182.99, Nodes per second: 111574.61
+The argument supplied is 0 17 2 5 20 1 18 5 6 8 0 11 7 10 4 3
+Iterations: 625 Heuristic time overall and percentage: 3.816292 0.289928 Move nums:
+2 3 6 2 7 4 2 3 6 3 6 4 2 3 6 4 0 7 4 8 1 7 5 8 4 2 7 3 0 
+Nodes Generated:
+1899601
+Total time:
+13.162881
+State: 344, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,899,601, Time: 13.16, Nodes per second: 144314.99
+The argument supplied is 18 17 16 14 13 5 1 2 12 17 0 16 15 5 13 10
+Iterations: 1637 Heuristic time overall and percentage: 9.445936 0.257535 Move nums:
+0 3 0 3 7 1 8 1 4 0 8 5 6 2 6 4 0 6 5 0 6 5 1 6 0 8 2 7 5 
+Nodes Generated:
+5044389
+Total time:
+36.678298
+State: 345, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,044,389, Time: 36.68, Nodes per second: 137530.62
+The argument supplied is 18 13 9 10 12 14 8 10 9 14 3 13 7 17 6 11
+Iterations: 1086 Heuristic time overall and percentage: 6.587669 0.280500 Move nums:
+7 5 6 0 4 0 3 1 7 1 7 2 8 2 8 1 5 2 4 0 4 7 1 6 2 7 0 7 1 
+Nodes Generated:
+3346945
+Total time:
+23.485491
+State: 346, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,346,945, Time: 23.49, Nodes per second: 142511.18
+The argument supplied is 2 10 13 7 12 15 4 3 17 7 5 2 9 4 6 1
+Iterations: 6094 Heuristic time overall and percentage: 38.449734 0.250056 Move nums:
+2 7 5 6 1 7 4 7 1 8 3 0 8 2 8 2 6 4 1 6 2 3 7 0 6 2 3 8 1 7 
+Nodes Generated:
+18806404
+Total time:
+153.764528
+State: 347, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 18,806,404, Time: 153.76, Nodes per second: 122306.52
+The argument supplied is 19 1 7 2 3 11 20 5 4 10 6 17 11 16 9 12
+Iterations: 873 Heuristic time overall and percentage: 5.775204 0.308932 Move nums:
+5 1 3 6 1 4 7 0 6 3 0 5 8 5 1 4 1 4 1 4 0 6 0 3 8 1 8 3 7 4 
+Nodes Generated:
+2681759
+Total time:
+18.694096
+State: 348, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,681,759, Time: 18.69, Nodes per second: 143454.86
+The argument supplied is 7 3 13 4 15 2 19 5 15 13 8 0 7 11 3 10
+Iterations: 938 Heuristic time overall and percentage: 5.626301 0.285055 Move nums:
+3 6 0 4 7 5 6 1 4 6 3 2 4 2 6 5 8 3 0 8 1 7 5 7 3 1 6 3 8 3 
+Nodes Generated:
+2863008
+Total time:
+19.737625
+State: 349, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,863,008, Time: 19.74, Nodes per second: 145053.32
+The argument supplied is 10 5 15 2 11 20 0 17 0 15 12 2 13 1 14 16
+Iterations: 458 Heuristic time overall and percentage: 3.126492 0.327054 Move nums:
+6 4 6 2 7 4 7 1 7 3 6 1 5 1 3 7 5 7 4 6 2 5 6 3 8 4 7 4 6 
+Nodes Generated:
+1390644
+Total time:
+9.559560
+State: 350, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,390,644, Time: 9.56, Nodes per second: 145471.55
+The argument supplied is 7 10 13 12 9 1 11 17 13 3 14 1 7 2 15 0
+Iterations: 2593 Heuristic time overall and percentage: 15.150068 0.260180 Move nums:
+3 1 7 3 0 7 1 7 3 0 3 7 1 7 2 3 0 6 0 3 2 4 1 6 0 6 4 6 2 
+Nodes Generated:
+7956026
+Total time:
+58.229280
+State: 351, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 7,956,026, Time: 58.23, Nodes per second: 136632.74
+The argument supplied is 17 1 2 6 11 14 12 14 13 11 15 10 12 7 9 17
+Iterations: 5765 Heuristic time overall and percentage: 37.437437 0.255645 Move nums:
+2 3 8 4 1 3 0 6 1 5 0 3 0 8 1 8 4 6 2 8 4 6 0 8 2 6 2 3 0 5 2 
+Nodes Generated:
+17848914
+Total time:
+146.443242
+State: 352, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 17,848,914, Time: 146.44, Nodes per second: 121882.81
+The argument supplied is 17 19 18 2 20 1 7 17 1 12 14 4 11 7 0 6
+Iterations: 985 Heuristic time overall and percentage: 5.661058 0.268963 Move nums:
+7 0 3 7 3 0 7 1 3 6 4 8 2 6 0 3 0 6 3 7 4 7 1 7 1 8 3 8 3 
+Nodes Generated:
+3018427
+Total time:
+21.047704
+State: 353, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,018,427, Time: 21.05, Nodes per second: 143408.85
+The argument supplied is 20 19 18 17 15 14 2 16 17 3 2 0 15 13 10 14
+Iterations: 965 Heuristic time overall and percentage: 5.860435 0.275668 Move nums:
+0 7 5 6 0 6 3 8 4 7 4 0 7 1 4 6 5 0 4 6 0 7 0 4 6 0 4 7 2 
+Nodes Generated:
+2965708
+Total time:
+21.259017
+State: 354, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,965,708, Time: 21.26, Nodes per second: 139503.53
+The argument supplied is 6 11 17 8 16 19 7 12 16 0 14 10 2 8 4 6
+Iterations: 775 Heuristic time overall and percentage: 4.868924 0.297731 Move nums:
+7 2 4 7 0 4 0 3 0 5 8 3 6 0 8 4 1 6 2 6 4 1 6 4 0 6 1 4 0 
+Nodes Generated:
+2384347
+Total time:
+16.353429
+State: 355, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,384,347, Time: 16.35, Nodes per second: 145801.04
+The argument supplied is 19 7 10 8 11 20 9 7 9 17 2 12 15 5 13 10
+Iterations: 465 Heuristic time overall and percentage: 2.918289 0.301690 Move nums:
+4 1 5 0 5 6 3 6 4 1 8 4 8 3 6 5 7 2 8 5 6 3 6 0 7 4 1 3 6 
+Nodes Generated:
+1421508
+Total time:
+9.673146
+State: 356, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,421,508, Time: 9.67, Nodes per second: 146954.05
+The argument supplied is 15 11 16 5 10 6 0 8 15 2 12 5 10 9 7 4
+Iterations: 2470 Heuristic time overall and percentage: 16.333735 0.275109 Move nums:
+4 1 4 6 1 3 6 0 6 5 8 4 1 6 1 7 1 4 6 0 3 7 1 8 0 5 1 3 0 
+Nodes Generated:
+7586464
+Total time:
+59.371805
+State: 357, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 7,586,464, Time: 59.37, Nodes per second: 127778.90
+The argument supplied is 19 16 15 20 17 11 7 7 11 6 0 4 12 8 1 5
+Iterations: 2377 Heuristic time overall and percentage: 13.846780 0.244438 Move nums:
+1 8 0 5 1 7 2 3 6 3 0 4 1 8 0 8 2 7 1 7 3 0 6 1 3 6 1 3 8 4 
+Nodes Generated:
+7347183
+Total time:
+56.647369
+State: 358, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 7,347,183, Time: 56.65, Nodes per second: 129700.34
+The argument supplied is 10 6 16 5 0 4 1 2 5 0 8 10 4 7 12 6
+Iterations: 1418 Heuristic time overall and percentage: 8.038608 0.248294 Move nums:
+1 7 1 3 0 3 6 1 7 3 0 6 1 5 6 1 5 2 4 8 3 6 4 2 3 0 7 3 1 6 1 
+Nodes Generated:
+4350967
+Total time:
+32.375392
+State: 359, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 4,350,967, Time: 32.38, Nodes per second: 134391.18
+The argument supplied is 7 3 9 13 18 5 8 17 13 12 15 7 0 11 1 14
+Iterations: 805 Heuristic time overall and percentage: 6.235471 0.335453 Move nums:
+3 6 5 6 0 7 4 1 4 0 5 0 5 0 8 1 6 5 0 4 7 1 4 7 2 3 0 8 1 
+Nodes Generated:
+2467864
+Total time:
+18.588200
+State: 360, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,467,864, Time: 18.59, Nodes per second: 132765.09
+The argument supplied is 5 15 16 0 20 11 17 2 0 5 6 10 3 8 4 16
+Iterations: 1445 Heuristic time overall and percentage: 8.637446 0.261673 Move nums:
+5 6 0 7 3 6 5 7 3 0 6 0 4 1 5 0 3 0 6 2 8 0 7 0 7 4 0 6 3 
+Nodes Generated:
+4452912
+Total time:
+33.008543
+State: 361, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,452,912, Time: 33.01, Nodes per second: 134901.80
+The argument supplied is 11 2 19 17 14 8 13 11 10 15 3 5 8 0 4 16
+Iterations: 1536 Heuristic time overall and percentage: 9.035188 0.271802 Move nums:
+3 6 3 2 4 1 3 6 5 6 3 7 5 8 5 6 5 1 5 7 0 3 7 0 6 5 8 5 6 
+Nodes Generated:
+4765653
+Total time:
+33.241749
+State: 362, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,765,653, Time: 33.24, Nodes per second: 143363.49
+The argument supplied is 19 0 6 2 17 1 18 15 17 0 14 12 1 13 16 2
+Iterations: 3208 Heuristic time overall and percentage: 19.411190 0.248495 Move nums:
+8 4 0 4 1 3 0 4 7 4 6 2 4 2 3 8 3 0 6 2 7 4 6 3 7 1 7 3 1 7 
+Nodes Generated:
+9919950
+Total time:
+78.115107
+State: 363, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 9,919,950, Time: 78.12, Nodes per second: 126991.44
+The argument supplied is 4 12 17 1 6 16 7 8 4 0 12 5 11 7 10 15
+Iterations: 1822 Heuristic time overall and percentage: 10.834118 0.270351 Move nums:
+5 1 6 1 5 0 5 6 4 7 5 7 2 8 3 7 2 5 7 0 7 3 6 1 3 1 4 1 7 
+Nodes Generated:
+5612355
+Total time:
+40.074220
+State: 364, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,612,355, Time: 40.07, Nodes per second: 140049.01
+The argument supplied is 12 20 10 8 0 16 18 3 0 11 7 6 8 14 10 13
+Iterations: 763 Heuristic time overall and percentage: 4.544562 0.280823 Move nums:
+3 2 3 1 6 2 6 5 7 4 6 3 7 1 3 2 6 0 6 2 4 2 7 0 3 0 5 7 1 
+Nodes Generated:
+2349937
+Total time:
+16.183002
+State: 365, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,349,937, Time: 16.18, Nodes per second: 145210.20
+The argument supplied is 15 4 9 12 10 13 0 12 8 13 15 7 9 5 1 2
+Iterations: 761 Heuristic time overall and percentage: 4.507316 0.275516 Move nums:
+7 0 3 0 3 1 4 7 1 5 0 8 3 1 4 1 6 3 6 2 7 2 3 8 4 1 3 8 1 
+Nodes Generated:
+2330379
+Total time:
+16.359516
+State: 366, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,330,379, Time: 16.36, Nodes per second: 142447.92
+The argument supplied is 17 19 15 6 18 2 7 0 13 6 12 5 7 2 10 17
+Iterations: 831 Heuristic time overall and percentage: 5.141241 0.289458 Move nums:
+1 5 7 1 3 8 1 5 7 3 6 5 1 7 3 8 4 1 7 4 0 7 0 7 1 8 1 3 2 
+Nodes Generated:
+2539375
+Total time:
+17.761630
+State: 367, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,539,375, Time: 17.76, Nodes per second: 142969.70
+The argument supplied is 7 17 13 4 12 1 9 14 17 9 7 13 2 15 12 1
+Iterations: 1540 Heuristic time overall and percentage: 8.882294 0.260217 Move nums:
+2 7 3 7 4 8 0 3 0 3 6 2 7 2 5 8 5 2 4 2 7 3 0 4 2 3 6 4 2 8 
+Nodes Generated:
+4763257
+Total time:
+34.134134
+State: 368, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 4,763,257, Time: 34.13, Nodes per second: 139545.27
+The argument supplied is 16 7 11 10 1 5 13 8 7 1 9 14 11 6 3 13
+Iterations: 1445 Heuristic time overall and percentage: 8.290782 0.267585 Move nums:
+6 4 1 8 0 4 7 2 3 0 3 1 4 6 4 7 1 7 0 6 5 0 3 1 5 0 6 1 6 
+Nodes Generated:
+4431789
+Total time:
+30.983692
+State: 369, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,431,789, Time: 30.98, Nodes per second: 143036.18
+The argument supplied is 13 15 7 2 5 10 11 9 13 1 17 14 6 12 2 16
+Iterations: 4631 Heuristic time overall and percentage: 30.008501 0.253117 Move nums:
+6 4 1 7 4 0 3 1 7 4 7 0 6 3 0 4 1 5 1 6 4 7 0 4 1 3 7 4 8 
+Nodes Generated:
+14361897
+Total time:
+118.555875
+State: 370, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 14,361,897, Time: 118.56, Nodes per second: 121140.32
+The argument supplied is 8 7 5 3 9 6 4 5 12 11 6 7 1 9 8 13
+Iterations: 2185 Heuristic time overall and percentage: 13.621304 0.277646 Move nums:
+8 0 3 6 1 4 1 6 2 7 4 0 6 3 2 4 8 1 7 0 8 1 3 6 3 2 5 6 4 
+Nodes Generated:
+6775454
+Total time:
+49.059982
+State: 371, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 6,775,454, Time: 49.06, Nodes per second: 138105.51
+The argument supplied is 5 16 4 8 13 0 17 17 14 0 6 13 2 1 12 7
+Iterations: 4192 Heuristic time overall and percentage: 27.220449 0.259584 Move nums:
+0 5 1 8 0 3 7 4 1 6 1 3 0 4 7 3 2 4 7 0 5 1 3 6 3 2 3 7 1 4 
+Nodes Generated:
+12986601
+Total time:
+104.861689
+State: 372, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 12,986,601, Time: 104.86, Nodes per second: 123845.05
+The argument supplied is 17 15 12 9 13 11 7 5 11 6 4 1 3 17 16 9
+Iterations: 1033 Heuristic time overall and percentage: 6.105278 0.273432 Move nums:
+0 3 0 8 4 7 4 8 3 0 6 1 4 1 4 1 4 7 0 4 6 0 4 0 5 8 1 5 2 
+Nodes Generated:
+3186604
+Total time:
+22.328312
+State: 373, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,186,604, Time: 22.33, Nodes per second: 142715.85
+The argument supplied is 19 3 16 7 4 15 20 12 6 13 9 1 5 7 2 17
+Iterations: 1793 Heuristic time overall and percentage: 10.482986 0.264213 Move nums:
+5 6 2 7 4 8 3 0 3 0 4 2 7 1 8 3 0 6 0 8 3 7 4 6 0 7 1 8 5 
+Nodes Generated:
+5549687
+Total time:
+39.676264
+State: 374, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,549,687, Time: 39.68, Nodes per second: 139874.23
+The argument supplied is 10 4 13 8 16 12 0 9 6 11 10 5 16 17 13 3
+Iterations: 2421 Heuristic time overall and percentage: 15.434739 0.280741 Move nums:
+2 7 4 1 6 3 6 5 6 1 7 5 1 6 0 8 1 3 0 8 5 2 5 2 5 2 6 1 3 0 
+Nodes Generated:
+7524498
+Total time:
+54.978605
+State: 375, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 7,524,498, Time: 54.98, Nodes per second: 136862.29
+The argument supplied is 12 2 3 8 4 20 14 10 16 14 13 6 17 0 11 3
+Iterations: 1828 Heuristic time overall and percentage: 10.604862 0.267723 Move nums:
+6 0 8 0 7 4 1 4 7 3 0 7 3 7 5 6 0 7 1 6 0 6 4 6 3 1 7 5 7 
+Nodes Generated:
+5677402
+Total time:
+39.611308
+State: 376, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 5,677,402, Time: 39.61, Nodes per second: 143327.81
+The argument supplied is 5 17 8 2 20 14 18 0 10 17 15 2 4 16 5 3
+Iterations: 1409 Heuristic time overall and percentage: 8.176887 0.261448 Move nums:
+3 0 6 0 3 0 6 5 7 2 5 1 6 0 3 6 3 2 7 1 8 0 3 1 4 6 3 7 4 
+Nodes Generated:
+4348653
+Total time:
+31.275364
+State: 377, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,348,653, Time: 31.28, Nodes per second: 139044.04
+The argument supplied is 2 18 5 7 1 3 6 7 0 8 14 13 15 12 2 1
+Iterations: 461 Heuristic time overall and percentage: 2.643005 0.271600 Move nums:
+3 0 6 0 3 0 8 2 7 2 7 4 0 5 0 4 1 7 3 2 6 5 7 4 0 8 4 7 1 
+Nodes Generated:
+1399528
+Total time:
+9.731229
+State: 378, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,399,528, Time: 9.73, Nodes per second: 143818.22
+The argument supplied is 13 9 0 19 18 15 10 4 6 11 0 16 17 14 10 12
+Iterations: 3112 Heuristic time overall and percentage: 18.261981 0.262494 Move nums:
+5 1 6 1 3 0 4 7 2 6 2 4 8 3 8 5 6 5 1 8 3 8 3 0 6 2 7 1 3 2 
+Nodes Generated:
+9616220
+Total time:
+69.571119
+State: 379, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 9,616,220, Time: 69.57, Nodes per second: 138221.44
+The argument supplied is 7 2 17 20 1 5 11 5 0 2 8 13 12 7 1 6
+Iterations: 3811 Heuristic time overall and percentage: 23.422644 0.250526 Move nums:
+5 1 8 0 6 4 1 7 5 6 0 6 0 6 4 1 6 0 6 2 4 1 4 1 7 0 3 1 5 8 
+Nodes Generated:
+11728217
+Total time:
+93.493879
+State: 380, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 11,728,217, Time: 93.49, Nodes per second: 125443.69
+The argument supplied is 6 17 2 14 19 4 1 13 0 2 14 17 10 12 16 6
+Iterations: 750 Heuristic time overall and percentage: 5.072646 0.308209 Move nums:
+3 6 4 1 7 1 6 3 6 3 1 4 6 0 3 6 4 1 7 1 6 3 7 0 7 3 0 6 5 
+Nodes Generated:
+2307211
+Total time:
+16.458439
+State: 381, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,307,211, Time: 16.46, Nodes per second: 140184.07
+The argument supplied is 16 0 8 12 11 10 6 1 4 8 14 9 11 12 6 7
+Iterations: 1022 Heuristic time overall and percentage: 6.464218 0.282073 Move nums:
+2 7 4 0 6 0 7 1 7 2 8 4 8 4 0 4 1 5 0 5 1 5 1 7 3 0 6 2 6 
+Nodes Generated:
+3164966
+Total time:
+22.916809
+State: 382, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,164,966, Time: 22.92, Nodes per second: 138106.75
+The argument supplied is 5 0 13 15 16 18 17 9 12 6 2 4 1 8 5 7
+Iterations: 513 Heuristic time overall and percentage: 3.287063 0.308619 Move nums:
+0 7 3 0 7 3 6 3 6 3 7 5 7 2 6 3 2 8 4 0 6 5 1 6 3 2 5 0 6 
+Nodes Generated:
+1571928
+Total time:
+10.650866
+State: 383, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,571,928, Time: 10.65, Nodes per second: 147586.87
+The argument supplied is 2 12 17 15 20 4 14 7 12 1 2 17 9 5 6 13
+Iterations: 978 Heuristic time overall and percentage: 5.950264 0.284213 Move nums:
+7 1 4 7 1 3 6 5 6 0 6 0 6 0 5 1 4 7 4 1 8 0 6 1 8 4 2 6 4 
+Nodes Generated:
+3021313
+Total time:
+20.935916
+State: 384, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,021,313, Time: 20.94, Nodes per second: 144312.43
+The argument supplied is 8 13 18 7 19 2 17 8 3 16 2 10 6 14 9 4
+Iterations: 3199 Heuristic time overall and percentage: 20.002955 0.267987 Move nums:
+2 3 8 0 3 7 4 7 3 6 2 7 0 4 8 5 0 5 8 3 8 3 6 5 1 6 0 5 1 
+Nodes Generated:
+9930170
+Total time:
+74.641634
+State: 385, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 9,930,170, Time: 74.64, Nodes per second: 133037.95
+The argument supplied is 14 5 9 20 18 10 8 13 0 14 8 6 3 2 16 10
+Iterations: 770 Heuristic time overall and percentage: 4.918137 0.280268 Move nums:
+3 8 4 1 8 1 7 3 1 7 1 3 7 1 4 6 0 6 1 7 2 8 0 3 1 3 6 1 7 
+Nodes Generated:
+2370113
+Total time:
+17.547970
+State: 386, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,370,113, Time: 17.55, Nodes per second: 135064.80
+The argument supplied is 6 4 5 1 9 10 7 8 0 5 16 4 6 3 10 2
+Iterations: 849 Heuristic time overall and percentage: 6.440657 0.358584 Move nums:
+3 6 0 4 7 5 6 3 0 3 1 3 7 1 3 8 5 1 8 0 4 0 8 1 4 8 1 3 0 
+Nodes Generated:
+2604181
+Total time:
+17.961345
+State: 387, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 2,604,181, Time: 17.96, Nodes per second: 144988.08
+The argument supplied is 8 5 0 17 13 4 16 3 4 7 10 8 9 11 6 14
+Iterations: 1013 Heuristic time overall and percentage: 6.367737 0.284719 Move nums:
+8 4 2 3 1 7 4 0 3 0 6 3 0 7 4 0 3 1 5 7 1 4 0 7 1 8 1 6 0 
+Nodes Generated:
+3126513
+Total time:
+22.364955
+State: 388, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 3,126,513, Time: 22.36, Nodes per second: 139795.18
+The argument supplied is 20 8 12 11 7 17 9 2 15 13 8 14 10 9 12 7
+Iterations: 835 Heuristic time overall and percentage: 5.275612 0.284261 Move nums:
+5 6 1 4 1 4 0 3 1 5 0 4 2 7 3 6 1 8 2 7 1 6 2 8 1 4 8 5 0 6 
+Nodes Generated:
+2563916
+Total time:
+18.559028
+State: 389, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,563,916, Time: 18.56, Nodes per second: 138149.26
+The argument supplied is 2 1 5 0 10 13 11 3 1 5 4 7 9 15 2 8
+Iterations: 504 Heuristic time overall and percentage: 3.452527 0.321785 Move nums:
+1 3 1 6 3 1 5 8 5 0 4 1 6 0 6 0 6 1 3 6 5 0 7 5 7 1 4 8 3 
+Nodes Generated:
+1536842
+Total time:
+10.729283
+State: 390, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 1,536,842, Time: 10.73, Nodes per second: 143238.09
+The argument supplied is 15 7 5 16 6 3 11 17 6 11 3 9 4 1 16 5
+Iterations: 1384 Heuristic time overall and percentage: 8.370117 0.276472 Move nums:
+5 6 0 4 1 6 5 0 8 1 7 3 6 5 1 5 7 2 6 5 7 5 6 3 0 6 0 7 2 
+Nodes Generated:
+4246286
+Total time:
+30.274698
+State: 391, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,246,286, Time: 30.27, Nodes per second: 140258.57
+The argument supplied is 2 15 18 7 19 6 17 17 14 4 2 6 1 9 12 7
+Iterations: 1377 Heuristic time overall and percentage: 8.139102 0.260778 Move nums:
+6 0 7 0 3 7 4 7 0 4 1 6 1 7 3 8 2 5 1 4 7 4 1 3 6 0 7 1 5 
+Nodes Generated:
+4260701
+Total time:
+31.210885
+State: 392, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,260,701, Time: 31.21, Nodes per second: 136513.30
+The argument supplied is 17 13 19 9 14 4 8 4 8 11 7 10 5 15 9 3
+Iterations: 2950 Heuristic time overall and percentage: 16.855423 0.249901 Move nums:
+6 4 0 3 6 4 6 0 7 4 6 0 6 1 7 3 1 4 0 8 4 7 5 8 1 6 2 8 0 7 
+Nodes Generated:
+9172249
+Total time:
+67.448444
+State: 393, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 9,172,249, Time: 67.45, Nodes per second: 135989.04
+The argument supplied is 1 6 7 17 18 2 12 4 7 10 12 17 9 6 14 11
+Iterations: 1433 Heuristic time overall and percentage: 8.589905 0.262084 Move nums:
+0 3 0 3 8 1 7 4 6 3 7 3 0 3 2 7 4 8 4 1 7 3 0 3 7 2 6 5 0 
+Nodes Generated:
+4408016
+Total time:
+32.775340
+State: 394, SolnCost: 29.00, # Moves: 29, # Nodes Gen: 4,408,016, Time: 32.78, Nodes per second: 134491.85
+The argument supplied is 15 10 12 6 0 11 9 2 8 1 12 7 4 6 0 14
+Iterations: 3893 Heuristic time overall and percentage: 24.157032 0.264467 Move nums:
+8 0 7 4 1 6 1 7 5 1 5 0 6 4 6 0 5 6 2 7 5 7 4 2 6 2 7 2 6 0 4 
+Nodes Generated:
+11996313
+Total time:
+91.342355
+State: 395, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 11,996,313, Time: 91.34, Nodes per second: 131333.52
+The argument supplied is 14 1 11 10 13 2 12 3 8 11 0 16 13 6 1 14
+Iterations: 3058 Heuristic time overall and percentage: 18.464986 0.265867 Move nums:
+5 1 8 0 6 4 0 6 3 1 6 3 7 4 1 3 6 3 1 3 6 3 8 5 6 3 1 4 0 8 
+Nodes Generated:
+9481226
+Total time:
+69.451961
+State: 396, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 9,481,226, Time: 69.45, Nodes per second: 136514.88
+The argument supplied is 2 1 20 14 3 5 18 9 1 5 4 15 12 7 8 11
+Iterations: 700 Heuristic time overall and percentage: 4.200144 0.267474 Move nums:
+3 1 6 3 6 3 0 4 1 7 1 4 0 8 1 7 0 3 2 6 0 7 2 7 3 1 8 3 0 4 
+Nodes Generated:
+2146556
+Total time:
+15.702980
+State: 397, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,146,556, Time: 15.70, Nodes per second: 136697.37
+The argument supplied is 19 7 2 17 13 4 1 7 4 6 1 17 12 9 14 2
+Iterations: 1015 Heuristic time overall and percentage: 5.851177 0.266635 Move nums:
+6 4 1 4 7 4 0 6 3 2 7 4 0 6 3 7 5 6 3 7 4 7 5 6 3 7 0 4 0 6 1 
+Nodes Generated:
+3126555
+Total time:
+21.944492
+State: 398, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 3,126,555, Time: 21.94, Nodes per second: 142475.62
+The argument supplied is 15 0 6 4 10 2 5 0 8 4 14 2 1 12 6 7
+Iterations: 2186 Heuristic time overall and percentage: 13.283005 0.269619 Move nums:
+4 6 1 7 4 6 1 7 0 6 2 6 3 7 5 1 8 1 3 6 3 0 8 3 0 8 5 0 6 3 
+Nodes Generated:
+6766379
+Total time:
+49.265865
+State: 399, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 6,766,379, Time: 49.27, Nodes per second: 137344.16
+The argument supplied is 13 14 4 1 5 2 3 7 10 12 15 17 4 14 2 9
+Iterations: 924 Heuristic time overall and percentage: 5.375157 0.283967 Move nums:
+3 0 6 0 3 2 4 8 3 1 5 2 7 2 5 2 3 2 4 1 3 1 4 0 6 4 1 3 7 2 
+Nodes Generated:
+2825936
+Total time:
+18.928816
+State: 400, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,825,936, Time: 18.93, Nodes per second: 149292.80
+The argument supplied is 18 14 3 19 2 6 1 1 12 13 15 0 14 17 7 11
+Iterations: 250 Heuristic time overall and percentage: 1.521642 0.299027 Move nums:
+1 7 1 3 6 1 4 2 3 6 4 0 4 6 2 4 2 4 7 2 8 0 6 0 3 1 8 3 0 4 
+Nodes Generated:
+747127
+Total time:
+5.088650
+State: 401, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 747,127, Time: 5.09, Nodes per second: 146822.24
+The argument supplied is 7 9 10 12 11 20 15 11 9 1 15 7 14 4 8 3
+Iterations: 1308 Heuristic time overall and percentage: 7.972291 0.279835 Move nums:
+1 7 0 7 2 6 3 6 0 6 1 4 1 6 4 0 3 8 4 7 0 3 8 1 7 3 0 5 1 7 
+Nodes Generated:
+4033088
+Total time:
+28.489276
+State: 402, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 4,033,088, Time: 28.49, Nodes per second: 141565.13
+The argument supplied is 10 6 12 16 7 1 11 15 1 2 7 4 0 3 14 8
+Iterations: 874 Heuristic time overall and percentage: 5.006699 0.276379 Move nums:
+3 2 3 6 0 3 0 6 3 0 7 1 6 4 7 4 7 5 0 5 2 5 6 3 1 5 2 4 2 3 
+Nodes Generated:
+2675689
+Total time:
+18.115345
+State: 403, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,675,689, Time: 18.12, Nodes per second: 147702.90
+The argument supplied is 11 6 3 8 2 14 19 13 8 2 15 10 12 9 16 5
+Iterations: 983 Heuristic time overall and percentage: 6.158679 0.294685 Move nums:
+7 4 1 7 3 6 5 1 8 0 3 0 4 1 6 4 8 3 2 3 1 6 1 7 0 6 4 7 0 4 
+Nodes Generated:
+3022334
+Total time:
+20.899185
+State: 404, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 3,022,334, Time: 20.90, Nodes per second: 144614.92
+The argument supplied is 0 6 9 19 15 11 3 7 11 15 14 1 3 13 8 0
+Iterations: 1031 Heuristic time overall and percentage: 7.513286 0.323556 Move nums:
+7 4 7 1 7 5 8 3 0 3 6 5 1 5 0 8 1 4 0 8 3 0 7 2 5 0 3 7 0 3 
+Nodes Generated:
+3179842
+Total time:
+23.220970
+State: 405, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 3,179,842, Time: 23.22, Nodes per second: 136938.38
+The argument supplied is 10 9 18 13 0 15 19 17 6 14 1 11 4 7 3 9
+Iterations: 5137 Heuristic time overall and percentage: 32.183073 0.231573 Move nums:
+4 6 4 2 5 0 5 7 5 8 4 8 4 7 4 7 3 7 5 7 4 1 5 8 2 3 1 7 4 0 
+Nodes Generated:
+15857343
+Total time:
+138.976012
+State: 406, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 15,857,343, Time: 138.98, Nodes per second: 114101.30
+The argument supplied is 0 9 19 20 11 3 1 13 14 6 9 10 7 2 12 17
+Iterations: 910 Heuristic time overall and percentage: 5.778927 0.298471 Move nums:
+0 3 2 4 2 7 3 0 3 6 1 5 7 5 1 5 7 1 3 6 2 6 4 8 4 0 5 1 6 0 
+Nodes Generated:
+2767664
+Total time:
+19.361794
+State: 407, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,767,664, Time: 19.36, Nodes per second: 142944.61
+The argument supplied is 20 4 10 15 5 9 0 17 0 2 6 3 1 5 4 16
+Iterations: 553 Heuristic time overall and percentage: 3.757568 0.303858 Move nums:
+8 0 5 1 7 2 6 3 1 8 1 4 7 2 8 1 7 4 7 1 7 2 4 6 3 1 6 0 6 0 
+Nodes Generated:
+1683364
+Total time:
+12.366193
+State: 408, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 1,683,364, Time: 12.37, Nodes per second: 136126.29
+The argument supplied is 1 13 7 12 11 2 17 14 12 7 15 8 10 4 11 9
+Iterations: 1254 Heuristic time overall and percentage: 7.561042 0.278365 Move nums:
+0 3 0 7 1 6 0 6 0 4 8 3 6 1 7 2 7 3 0 3 7 3 7 0 6 5 1 5 7 5 
+Nodes Generated:
+3849665
+Total time:
+27.162300
+State: 409, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 3,849,665, Time: 27.16, Nodes per second: 141728.24
+The argument supplied is 19 10 8 0 9 13 4 14 15 0 11 10 16 3 17 4
+Iterations: 868 Heuristic time overall and percentage: 4.910052 0.270792 Move nums:
+6 0 8 0 3 7 5 6 4 7 5 6 4 6 0 4 6 4 2 4 8 4 1 4 2 6 1 8 1 8 1 4 
+Nodes Generated:
+2659571
+Total time:
+18.132192
+State: 410, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 2,659,571, Time: 18.13, Nodes per second: 146676.75
+The argument supplied is 12 9 10 15 11 13 14 17 5 13 1 15 11 16 9 3
+Iterations: 2728 Heuristic time overall and percentage: 17.750107 0.285957 Move nums:
+6 0 7 4 1 6 2 6 4 7 2 6 0 5 7 3 6 4 1 7 0 7 4 0 8 0 3 8 4 8 
+Nodes Generated:
+8461297
+Total time:
+62.072543
+State: 411, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 8,461,297, Time: 62.07, Nodes per second: 136313.04
+The argument supplied is 8 13 14 3 19 4 2 1 11 4 17 12 15 0 14 16
+Iterations: 2038 Heuristic time overall and percentage: 12.200099 0.256072 Move nums:
+2 3 7 5 6 1 7 0 7 4 1 4 1 7 3 6 4 1 6 1 3 7 4 1 3 6 5 6 2 7 
+Nodes Generated:
+6207150
+Total time:
+47.643184
+State: 412, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 6,207,150, Time: 47.64, Nodes per second: 130284.11
+The argument supplied is 5 2 4 3 8 0 20 13 12 6 10 7 11 14 9 8
+Iterations: 324 Heuristic time overall and percentage: 2.207352 0.330885 Move nums:
+8 4 0 6 5 0 4 7 0 7 0 6 1 7 3 6 1 7 4 0 3 0 7 1 6 0 7 4 6 5 
+Nodes Generated:
+970221
+Total time:
+6.671051
+State: 413, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 970,221, Time: 6.67, Nodes per second: 145437.50
+The argument supplied is 8 7 2 5 10 20 11 12 1 7 2 8 15 0 5 4
+Iterations: 108 Heuristic time overall and percentage: 1.119312 0.544054 Move nums:
+5 6 1 6 5 7 1 3 0 5 1 3 2 4 8 2 5 7 4 0 3 8 5 7 4 0 4 6 1 8 
+Nodes Generated:
+301873
+Total time:
+2.057355
+State: 414, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 301,873, Time: 2.06, Nodes per second: 146728.69
+The argument supplied is 14 19 11 9 10 1 20 4 14 17 11 10 3 16 15 0
+Iterations: 7043 Heuristic time overall and percentage: 48.303716 0.235457 Move nums:
+0 3 0 7 1 5 6 0 3 0 7 2 8 2 8 0 5 8 2 7 4 0 5 0 4 8 4 6 0 3 1 
+Nodes Generated:
+21724109
+Total time:
+205.148803
+State: 415, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 21,724,109, Time: 205.15, Nodes per second: 105894.40
+The argument supplied is 9 7 6 4 17 15 5 0 16 12 13 17 1 2 6 5
+Iterations: 3763 Heuristic time overall and percentage: 22.478188 0.258469 Move nums:
+0 7 4 8 1 7 0 3 2 6 5 6 2 3 6 3 7 5 2 7 2 7 1 8 0 3 7 5 7 5 6 
+Nodes Generated:
+11666035
+Total time:
+86.966824
+State: 416, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 11,666,035, Time: 86.97, Nodes per second: 134143.51
+The argument supplied is 20 0 9 1 4 3 5 12 7 5 8 9 4 10 2 15
+Iterations: 982 Heuristic time overall and percentage: 6.464646 0.289565 Move nums:
+0 3 2 4 7 1 4 7 0 3 0 3 7 1 7 4 1 6 5 2 3 6 5 7 2 4 0 3 7 5 
+Nodes Generated:
+3008691
+Total time:
+22.325354
+State: 417, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 3,008,691, Time: 22.33, Nodes per second: 134765.66
+The argument supplied is 18 14 1 17 16 5 13 5 17 3 15 10 2 9 13 16
+Iterations: 9919 Heuristic time overall and percentage: 69.735382 0.229867 Move nums:
+7 0 4 7 4 1 3 0 6 5 8 4 6 0 5 2 4 1 8 3 7 5 7 0 6 3 6 1 7 0 4 
+Nodes Generated:
+30575006
+Total time:
+303.372611
+State: 418, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 30,575,006, Time: 303.37, Nodes per second: 100783.67
+The argument supplied is 3 14 16 19 1 6 4 9 6 12 13 5 7 1 2 17
+Iterations: 4116 Heuristic time overall and percentage: 26.189703 0.249045 Move nums:
+4 8 4 1 7 3 6 3 7 3 0 8 4 6 0 4 7 5 6 0 4 1 6 5 6 2 7 0 7 0 
+Nodes Generated:
+12690503
+Total time:
+105.160456
+State: 419, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 12,690,503, Time: 105.16, Nodes per second: 120677.52
+The argument supplied is 8 6 3 4 12 7 2 8 5 15 2 7 10 0 4 3
+Iterations: 2536 Heuristic time overall and percentage: 15.967635 0.272636 Move nums:
+3 2 6 3 0 7 0 6 4 8 1 3 0 8 4 7 0 3 0 8 5 6 4 1 3 6 1 7 1 8 
+Nodes Generated:
+7862014
+Total time:
+58.567614
+State: 420, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 7,862,014, Time: 58.57, Nodes per second: 134238.25
+The argument supplied is 5 2 7 11 3 1 13 17 15 0 13 11 14 12 7 1
+Iterations: 784 Heuristic time overall and percentage: 5.002046 0.304341 Move nums:
+4 7 4 1 3 6 4 8 2 4 1 5 0 4 1 6 0 7 0 3 1 7 0 5 1 7 2 8 1 4 2 
+Nodes Generated:
+2404988
+Total time:
+16.435686
+State: 421, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 2,404,988, Time: 16.44, Nodes per second: 146327.21
+The argument supplied is 19 1 17 20 7 2 18 7 11 12 6 14 0 17 13 10
+Iterations: 706 Heuristic time overall and percentage: 4.365107 0.288376 Move nums:
+0 8 3 6 0 7 1 7 1 6 4 6 5 0 3 1 7 2 4 8 1 8 3 1 7 0 3 2 7 2 
+Nodes Generated:
+2163974
+Total time:
+15.136850
+State: 422, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,163,974, Time: 15.14, Nodes per second: 142960.66
+The argument supplied is 18 14 8 6 9 5 3 9 15 2 16 12 1 5 13 17
+Iterations: 816 Heuristic time overall and percentage: 4.849381 0.282539 Move nums:
+5 6 4 1 3 2 7 4 6 3 0 6 1 4 1 4 1 4 0 3 0 7 3 0 6 0 4 7 0 4 
+Nodes Generated:
+2493120
+Total time:
+17.163577
+State: 423, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 2,493,120, Time: 17.16, Nodes per second: 145256.43
+The argument supplied is 11 13 19 17 16 15 14 1 17 2 6 12 13 0 14 7
+Iterations: 3771 Heuristic time overall and percentage: 24.640682 0.247178 Move nums:
+8 0 5 6 4 7 3 7 2 6 5 8 3 0 7 5 7 1 4 6 3 6 4 7 2 4 0 3 1 6 
+Nodes Generated:
+11691032
+Total time:
+99.688106
+State: 424, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 11,691,032, Time: 99.69, Nodes per second: 117276.10
+The argument supplied is 14 20 2 4 3 1 19 5 11 3 7 0 10 8 13 15
+Iterations: 3306 Heuristic time overall and percentage: 19.990098 0.269680 Move nums:
+3 1 8 0 5 0 4 8 5 8 4 7 2 6 0 3 7 4 0 8 1 8 0 6 3 2 5 1 7 2 
+Nodes Generated:
+10213833
+Total time:
+74.125210
+State: 425, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 10,213,833, Time: 74.13, Nodes per second: 137791.62
+The argument supplied is 14 5 18 6 3 2 15 1 3 13 2 5 9 16 17 6
+Iterations: 5463 Heuristic time overall and percentage: 35.217962 0.253482 Move nums:
+8 0 5 1 6 0 6 0 6 1 7 1 3 7 0 3 7 3 0 6 4 1 6 1 4 1 7 3 8 1 8 
+Nodes Generated:
+16877489
+Total time:
+138.936911
+State: 426, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 16,877,489, Time: 138.94, Nodes per second: 121475.92
+The argument supplied is 14 1 10 6 11 9 12 7 8 14 11 6 0 3 13 10
+Iterations: 161 Heuristic time overall and percentage: 1.091415 0.343587 Move nums:
+1 4 2 3 8 4 1 4 0 3 0 3 0 3 2 4 6 1 3 6 1 6 2 3 6 5 7 1 4 7 
+Nodes Generated:
+466836
+Total time:
+3.176536
+State: 427, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 466,836, Time: 3.18, Nodes per second: 146963.86
+The argument supplied is 16 10 1 20 11 5 0 13 1 17 7 6 14 0 12 2
+Iterations: 4432 Heuristic time overall and percentage: 28.734033 0.248943 Move nums:
+5 6 1 6 0 7 4 6 0 5 2 6 3 1 6 3 1 5 7 4 6 0 6 4 1 3 0 8 1 8 
+Nodes Generated:
+13699368
+Total time:
+115.423988
+State: 428, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 13,699,368, Time: 115.42, Nodes per second: 118687.36
+The argument supplied is 11 14 19 6 15 17 2 14 8 12 0 11 13 6 7 1
+Iterations: 2057 Heuristic time overall and percentage: 11.860148 0.254565 Move nums:
+8 4 1 6 3 0 4 8 0 3 1 8 1 4 7 2 6 3 6 1 5 1 5 0 8 4 0 4 1 3 
+Nodes Generated:
+6348374
+Total time:
+46.589771
+State: 429, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 6,348,374, Time: 46.59, Nodes per second: 136261.11
+The argument supplied is 18 17 13 16 0 8 12 7 9 11 4 17 3 10 14 15
+Iterations: 136 Heuristic time overall and percentage: 0.827257 0.239876 Move nums:
+1 7 0 3 6 3 6 3 0 3 7 1 4 7 2 7 0 8 3 8 1 8 0 5 6 2 7 4 2 4 
+Nodes Generated:
+383815
+Total time:
+3.448680
+State: 430, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 383,815, Time: 3.45, Nodes per second: 111293.31
+The argument supplied is 5 7 18 15 6 17 16 17 5 1 11 7 12 6 4 9
+Iterations: 3508 Heuristic time overall and percentage: 23.946210 0.300427 Move nums:
+2 3 1 7 5 7 4 0 6 2 4 1 3 6 4 6 3 1 7 0 7 0 4 6 0 8 5 1 4 6 
+Nodes Generated:
+10864987
+Total time:
+79.707143
+State: 431, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 10,864,987, Time: 79.71, Nodes per second: 136311.33
+The argument supplied is 20 1 9 3 5 0 4 5 15 0 10 11 12 13 17 7
+Iterations: 8653 Heuristic time overall and percentage: 61.105197 0.233973 Move nums:
+5 1 8 0 6 4 6 3 6 1 4 7 1 5 0 5 2 3 1 4 2 5 6 1 7 3 0 8 0 5 7 1 
+Nodes Generated:
+26789586
+Total time:
+261.163584
+State: 432, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 26,789,586, Time: 261.16, Nodes per second: 102577.80
+The argument supplied is 0 6 15 5 17 16 4 0 4 15 10 5 16 12 17 11
+Iterations: 1907 Heuristic time overall and percentage: 12.536446 0.285540 Move nums:
+6 0 3 6 1 4 1 4 2 4 0 6 0 8 4 2 4 8 2 3 2 3 7 0 3 6 5 6 1 4 
+Nodes Generated:
+5874687
+Total time:
+43.904275
+State: 433, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 5,874,687, Time: 43.90, Nodes per second: 133806.72
+The argument supplied is 3 20 19 14 2 4 1 5 17 0 3 11 15 13 10 16
+Iterations: 3057 Heuristic time overall and percentage: 20.025082 0.249954 Move nums:
+3 1 6 3 1 6 1 7 1 4 0 3 2 4 7 4 6 5 6 5 0 3 8 3 8 5 8 3 1 7 1 
+Nodes Generated:
+9469200
+Total time:
+80.115004
+State: 434, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 9,469,200, Time: 80.12, Nodes per second: 118195.09
+The argument supplied is 1 2 7 17 12 6 18 7 4 0 15 11 5 8 10 12
+Iterations: 7345 Heuristic time overall and percentage: 50.211677 0.240397 Move nums:
+0 3 2 4 1 4 1 7 0 3 0 3 6 5 0 6 0 5 1 6 5 8 0 5 6 3 2 6 5 0 5 
+Nodes Generated:
+22785388
+Total time:
+208.869382
+State: 435, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 22,785,388, Time: 208.87, Nodes per second: 109089.17
+The argument supplied is 17 4 9 1 7 13 12 16 1 3 14 0 15 17 4 2
+Iterations: 3339 Heuristic time overall and percentage: 20.267733 0.259684 Move nums:
+3 1 3 8 5 7 4 7 0 6 5 2 3 2 5 1 5 0 4 0 7 1 6 1 5 1 4 7 3 7 
+Nodes Generated:
+10361625
+Total time:
+78.047728
+State: 436, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 10,361,625, Time: 78.05, Nodes per second: 132760.11
+The argument supplied is 12 0 8 11 10 2 20 14 11 13 7 3 17 9 6 10
+Iterations: 3255 Heuristic time overall and percentage: 19.073494 0.256406 Move nums:
+6 5 6 4 0 3 1 5 0 5 1 8 0 7 1 8 2 4 0 7 1 7 5 0 7 3 2 4 7 3 
+Nodes Generated:
+10109321
+Total time:
+74.387812
+State: 437, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 10,109,321, Time: 74.39, Nodes per second: 135900.23
+The argument supplied is 18 15 6 5 16 7 17 9 6 4 3 11 14 8 16 1
+Iterations: 7255 Heuristic time overall and percentage: 49.827658 0.205568 Move nums:
+7 4 1 6 3 6 4 8 3 2 4 8 3 1 7 4 6 1 4 6 4 0 5 7 0 3 7 0 6 1 6 
+Nodes Generated:
+22380775
+Total time:
+242.390627
+State: 438, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 22,380,775, Time: 242.39, Nodes per second: 92333.50
+The argument supplied is 15 4 17 7 16 12 13 17 4 6 10 3 2 14 9 7
+Iterations: 1203 Heuristic time overall and percentage: 7.961368 0.310553 Move nums:
+7 4 7 2 3 0 3 0 4 2 7 2 6 3 0 7 4 1 6 5 0 7 5 7 1 4 6 4 7 2 
+Nodes Generated:
+3714460
+Total time:
+25.636105
+State: 439, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 3,714,460, Time: 25.64, Nodes per second: 144891.75
+The argument supplied is 5 11 2 17 13 14 1 6 3 0 16 1 2 17 13 14
+Iterations: 1361 Heuristic time overall and percentage: 8.826694 0.273704 Move nums:
+5 1 8 0 7 4 1 7 3 6 0 3 7 3 6 4 1 7 1 4 0 8 2 4 0 8 5 2 7 1 
+Nodes Generated:
+4190487
+Total time:
+32.249098
+State: 440, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 4,190,487, Time: 32.25, Nodes per second: 129941.22
+The argument supplied is 4 17 9 6 19 14 15 10 14 17 12 9 16 11 4 15
+Iterations: 436 Heuristic time overall and percentage: 2.561956 0.282153 Move nums:
+0 5 1 7 4 7 1 4 7 0 6 2 8 0 3 7 0 3 7 1 4 2 3 1 7 5 8 3 0 4 
+Nodes Generated:
+1321992
+Total time:
+9.080033
+State: 441, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 1,321,992, Time: 9.08, Nodes per second: 145593.30
+The argument supplied is 17 9 0 20 19 8 11 15 14 3 9 11 13 8 1 16
+Iterations: 2502 Heuristic time overall and percentage: 15.825804 0.283041 Move nums:
+4 1 4 1 7 3 0 6 3 2 7 2 4 0 6 1 6 4 0 7 1 5 8 2 5 1 6 0 5 2 5 1 7 
+Nodes Generated:
+7749625
+Total time:
+55.913422
+State: 442, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 7,749,625, Time: 55.91, Nodes per second: 138600.44
+The argument supplied is 1 17 14 11 2 19 20 6 5 16 12 8 11 4 10 0
+Iterations: 2416 Heuristic time overall and percentage: 14.563784 0.257102 Move nums:
+3 1 7 1 3 0 3 1 4 8 3 0 7 2 5 8 5 6 1 6 5 8 3 6 0 7 1 8 3 0 
+Nodes Generated:
+7487366
+Total time:
+56.645951
+State: 443, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 7,487,366, Time: 56.65, Nodes per second: 132178.31
+The argument supplied is 0 2 8 3 20 5 4 7 5 9 17 10 15 13 2 12
+Iterations: 3319 Heuristic time overall and percentage: 20.171805 0.272324 Move nums:
+6 4 1 5 7 5 6 1 6 0 7 1 7 0 7 4 8 0 7 1 3 7 2 7 2 3 6 1 6 5 
+Nodes Generated:
+10238202
+Total time:
+74.072682
+State: 444, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 10,238,202, Time: 74.07, Nodes per second: 138218.32
+The argument supplied is 8 2 0 6 10 4 12 12 10 13 11 8 7 0 6 5
+Iterations: 5363 Heuristic time overall and percentage: 33.067692 0.255967 Move nums:
+0 7 5 6 5 8 2 6 0 6 0 6 1 5 2 3 2 7 1 7 3 1 4 6 3 6 1 4 1 6 
+Nodes Generated:
+16546817
+Total time:
+129.187258
+State: 445, SolnCost: 30.00, # Moves: 30, # Nodes Gen: 16,546,817, Time: 129.19, Nodes per second: 128083.97
+The argument supplied is 5 11 7 16 3 8 13 0 4 8 5 6 1 16 2 12
+Iterations: 763 Heuristic time overall and percentage: 4.763664 0.295154 Move nums:
+4 2 3 8 4 1 6 1 4 7 0 5 0 6 3 1 7 1 7 2 4 6 3 1 6 2 7 2 7 4 1 
+Nodes Generated:
+2337288
+Total time:
+16.139585
+State: 446, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 2,337,288, Time: 16.14, Nodes per second: 144817.11
+The argument supplied is 11 7 9 8 10 5 13 3 5 7 8 6 0 2 13 10
+Iterations: 1183 Heuristic time overall and percentage: 7.120572 0.272398 Move nums:
+8 4 2 3 2 4 2 3 0 7 4 2 4 6 0 3 1 5 0 5 6 3 1 4 2 7 2 7 0 6 5 
+Nodes Generated:
+3630011
+Total time:
+26.140335
+State: 447, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 3,630,011, Time: 26.14, Nodes per second: 138866.28
+The argument supplied is 15 10 11 2 5 13 7 7 1 12 17 4 0 6 14 11
+Iterations: 1593 Heuristic time overall and percentage: 10.038237 0.267395 Move nums:
+4 6 0 6 2 7 1 4 6 1 7 4 0 5 7 4 7 2 6 5 6 4 6 0 5 8 4 6 1 4 8 
+Nodes Generated:
+4894998
+Total time:
+37.540866
+State: 448, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 4,894,998, Time: 37.54, Nodes per second: 130391.18
+The argument supplied is 14 16 11 3 20 5 15 15 13 0 8 3 7 1 14 11
+Iterations: 3587 Heuristic time overall and percentage: 21.200633 0.254007 Move nums:
+4 1 4 8 3 0 4 7 0 5 7 2 4 2 5 1 7 5 7 1 4 6 1 4 8 3 0 4 7 2 6 
+Nodes Generated:
+11078931
+Total time:
+83.464619
+State: 449, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 11,078,931, Time: 83.46, Nodes per second: 132738.05
+The argument supplied is 5 0 20 2 10 15 11 11 17 10 16 9 5 3 13 6
+Iterations: 3257 Heuristic time overall and percentage: 21.167400 0.269252 Move nums:
+8 0 4 0 8 1 8 0 8 3 7 4 1 3 6 3 1 3 7 3 6 5 0 4 2 3 1 3 7 1 3 
+Nodes Generated:
+10084314
+Total time:
+78.615462
+State: 450, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 10,084,314, Time: 78.62, Nodes per second: 128273.93
+The argument supplied is 15 16 13 10 4 14 12 6 0 12 11 8 5 4 10 16
+Iterations: 1176 Heuristic time overall and percentage: 7.301708 0.281011 Move nums:
+8 0 3 6 1 7 0 6 4 0 3 7 1 5 1 6 3 2 4 7 1 4 0 3 1 8 3 2 7 0 4 
+Nodes Generated:
+3630587
+Total time:
+25.983696
+State: 451, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 3,630,587, Time: 25.98, Nodes per second: 139725.58
+The argument supplied is 4 20 3 16 15 5 0 16 4 12 8 2 10 14 15 9
+Iterations: 6907 Heuristic time overall and percentage: 44.302667 0.249743 Move nums:
+1 3 7 1 3 7 3 0 8 1 5 1 6 0 7 3 6 2 3 0 5 6 0 5 1 7 3 2 7 1 8 
+Nodes Generated:
+21328502
+Total time:
+177.393309
+State: 452, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 21,328,502, Time: 177.39, Nodes per second: 120232.84
+The argument supplied is 1 13 17 2 5 0 4 11 12 15 7 4 1 17 0 5
+Iterations: 48 Heuristic time overall and percentage: 0.469104 0.587504 Move nums:
+6 4 2 3 6 3 0 5 1 5 7 2 6 0 7 1 7 0 7 3 2 4 7 2 8 1 4 2 3 7 3 
+Nodes Generated:
+109421
+Total time:
+0.798470
+State: 453, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 109,421, Time: 0.80, Nodes per second: 137038.34
+The argument supplied is 14 6 4 2 3 1 12 12 4 17 7 5 11 1 6 9
+Iterations: 555 Heuristic time overall and percentage: 3.342630 0.285399 Move nums:
+7 0 7 4 0 7 1 5 6 0 6 4 8 4 2 3 7 3 7 1 6 0 7 4 0 4 8 3 1 5 0 
+Nodes Generated:
+1683265
+Total time:
+11.712133
+State: 454, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 1,683,265, Time: 11.71, Nodes per second: 143719.76
+The argument supplied is 3 14 20 1 11 2 12 11 3 9 8 14 6 4 10 7
+Iterations: 820 Heuristic time overall and percentage: 5.135839 0.294478 Move nums:
+6 2 7 5 7 1 4 8 3 8 1 7 0 6 3 0 4 7 4 1 7 3 6 0 5 1 4 0 6 4 6 
+Nodes Generated:
+2507861
+Total time:
+17.440512
+State: 455, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 2,507,861, Time: 17.44, Nodes per second: 143795.15
+The argument supplied is 17 4 15 5 16 14 13 0 6 1 12 17 4 14 2 16
+Iterations: 579 Heuristic time overall and percentage: 3.333444 0.275454 Move nums:
+4 1 4 6 3 8 4 7 1 3 6 3 8 4 6 5 7 0 8 4 7 1 3 0 8 5 0 4 7 2 7 
+Nodes Generated:
+1767831
+Total time:
+12.101639
+State: 456, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 1,767,831, Time: 12.10, Nodes per second: 146081.95
+The argument supplied is 5 7 3 20 1 4 2 6 12 0 14 16 4 11 17 10
+Iterations: 655 Heuristic time overall and percentage: 4.033161 0.280159 Move nums:
+4 1 5 1 7 2 6 5 0 5 8 4 7 1 6 4 7 4 2 3 6 1 7 4 6 1 6 1 6 2 8 
+Nodes Generated:
+1992906
+Total time:
+14.395989
+State: 457, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 1,992,906, Time: 14.40, Nodes per second: 138434.81
+The argument supplied is 11 17 9 0 5 13 8 8 11 15 10 3 4 7 5 9
+Iterations: 1073 Heuristic time overall and percentage: 6.390349 0.270821 Move nums:
+4 6 4 0 6 4 1 4 0 3 7 5 7 5 0 6 0 6 4 8 3 6 3 7 3 0 3 2 4 7 3 
+Nodes Generated:
+3309214
+Total time:
+23.596245
+State: 458, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 3,309,214, Time: 23.60, Nodes per second: 140243.25
+The argument supplied is 18 8 10 6 16 5 0 15 14 0 16 12 17 11 4 1
+Iterations: 1281 Heuristic time overall and percentage: 7.918387 0.270772 Move nums:
+1 7 1 3 6 1 3 0 6 0 3 0 4 8 3 7 2 7 0 5 8 5 6 5 7 1 3 6 3 8 4 0 6 
+Nodes Generated:
+3931526
+Total time:
+29.243779
+State: 459, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 3,931,526, Time: 29.24, Nodes per second: 134439.74
+The argument supplied is 12 18 8 0 16 3 6 8 5 13 15 1 9 7 2 12
+Iterations: 1874 Heuristic time overall and percentage: 11.284918 0.274133 Move nums:
+0 7 3 0 3 2 4 1 4 6 5 2 8 1 7 4 0 6 5 0 8 5 7 1 7 1 6 1 7 3 6 
+Nodes Generated:
+5806245
+Total time:
+41.165870
+State: 460, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 5,806,245, Time: 41.17, Nodes per second: 141045.12
+The argument supplied is 8 2 14 4 19 3 13 4 0 7 17 15 5 12 11 1
+Iterations: 425 Heuristic time overall and percentage: 2.521437 0.292813 Move nums:
+7 0 3 6 1 4 2 3 6 4 8 5 2 5 7 4 6 3 8 4 1 5 0 7 4 8 3 0 8 1 7 
+Nodes Generated:
+1282923
+Total time:
+8.611088
+State: 461, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 1,282,923, Time: 8.61, Nodes per second: 148985.01
+The argument supplied is 3 19 16 0 8 18 20 4 2 1 3 6 9 16 14 17
+Iterations: 999 Heuristic time overall and percentage: 6.660258 0.300683 Move nums:
+3 0 5 1 8 2 7 1 3 0 6 0 7 2 4 7 1 6 1 5 0 8 3 8 4 8 2 6 4 2 3 
+Nodes Generated:
+3067300
+Total time:
+22.150438
+State: 462, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 3,067,300, Time: 22.15, Nodes per second: 138475.82
+The argument supplied is 10 5 2 14 15 4 13 6 1 12 8 9 16 2 4 14
+Iterations: 4082 Heuristic time overall and percentage: 25.639649 0.244195 Move nums:
+8 4 2 7 5 6 3 6 0 4 1 7 1 3 6 5 0 3 2 6 2 3 1 8 4 7 2 3 1 6 1 
+Nodes Generated:
+12539062
+Total time:
+104.996809
+State: 463, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 12,539,062, Time: 105.00, Nodes per second: 119423.27
+The argument supplied is 2 20 11 3 1 7 19 17 12 6 4 2 5 16 0 10
+Iterations: 143 Heuristic time overall and percentage: 1.338837 0.357517 Move nums:
+2 7 5 6 4 1 7 3 6 2 3 6 4 7 4 1 6 0 6 0 6 5 1 6 3 7 3 6 1 7 0 
+Nodes Generated:
+405061
+Total time:
+3.744820
+State: 464, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 405,061, Time: 3.74, Nodes per second: 108165.68
+The argument supplied is 3 5 20 14 11 16 15 0 6 13 17 2 14 3 16 1
+Iterations: 340 Heuristic time overall and percentage: 2.510106 0.369098 Move nums:
+5 6 2 7 0 7 3 7 3 0 3 2 3 2 4 2 3 8 1 3 0 6 1 3 8 3 6 4 7 0 4 
+Nodes Generated:
+1017682
+Total time:
+6.800647
+State: 465, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 1,017,682, Time: 6.80, Nodes per second: 149644.88
+The argument supplied is 8 6 18 17 9 5 0 12 8 11 16 15 4 1 5 0
+Iterations: 293 Heuristic time overall and percentage: 1.927999 0.321379 Move nums:
+1 3 1 6 3 6 3 0 7 2 8 5 7 4 7 4 1 7 4 7 5 0 7 1 5 2 3 6 0 7 0 
+Nodes Generated:
+861703
+Total time:
+5.999145
+State: 466, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 861,703, Time: 6.00, Nodes per second: 143637.64
+The argument supplied is 3 16 0 8 12 6 18 12 4 9 6 5 11 7 10 8
+Iterations: 3235 Heuristic time overall and percentage: 18.568079 0.257448 Move nums:
+6 4 1 6 1 4 2 5 0 3 8 3 8 1 7 5 7 2 6 0 4 6 2 7 0 6 3 0 5 1 3 
+Nodes Generated:
+10027407
+Total time:
+72.123515
+State: 467, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 10,027,407, Time: 72.12, Nodes per second: 139031.04
+The argument supplied is 0 5 15 3 20 4 16 13 8 5 0 16 15 3 1 11
+Iterations: 185 Heuristic time overall and percentage: 1.272071 0.358991 Move nums:
+0 3 0 7 3 0 6 1 4 0 5 6 2 4 7 4 1 3 1 6 1 6 5 0 4 7 3 2 3 8 4 
+Nodes Generated:
+537954
+Total time:
+3.543466
+State: 468, SolnCost: 31.00, # Moves: 31, # Nodes Gen: 537,954, Time: 3.54, Nodes per second: 151815.76
+The argument supplied is 12 2 20 1 17 4 7 4 10 17 11 9 6 14 16 3
+Iterations: 852 Heuristic time overall and percentage: 4.986801 0.283572 Move nums:
+7 4 8 3 0 3 2 6 2 7 1 5 7 0 6 5 0 5 6 3 7 4 0 7 1 4 8 5 7 4 6 4 
+Nodes Generated:
+2607067
+Total time:
+17.585686
+State: 469, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 2,607,067, Time: 17.59, Nodes per second: 148249.38
+The argument supplied is 18 17 9 6 8 14 12 5 2 13 10 6 17 9 16 12
+Iterations: 908 Heuristic time overall and percentage: 6.075963 0.301346 Move nums:
+6 4 6 2 7 2 6 5 8 1 6 0 6 0 6 2 7 0 7 4 8 3 1 3 2 5 2 4 1 5 0 5 
+Nodes Generated:
+2776810
+Total time:
+20.162714
+State: 470, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 2,776,810, Time: 20.16, Nodes per second: 137720.05
+The argument supplied is 3 0 8 18 5 2 6 1 12 15 8 11 7 14 13 9
+Iterations: 1277 Heuristic time overall and percentage: 8.794490 0.326865 Move nums:
+8 0 3 6 1 4 2 5 1 3 6 0 6 2 7 1 6 4 6 3 6 2 7 2 3 2 8 0 5 1 3 6 
+Nodes Generated:
+3935142
+Total time:
+26.905568
+State: 471, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 3,935,142, Time: 26.91, Nodes per second: 146257.53
+The argument supplied is 15 18 19 3 14 16 20 3 15 9 11 14 13 17 7 1
+Iterations: 4217 Heuristic time overall and percentage: 27.645617 0.230618 Move nums:
+6 3 0 3 7 1 6 0 6 4 0 8 3 2 8 5 7 4 7 4 8 1 3 1 7 3 1 7 2 5 1 4 
+Nodes Generated:
+13035626
+Total time:
+119.876071
+State: 472, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 13,035,626, Time: 119.88, Nodes per second: 108742.52
+The argument supplied is 15 3 6 0 5 2 11 9 8 6 14 13 3 11 16 10
+Iterations: 2956 Heuristic time overall and percentage: 18.060950 0.266945 Move nums:
+3 1 3 7 1 7 4 1 3 6 0 3 8 5 2 3 6 3 2 5 0 6 4 2 3 1 3 8 2 4 0 7 3 
+Nodes Generated:
+9133566
+Total time:
+67.657829
+State: 473, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 9,133,566, Time: 67.66, Nodes per second: 134996.44
+The argument supplied is 2 1 7 18 12 10 13 9 4 6 11 8 7 1 3 5
+Iterations: 847 Heuristic time overall and percentage: 5.827388 0.318316 Move nums:
+1 7 1 3 7 1 3 0 4 0 7 4 1 8 1 3 8 5 7 1 3 6 2 3 0 7 1 3 1 4 0 8 
+Nodes Generated:
+2603991
+Total time:
+18.306931
+State: 474, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 2,603,991, Time: 18.31, Nodes per second: 142240.72
+The argument supplied is 5 13 11 10 14 2 8 2 1 8 15 4 16 12 5 9
+Iterations: 1105 Heuristic time overall and percentage: 6.338371 0.269340 Move nums:
+6 0 7 4 7 5 6 0 6 2 7 3 8 4 1 8 0 3 7 4 0 6 0 4 1 3 0 8 4 7 3 8 
+Nodes Generated:
+3408337
+Total time:
+23.532962
+State: 475, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 3,408,337, Time: 23.53, Nodes per second: 144832.47
+The argument supplied is 7 3 12 9 13 8 11 1 17 14 13 11 6 16 0 12
+Iterations: 4214 Heuristic time overall and percentage: 29.745687 0.253129 Move nums:
+3 1 6 3 6 0 7 1 6 0 6 0 7 1 6 3 8 4 1 4 6 1 4 6 4 0 4 6 5 7 5 6 1 
+Nodes Generated:
+13046503
+Total time:
+117.512069
+State: 476, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 13,046,503, Time: 117.51, Nodes per second: 111022.66
+The argument supplied is 1 4 14 3 19 9 13 6 2 17 10 16 5 4 0 12
+Iterations: 515 Heuristic time overall and percentage: 3.436968 0.316916 Move nums:
+2 3 6 4 0 3 1 7 0 8 0 6 0 8 1 7 1 3 1 5 0 7 3 6 4 6 3 1 8 1 7 2 
+Nodes Generated:
+1558612
+Total time:
+10.845035
+State: 477, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 1,558,612, Time: 10.85, Nodes per second: 143716.64
+The argument supplied is 13 7 1 5 3 11 2 4 6 10 11 9 12 17 5 16
+Iterations: 5189 Heuristic time overall and percentage: 31.218662 0.234457 Move nums:
+3 0 3 6 4 0 3 0 3 0 4 8 3 7 4 7 0 4 1 8 3 1 7 0 6 0 7 4 0 5 0 6 
+Nodes Generated:
+16063881
+Total time:
+133.153169
+State: 478, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 16,063,881, Time: 133.15, Nodes per second: 120642.12
+The argument supplied is 18 20 0 17 19 9 1 4 8 1 15 3 7 11 0 5
+Iterations: 1669 Heuristic time overall and percentage: 10.479232 0.277775 Move nums:
+5 6 1 7 4 8 3 0 7 0 5 1 6 0 3 7 5 6 1 6 4 7 1 5 6 0 4 1 4 2 3 6 
+Nodes Generated:
+5163752
+Total time:
+37.725656
+State: 479, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 5,163,752, Time: 37.73, Nodes per second: 136876.40
+The argument supplied is 4 8 9 5 0 6 10 16 4 8 0 5 11 12 15 1
+Iterations: 819 Heuristic time overall and percentage: 5.030383 0.266894 Move nums:
+4 1 4 1 6 0 6 0 8 0 6 4 1 4 7 0 3 8 0 8 4 8 2 7 3 0 4 6 1 4 0 4 
+Nodes Generated:
+2506716
+Total time:
+18.847894
+State: 480, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 2,506,716, Time: 18.85, Nodes per second: 132997.14
+The argument supplied is 14 5 10 11 15 6 2 0 6 14 16 12 13 1 11 17
+Iterations: 4581 Heuristic time overall and percentage: 28.146798 0.255093 Move nums:
+7 0 5 1 5 2 6 1 7 1 5 0 3 0 6 1 3 7 4 1 5 1 3 0 5 7 2 6 2 5 1 4 
+Nodes Generated:
+14152285
+Total time:
+110.339149
+State: 481, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 14,152,285, Time: 110.34, Nodes per second: 128261.68
+The argument supplied is 19 8 13 9 10 4 0 5 11 9 10 7 3 8 6 13
+Iterations: 1240 Heuristic time overall and percentage: 7.525528 0.263667 Move nums:
+1 7 2 6 5 7 1 7 0 8 1 7 0 3 6 0 8 4 7 0 8 3 6 4 1 8 3 1 5 0 6 0 
+Nodes Generated:
+3827378
+Total time:
+28.541792
+State: 482, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 3,827,378, Time: 28.54, Nodes per second: 134097.33
+The argument supplied is 5 20 16 0 8 4 10 14 7 17 2 10 3 9 13 15
+Iterations: 4941 Heuristic time overall and percentage: 32.680576 0.241144 Move nums:
+6 4 0 6 0 7 0 3 2 4 6 4 7 5 7 3 6 5 6 1 3 6 5 7 5 6 1 7 0 5 1 8 
+Nodes Generated:
+15353887
+Total time:
+135.523012
+State: 483, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 15,353,887, Time: 135.52, Nodes per second: 113293.58
+The argument supplied is 12 20 1 7 18 3 2 16 3 4 11 10 9 14 6 17
+Iterations: 1867 Heuristic time overall and percentage: 10.807102 0.260828 Move nums:
+8 0 5 1 4 0 3 1 3 6 3 7 2 8 4 6 1 4 8 3 2 7 3 2 5 7 4 0 7 5 6 2 
+Nodes Generated:
+5761447
+Total time:
+41.433785
+State: 484, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 5,761,447, Time: 41.43, Nodes per second: 139051.91
+The argument supplied is 3 14 20 1 11 2 12 17 9 3 6 5 16 4 10 2
+Iterations: 3751 Heuristic time overall and percentage: 22.572634 0.255825 Move nums:
+5 1 8 4 7 3 1 3 6 0 7 5 8 5 6 4 7 1 4 1 5 0 6 4 7 3 6 4 7 5 6 3 6 
+Nodes Generated:
+11607172
+Total time:
+88.234827
+State: 485, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 11,607,172, Time: 88.23, Nodes per second: 131548.65
+The argument supplied is 7 12 8 4 13 3 16 2 0 12 4 15 14 17 1 7
+Iterations: 5975 Heuristic time overall and percentage: 43.685505 0.242000 Move nums:
+0 7 3 0 3 1 3 7 4 0 4 1 6 3 6 0 7 3 0 7 4 7 3 7 4 0 3 1 7 3 0 7 0 
+Nodes Generated:
+18508587
+Total time:
+180.518412
+State: 486, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 18,508,587, Time: 180.52, Nodes per second: 102530.19
+The argument supplied is 19 15 17 20 16 0 18 0 5 12 16 1 15 11 13 17
+Iterations: 1341 Heuristic time overall and percentage: 7.892552 0.266364 Move nums:
+2 7 3 6 0 6 0 6 3 1 7 4 1 3 1 6 1 8 0 5 6 5 6 3 1 3 2 4 8 5 6 2 
+Nodes Generated:
+4117108
+Total time:
+29.630675
+State: 487, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 4,117,108, Time: 29.63, Nodes per second: 138947.49
+The argument supplied is 1 9 18 5 0 20 10 16 11 5 3 1 8 6 9 13
+Iterations: 1217 Heuristic time overall and percentage: 7.341861 0.276523 Move nums:
+5 1 7 4 6 4 7 5 7 4 1 6 2 7 1 7 4 2 8 2 3 6 1 5 6 1 3 0 3 0 6 0 
+Nodes Generated:
+3744180
+Total time:
+26.550668
+State: 488, SolnCost: 32.00, # Moves: 32, # Nodes Gen: 3,744,180, Time: 26.55, Nodes per second: 141020.18
+The argument supplied is 0 5 16 4 17 6 15 11 15 13 0 7 8 3 10 5
+Iterations: 3397 Heuristic time overall and percentage: 20.563567 0.256631 Move nums:
+1 4 7 4 1 4 8 4 8 1 3 0 7 5 7 4 6 2 3 6 4 2 5 7 2 4 1 6 2 5 0 5 1 
+Nodes Generated:
+10479045
+Total time:
+80.128812
+State: 489, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 10,479,045, Time: 80.13, Nodes per second: 130777.49
+The argument supplied is 7 5 11 20 9 3 8 17 9 16 1 6 11 12 13 5
+Iterations: 3603 Heuristic time overall and percentage: 22.731478 0.247334 Move nums:
+8 4 0 5 1 3 0 3 6 5 6 5 0 4 1 7 3 7 2 7 1 8 0 3 0 6 3 8 4 0 5 1 7 0 
+Nodes Generated:
+11059027
+Total time:
+91.906156
+State: 490, SolnCost: 34.00, # Moves: 34, # Nodes Gen: 11,059,027, Time: 91.91, Nodes per second: 120329.56
+The argument supplied is 19 20 8 3 16 4 14 1 5 4 2 3 9 16 6 8
+Iterations: 991 Heuristic time overall and percentage: 6.043436 0.286120 Move nums:
+2 3 8 0 8 5 0 4 0 4 7 1 8 0 3 1 4 8 1 5 6 4 7 4 1 5 0 3 2 3 8 4 6 
+Nodes Generated:
+3043234
+Total time:
+21.122028
+State: 491, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 3,043,234, Time: 21.12, Nodes per second: 144078.68
+The argument supplied is 7 4 19 16 15 3 20 9 11 3 6 4 10 7 14 8
+Iterations: 3116 Heuristic time overall and percentage: 18.181522 0.240681 Move nums:
+5 6 1 6 0 7 1 4 7 5 1 7 2 6 0 4 8 1 5 8 2 3 7 1 8 0 7 4 2 5 0 6 3 
+Nodes Generated:
+9603210
+Total time:
+75.542043
+State: 492, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 9,603,210, Time: 75.54, Nodes per second: 127124.04
+The argument supplied is 17 18 8 14 5 13 9 16 11 6 0 17 10 5 13 12
+Iterations: 151 Heuristic time overall and percentage: 1.054141 0.362071 Move nums:
+2 3 7 0 6 1 7 4 0 3 1 7 2 6 2 4 8 3 2 7 1 3 2 7 5 8 3 0 5 0 5 7 4 
+Nodes Generated:
+423914
+Total time:
+2.911422
+State: 493, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 423,914, Time: 2.91, Nodes per second: 145603.76
+The argument supplied is 1 9 6 7 18 3 19 6 12 10 5 8 9 2 13 7
+Iterations: 4913 Heuristic time overall and percentage: 31.258719 0.259101 Move nums:
+5 1 8 4 7 3 2 4 7 2 4 2 7 3 0 6 2 4 7 1 6 1 6 5 8 1 3 6 0 7 3 1 6 2 
+Nodes Generated:
+15108024
+Total time:
+120.643191
+State: 494, SolnCost: 34.00, # Moves: 34, # Nodes Gen: 15,108,024, Time: 120.64, Nodes per second: 125228.98
+The argument supplied is 13 4 16 12 17 15 7 4 11 5 8 3 10 15 9 7
+Iterations: 1990 Heuristic time overall and percentage: 11.966869 0.266783 Move nums:
+7 4 6 4 6 2 7 4 6 3 6 0 7 1 7 4 6 5 2 3 8 4 2 4 8 1 3 6 5 7 1 6 0 
+Nodes Generated:
+6101519
+Total time:
+44.856118
+State: 495, SolnCost: 33.00, # Moves: 33, # Nodes Gen: 6,101,519, Time: 44.86, Nodes per second: 136024.23
+The argument supplied is 20 17 18 5 0 9 15 12 5 10 9 4 15 2 16 17
+Iterations: 1213 Heuristic time overall and percentage: 6.986713 0.274226 Move nums:
+7 0 5 1 3 7 1 5 0 3 1 6 0 6 4 8 5 2 4 7 5 7 0 3 2 3 1 3 8 4 0 6 1 6 
+Nodes Generated:
+3680712
+Total time:
+25.477929
+State: 496, SolnCost: 34.00, # Moves: 34, # Nodes Gen: 3,680,712, Time: 25.48, Nodes per second: 144466.69
+The argument supplied is 4 6 15 2 10 5 0 14 3 0 8 4 10 16 2 15
+Iterations: 3254 Heuristic time overall and percentage: 21.805312 0.272790 Move nums:
+3 6 5 7 1 3 1 7 4 0 6 2 7 4 1 7 5 6 0 6 4 0 8 3 2 7 2 6 3 7 0 8 1 5 6 
+Nodes Generated:
+10018680
+Total time:
+79.934388
+State: 497, SolnCost: 35.00, # Moves: 35, # Nodes Gen: 10,018,680, Time: 79.93, Nodes per second: 125336.29
+The argument supplied is 14 5 2 8 4 6 3 0 4 6 3 8 11 5 10 7
+Iterations: 2121 Heuristic time overall and percentage: 12.605861 0.265570 Move nums:
+1 3 1 8 0 3 0 6 1 7 2 6 5 0 7 4 8 3 2 4 7 1 3 0 8 1 8 3 8 3 8 4 1 4 
+Nodes Generated:
+6550316
+Total time:
+47.467198
+State: 498, SolnCost: 34.00, # Moves: 34, # Nodes Gen: 6,550,316, Time: 47.47, Nodes per second: 137996.69
+The argument supplied is 1 13 14 3 11 12 9 16 17 9 14 15 13 12 1 11
+Iterations: 1076 Heuristic time overall and percentage: 6.409874 0.264529 Move nums:
+1 5 1 3 7 4 6 5 8 2 6 0 4 6 1 6 4 0 4 6 2 6 0 7 5 6 3 7 1 3 1 3 7 5 
+Nodes Generated:
+3281653
+Total time:
+24.231289
+State: 499, SolnCost: 34.00, # Moves: 34, # Nodes Gen: 3,281,653, Time: 24.23, Nodes per second: 135430.39

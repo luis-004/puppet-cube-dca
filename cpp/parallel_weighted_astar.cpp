@@ -180,6 +180,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		int openSize = (int) open.size();
 		int numPop = std::min(openSize,numParallel);
 		if(numPop == 0){
+			double totalTime = getTimeElapsed(searchStartTime,std::chrono::high_resolution_clock::now());
 			std::cout << int(searchItr - 1) << "," << float(waitForHeuristicTime) << "," << float(fullHeuristicTime) << "," << float(totalTime) << "," << long(numNodesGenerated) << ",NO SOLUTION FOUND";
 			return;
 		}
