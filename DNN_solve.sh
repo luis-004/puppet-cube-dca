@@ -28,7 +28,7 @@ echo "Solve States in Dataset..."
 env PYTHONPATH=. CUDA_VISIBLE_DEVICES=0 \
 python -u search_methods/astar.py \
 --states data/puppet/test/scrambles \
---model_dir saved_models/puppet_smart_big/current/  \
+--model_dir saved_models/puppet/current/  \
 --env puppet \
 --weight 0.6 \
 --batch_size 10000 \
