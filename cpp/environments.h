@@ -161,7 +161,7 @@ class Puppet: public Environment {
 
 		static constexpr std::array<uint8_t, numCornerVals> position =
 		{0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6};
-    		static constexpr std::array<uint8_t, numCornerVals> orientation =
+    	static constexpr std::array<uint8_t, numCornerVals> orientation =
 		{0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2};
 		static constexpr std::array<uint16_t, 7> pow3 = {0, 1, 3, 9, 27, 81, 243};
 
@@ -177,7 +177,7 @@ class Puppet: public Environment {
 			return table;
 		}();
 
-		inline static const auto from7choose3 = [] {
+		inline static const auto from6choose3 = [] {
 			std::array<std::array<uint8_t, 128>, 7> table{};
 			for (auto& row : table) {
 				row.fill(255);

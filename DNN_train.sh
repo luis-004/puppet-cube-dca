@@ -5,10 +5,10 @@
 #SBATCH --mem=24000
 #SBATCH --gres=gpu:v100:1
 #SBATCH --time=24:00:00
-#SBATCH --output=outs/%jpuppet.out
+#SBATCH --output=%jpuppet.out
 source /cluster/$USER/venvs/puppet-dca/bin/activate
 
-cd ~/puppet-cube-dca # path may not be right
+cd ~/puppet-cube-dca
 
 echo "Node:"
 hostname
@@ -32,7 +32,7 @@ python ctg_approx/avi.py \
     --states_per_update 50000000 \
     --batch_size 10000 \
     --epochs_per_update 1 \
-    --nnet_name puppet \
+    --nnet_name puppet2 \
     --max_itrs 1000000 \
     --loss_thresh 0.06 \
     --back_max 60 \

@@ -274,6 +274,7 @@ Puppet::Puppet(std::vector<uint8_t> state) {
 
 Puppet::~Puppet() {}
 
+// ignores if the resulting shape is valid
 Puppet *Puppet::getNextState(const int action) const {
 	std::vector<uint8_t> newState(this->state);
 
@@ -300,11 +301,13 @@ std::vector<Environment*> Puppet::getNextStates() const {
         	permutation |= (i & 1u) << pos;
         	orientationHash +=  orientation[corner] * pow3[pos];
     	}
-		
-	uint16_t info = shape_moves[orientationHash * 140u + from7choose3[position[curState[0]]][permutation]];
+	
+	// get valid moves info
+	uint16_t info = shape_moves[orientationHash * 140u + from6choose3[position[curState[0]]][permutation]];
 
 	std::vector<Environment*> nextStates;
-
+	
+	// only execute valid turns, for invalid turns, return NULL
 	for (int i=0; i<numActions; i++) {
 		if(info & (1u << i)){
 			nextStates.push_back(this->getNextState(i));

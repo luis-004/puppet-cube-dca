@@ -5,11 +5,11 @@
 #SBATCH --mem=24000
 #SBATCH --gres=gpu:v100
 #SBATCH --time=24:00:00
-#SBATCH --output=outs/%jpuppet.out
+#SBATCH --output=%jpuppet.out
 
 source /cluster/$USER/venvs/puppet-dca/bin/activate
 
-cd ~/puppet-cube-dca # path may not be right
+cd ~/puppet-cube-dca
 
 echo "Node:"
 hostname

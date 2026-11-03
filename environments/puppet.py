@@ -61,12 +61,15 @@ class Puppet(Environment):
         self.position = np.array([0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6, 0, 1, 2, 3, 4, 5, 6], dtype=self.dtype)
         self.orientation = np.array([0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2], dtype=self.dtype)
         self.pow3 = np.array([0, 1, 3, 9, 27, 81, 243], dtype=self.dtype)
+
         self.possible_shapes = np.fromfile('shape_valid', dtype=np.uint8)
         self.shift = np.array([0, 0, 1, 0, 0, 2, 0, 0, 3], dtype=self.dtype)
-        self.max_entry = 20
+
+        self.max_entry = 20 # highest value an entry can have
         self.num_corners = 7
         self.from6choose3 = self._compute_from6choose3()
         self.state_len = len(self.goal_pieces)
+
         self.moves_rev_ints = np.array([1, 0, 2, 4, 3, 5, 7, 6, 8], dtype=self.dtype)
 
     def next_state(self, states: List[PuppetState], action: int) -> Tuple[List[PuppetState], List[float]]:
@@ -113,6 +116,7 @@ class Puppet(Environment):
 
         return nnet
 
+    # modified function which avoids consecutive moves on the same face
     def generate_states(self, num_states: int, backwards_range: Tuple[int, int]) -> Tuple[List[PuppetState], List[int]]:
         assert (num_states > 0)
         assert (backwards_range[0] >= 0)
@@ -140,21 +144,20 @@ class Puppet(Environment):
             last_move = history[idxs, np.maximum(d - 1, 0)]
             last_face = np.where(d > 0, moves_face[last_move], -1)
 
-            valid = ~blocked[idxs, d]                                   # (n, num_moves)
+            valid = ~blocked[idxs, d] # (n, num_moves)
             valid &= moves_face[None, :] != last_face[:, None]
             has_valid = valid.any(axis=1)
 
             # dead end
             bt = idxs[~has_valid]
             if len(bt) > 0:
-                assert np.all(depth[bt] > 0), "Keine legalen Züge schon im Zielzustand"
                 m_prev = history[bt, depth[bt] - 1]
                 for m in np.unique(m_prev):
                     sel = bt[m_prev == m]
                     states_np[sel], _ = self._move_np(states_np[sel], int(self.moves_rev_ints[m]))
                 blocked[bt, depth[bt]] = False
                 depth[bt] -= 1
-                blocked[bt, depth[bt], m_prev] = True     # block the move for layers below
+                blocked[bt, depth[bt], m_prev] = True # block the move for layers below
                 history[bt, depth[bt]] = -1
 
             # choose a random move
@@ -225,28 +228,32 @@ class Puppet(Environment):
 
         states_next_np: np.ndarray = states_np.copy()
 
+        # move the pieces first
         states_next_np[:, :self.num_corners] = self.rotate_corners[action_str][states_np[:, :self.num_corners]]
         states_next_np[:, self.num_corners:] = self.rotate_edges[action_str][states_np[:, self.num_corners:]]
 
-        shape_hashes = self._compute_shape_hashes(states_next_np[:, :self.num_corners])
+        shape_keys = self._compute_shape_keys(states_next_np[:, :self.num_corners])
 
-        legal = ((self.possible_shapes[shape_hashes] >> self.shift[action]) & 1).astype(bool)
+        # check if the resulting shapes are valid
+        legal = ((self.possible_shapes[shape_keys] >> self.shift[action]) & 1).astype(bool)
 
+        # only return valid states
         states_next_np[~legal] = states_np[~legal]
 
+        # an invalid turn's cost is set to infinity
         transition_costs = np.where(legal, 1.0, np.inf).tolist()
 
         return states_next_np, transition_costs  
     
-    def _compute_shape_hashes(self, corners: np.ndarray):
+    def _compute_shape_keys(self, corners: np.ndarray):
         pos = self.position[corners]
 
         i = np.arange(self.num_corners, dtype=np.uint8)
         permutation = np.bitwise_or.reduce((i & 1) << pos, axis=1)
 
-        orientation_hash = np.sum(self.orientation[corners].astype(np.uint16) * self.pow3[pos].astype(np.uint16), axis=1, dtype=np.uint16)
+        orientation_key = np.sum(self.orientation[corners].astype(np.uint16) * self.pow3[pos].astype(np.uint16), axis=1, dtype=np.uint16)
 
-        return (np.uint32(orientation_hash) * np.uint32(140)
+        return (np.uint32(orientation_key) * np.uint32(140)
             + np.uint32(self.from6choose3[self.position[corners[:, 0]], permutation]))
 
     def _compute_from6choose3(self):

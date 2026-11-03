@@ -179,6 +179,8 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 		// Remove from open
 		int openSize = (int) open.size();
 		int numPop = std::min(openSize,numParallel);
+		
+		// theoretically a dead end is possible
 		if(numPop == 0){
 			double totalTime = getTimeElapsed(searchStartTime,std::chrono::high_resolution_clock::now());
 			std::cout << int(searchItr - 1) << "," << float(waitForHeuristicTime) << "," << float(fullHeuristicTime) << "," << float(totalTime) << "," << long(numNodesGenerated) << ",NO SOLUTION FOUND";
@@ -229,6 +231,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 			int depth = popped[i]->depth + 1;
 			depths[i] = depth;
 			for (int j=0; j<children_env.size(); j++) {
+				// check for null pointer and cancelling turns
 				if(children_env[j] == NULL || ((popped[i]->parentMove > -1) && (popped[i]->parentMove / 3 == j / 3))){
 					continue;
 				}
@@ -239,6 +242,7 @@ void parallelWeightedAStar(const Environment *env, float depthPenalty, int numPa
 			}
 		}
 
+		// remove the null pointers from children
 		children.erase(std::remove(children.begin(), children.end(), nullptr), children.end());
 		if(children.size() == 0){continue;}
 
